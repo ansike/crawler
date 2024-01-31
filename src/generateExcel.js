@@ -42,7 +42,8 @@ async function generateExcel(jsonData) {
 
   // 添加数据行
   jsonData.forEach((data) => {
-    const dailyItinerary = data.dailyItinerary.map((daily, idx) => {
+    if (!data) return;
+    const dailyItinerary = data?.dailyItinerary.map((daily, idx) => {
       return `
 Day ${idx + 1} ${daily.title}
   ${daily.subItems
@@ -96,7 +97,7 @@ ${
     `;
     });
     const detailDescriptionContentView =
-      data.detailDescriptionContentView?.text || "";
+      data?.detailDescriptionContentView?.text || "";
     worksheet.addRow({
       id: data.id,
       title: data.title,
@@ -105,7 +106,7 @@ ${
       detailDescriptionContentView: detailDescriptionContentView.startsWith("-")
         ? "'" + detailDescriptionContentView
         : detailDescriptionContentView,
-      dailyItinerary: dailyItinerary.join(""),
+      dailyItinerary: dailyItinerary?.join(""),
     });
   });
 
