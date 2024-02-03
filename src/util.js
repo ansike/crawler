@@ -6,9 +6,9 @@ const promiseMkdir = promisify(fs.mkdir);
 
 const { outputIdr } = require("./config");
 
-const products = path.resolve(outputIdr, "products.json");
 
-async function writeJson(json) {
+async function writeJson(data) {
+  const products = path.resolve(outputIdr, "products.json");
   if (fs.existsSync(outputIdr)) {
     console.log("Directory exists");
   } else {
@@ -16,7 +16,7 @@ async function writeJson(json) {
     console.log("Create a new directory.");
     await promiseMkdir(outputIdr);
   }
-  await promiseWrite(products, json, {
+  await promiseWrite(products, data, {
     encode: "utf-8",
   });
   console.log(`success output ${products}`);
@@ -51,13 +51,17 @@ async function getProductInfo(browser, product, resolve) {
       (el) => {
         return {
           text: el.innerText,
-          imgs: Array.from(el.querySelectorAll("img")).map((img) => img.src),
+          // imgs: Array.from(el.querySelectorAll("img")).map((img) => img.src),
         };
       }
     );
     product.detailDescriptionContentView = detailDescriptionContentView; // 产品特色
   } catch (error) {
-    console.error("产品特色", error);
+    if (error.message.includes("failed to find element matching selector")) {
+      // console.error(`没有获取到产品特色：`);
+    } else {
+      console.error("产品特色", error);
+    }
   }
   try {
     const dailyItinerary = await page2.$$eval(

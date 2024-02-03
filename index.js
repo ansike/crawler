@@ -27,7 +27,7 @@ const queue = new TaskQueue();
   });
 
   //   const pages = new Array(1).fill(1);
-  const pages = new Array(3).fill(1);
+  const pages = [1];
 
   console.log({ pageNums, pages });
 
@@ -85,8 +85,8 @@ const queue = new TaskQueue();
   //   console.log(products);
   //   console.log(allPageProducts);
 
-  // await writeJson(JSON.stringify(allPageProducts));
-  await generateExcel(products);
+  await writeJson(JSON.stringify(allPageProducts[0]));
+//   await generateExcel(products);
 
   // 最后关闭浏览器（如果不关闭，node程序也不会结束的）
   await browser.close();

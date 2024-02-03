@@ -1,10 +1,12 @@
 const ExcelJS = require("exceljs");
 const path = require("path");
 
-// const jsonData = require("../output/products.json");
+const jsonData = require("../output/products.json");
+const newJsonData = require("../output/new_products.json");
+
 const { outputIdr } = require("./config");
 
-async function generateExcel(jsonData) {
+async function generateExcel(jsonData, file = "products.xlsx") {
   const workbook = new ExcelJS.Workbook();
   const worksheet = workbook.addWorksheet("products");
 
@@ -111,11 +113,12 @@ ${
   });
 
   // 保存为 Excel 文件
-  await workbook.xlsx.writeFile(path.resolve(outputIdr, "products.xlsx"));
+  await workbook.xlsx.writeFile(path.resolve(outputIdr, file));
   console.log("Excel file generated.");
 }
 
-// generateExcel(jsonData);
+generateExcel(jsonData, "products.xlsx");
+generateExcel(newJsonData, "new_products.xlsx");
 
 module.exports = {
   generateExcel,
