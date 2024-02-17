@@ -1,92 +1,72 @@
 const puppeteer = require("puppeteer");
-const { writeJson, getProductInfo, sleep } = require("./src/util");
-const { generateExcel } = require("./src/generateExcel");
+const path = require("path");
+const { writeJson, getProductInfo, sleep, getProductList } = require("./src/util");
+// const { generateExcel } = require("./src/generateExcel");
 const { TaskQueue } = require("./src/TaskQueue");
+const { outputDir } = require("./src/config");
 
-const queue = new TaskQueue();
+
+
+const listFile = path.resolve(outputDir, "list.json");
+const url = 'https://vacations.ctrip.com/list/personalgroup/sc28.html?moi=358&mot=D&st=%E8%8E%AB%E6%96%AF%E7%A7%91&sv=%E8%8E%AB%E6%96%AF%E7%A7%91&startcity=28';
+// const url = 'https://vacations.ctrip.com/list/personalgroup/sc28.html?filter=g5n4&s=2&st=%E8%B5%8F%E8%8A%B1&startcity=28&sv=%E8%B5%8F%E8%8A%B1';
 
 (async () => {
   // 创建一个浏览器对象
-  //   const browser = await puppeteer.launch({ headless: false });
+  // const browser = await puppeteer.launch({ headless: false });
   const browser = await puppeteer.launch();
   // 打开一个新的页面
   const page = await browser.newPage();
   // 设置页面的URL
   await page.goto(
-    "https://vacations.ctrip.com/list/whole/d-shanghai-2.html?filter=g5u2&s=2&startcity=28"
+    url
   );
 
   // 等待页面元素加载完成
   await page.waitForSelector(".list_product_box,.js_product_item");
 
-  // 获取到首页行程列表，下一步考虑分页循环获取 for
-
   // 获取总的页数
+  // const pageNums = 1
   const pageNums = await page.$eval(".paging_item:nth-last-child(3)", (el) => {
     return el.getAttribute("data-page");
   });
 
-  //   const pages = new Array(1).fill(1);
-  const pages = [1];
-
-  console.log({ pageNums, pages });
-
+  const pages = Array.from({ length: pageNums });
+  console.log(pageNums, pages);
+  const queue1 = new TaskQueue(10);
   const allPageProducts = await Promise.all(
-    pages.map(async (_, pageNum) => {
-      const newPage = await browser.newPage();
-      await newPage.goto(
-        `https://vacations.ctrip.com/list/whole/d-shanghai-2.html?filter=g5u2&s=2&startcity=28&p=${
-          pageNum + 1
-        }`
-      );
-      // 等待页面元素加载完成
-      await newPage.waitForSelector(".list_product_box,.js_product_item");
-      // 依次点击列表中的每一个行程打开新的页面 for
-      const list = await newPage.$$eval(
-        ".list_product_box,.js_product_item",
-        (el) =>
-          el.map((el) => ({
-            id: el.getAttribute("data-track-product-id"),
-            title: el.querySelector(".list_product_right .list_product_title")
-              .title,
-            subTitle: el.querySelector(
-              ".list_product_right .list_product_subtitle"
-            ).title,
-            src: el.querySelector(".list_product_left .list_product_pic").src,
-          }))
-      );
-      await newPage.close();
-      return list;
+    pages.map(async (_, idx) => {
+      return new Promise((resolve) => {
+        queue1.add(async () => await getProductList(browser, `${url}&p=${idx + 1}`, resolve))
+      })
     })
   );
 
-  //   const list = allPageProducts.reduce((prev, cur) => {
-  //     prev = prev.concat(cur);
-  //     return prev;
-  //   }, []);
 
-  const products = [];
-  for (const list of allPageProducts) {
-    const newProducts = await Promise.all(
+  // const list = allPageProducts.reduce((prev, cur) => {
+  //   prev = prev.concat(cur);
+  //   return prev;
+  // }, []);
+
+  // 获取所有产品的信息数据
+  await writeJson(JSON.stringify(allPageProducts), listFile);
+
+  const queue2 = new TaskQueue(5);
+  for (let i = 0; i < allPageProducts.length; i++) {
+    const list = allPageProducts[i]
+    const newProducts = (await Promise.all(
       // list.slice(0, 1).map(getProductInfo)
       list.map(
         (pro) =>
-          new Promise((resolve) =>
-            queue.add(async () => await getProductInfo(browser, pro, resolve))
+          new Promise((resolve,) =>
+            queue2.add(async () => await getProductInfo(browser, pro, resolve))
           )
       )
-    );
-    await sleep(5);
-    console.log("list", list);
-    products.push(...newProducts);
+    )).filter(pro => pro);
+    const productFile = path.resolve(outputDir, `products-${i + 1}.json`);
+    await writeJson(JSON.stringify(newProducts), productFile);
   }
-
-  //   console.log(JSON.stringify(products));
-  //   console.log(products);
-  //   console.log(allPageProducts);
-
-  await writeJson(JSON.stringify(allPageProducts[0]));
-//   await generateExcel(products);
+  //   await generateExcel(products);
 
   // 最后关闭浏览器（如果不关闭，node程序也不会结束的）
   await browser.close();

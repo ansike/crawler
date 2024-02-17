@@ -6,7 +6,7 @@ class TaskQueue {
   }
   async add(task) {
     this.queue.push(task);
-    await this.run();
+    this.run();
   }
   async run() {
     while (this.runningNum < this.concurrency && this.queue.length) {
