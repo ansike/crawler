@@ -30,10 +30,10 @@ async function getProductInfo(browser, product, resolve, reject) {
   // 打开一个新的页面
   const page2 = await browser.newPage();
   // await page2.waitForNavigation({'timeout': 1000*60})
+  const url = `https://vacations.ctrip.com/travel/detail/p${product.id}/?city=1&rdc=1`;
   try {
 
     // 设置页面的URL
-    const url = `https://vacations.ctrip.com/travel/detail/p${product.id}/?city=1&rdc=1`;
     await page2.goto(url);
     await page2.waitForSelector(".daily_itinerary_con");
     console.log("start new page", url);
