@@ -5,10 +5,9 @@ const promiseWrite = promisify(fs.writeFile);
 const promiseMkdir = promisify(fs.mkdir);
 
 const { outputDir } = require("./config");
-
+const { TaskQueue } = require("./TaskQueue");
 
 async function writeJson(data, file) {
-
   if (fs.existsSync(outputDir)) {
     console.log("Directory exists");
   } else {
@@ -32,7 +31,6 @@ async function getProductInfo(browser, product, resolve, reject) {
   // await page2.waitForNavigation({'timeout': 1000*60})
   const url = `https://vacations.ctrip.com/travel/detail/p${product.id}/?city=1&rdc=1`;
   try {
-
     // 设置页面的URL
     await page2.goto(url);
     await page2.waitForSelector(".daily_itinerary_con");
@@ -121,45 +119,89 @@ async function getProductInfo(browser, product, resolve, reject) {
     } catch (error) {
       console.error("推荐行程", error);
     }
-
   } catch (error) {
-    console.log('getProductInfo', url, error)
+    console.log("getProductInfo", url, error);
     await page2.close();
-    resolve(null)
+    resolve(null);
     return;
   }
   await page2.close();
   resolve(product);
 }
 
-async function getProductList(browser, url, resolve, reject) {
+async function getProductList(browser, url, resolve, tag) {
+  console.log("getProductList");
   const newPage = await browser.newPage();
   let list = null;
   try {
     await newPage.goto(url);
     // 等待页面元素加载完成
-    await newPage.waitForSelector(".list_product_box,.js_product_item");
+    await newPage.waitForSelector(".list_label_blue");
     // 依次点击列表中的每一个行程打开新的页面 for
-    list = await newPage.$$eval(
-      ".list_product_box,.js_product_item",
-      (el) =>
-        el.map((el) => ({
+    list = await newPage.$$eval(".js_product_item", (el) =>
+      el.map((el) => {
+        console.log("=====", el.querySelectorAll(".list_label_blue").length);
+        debugger;
+        return {
           id: el.getAttribute("data-track-product-id"),
           title: el.querySelector(".list_product_right .list_product_title")
             .title,
           subTitle: el.querySelector(
             ".list_product_right .list_product_subtitle"
           ).title,
+          tags: Array.from(el.querySelectorAll(".list_label_blue span")).map(
+            (it) => it.innerText
+          ),
           // src: el.querySelector(".list_product_left .list_product_pic").src,
-        }))
+        };
+      })
     );
+    if (tag) {
+      list = list.filter((pro) => {
+        return pro.tags.find((it) => it.includes(tag));
+      });
+    }
   } catch (error) {
+    console.log("getProductList error", error);
     await newPage.close();
-    resolve(null)
+    resolve([]);
     return;
   }
   await newPage.close();
-  resolve(list)
+  resolve(list);
+}
+
+async function getDataByUrl(browser, url, tag) {
+  // 打开一个新的页面
+  const page = await browser.newPage();
+  // 设置页面的URL
+  await page.goto(url);
+
+  // 等待页面元素加载完成
+  await page.waitForSelector(".list_product_box,.js_product_item");
+
+  // 获取总的页数
+  // const pageNums = 1;
+  const pageNums = await page.$eval(".paging_item:nth-last-child(3)", (el) => {
+    return el.getAttribute("data-page");
+  });
+
+  const pages = Array.from({ length: pageNums });
+  console.log(pageNums, pages);
+  const queue1 = new TaskQueue(10);
+  const allPageProducts = await Promise.all(
+    pages.map(async (_, idx) => {
+      return new Promise((resolve) => {
+        queue1.add(
+          async () =>
+            await getProductList(browser, `${url}&p=${idx + 1}`, resolve, tag)
+        );
+      });
+    })
+  );
+
+  console.log(allPageProducts);
+  return allPageProducts;
 }
 
 function sleep(timeout) {
@@ -175,4 +217,5 @@ module.exports = {
   writeJson,
   getProductList,
   getProductInfo,
+  getDataByUrl,
 };
