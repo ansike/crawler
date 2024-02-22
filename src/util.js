@@ -212,10 +212,18 @@ function sleep(timeout) {
   });
 }
 
+// 自定义排序函数
+const sortFileName = (a, b) => {
+  const numA = parseInt(a.split('-')[1].split('.')[0]);
+  const numB = parseInt(b.split('-')[1].split('.')[0]);
+  return numA - numB;
+};
+
 module.exports = {
   sleep,
   writeJson,
   getProductList,
   getProductInfo,
   getDataByUrl,
+  sortFileName
 };

@@ -1,8 +1,8 @@
 const ExcelJS = require("exceljs");
 const path = require("path");
 
-const jsonData = require("../output/products.json");
-const newJsonData = require("../output/new_products.json");
+// const jsonData = require("../output/products.json");
+// const newJsonData = require("../output/new_products.json");
 
 const { outputIdr } = require("./config");
 
@@ -117,8 +117,8 @@ ${
   console.log("Excel file generated.");
 }
 
-generateExcel(jsonData, "products.xlsx");
-generateExcel(newJsonData, "new_products.xlsx");
+// generateExcel(jsonData, "products.xlsx");
+// generateExcel(newJsonData, "new_products.xlsx");
 
 module.exports = {
   generateExcel,

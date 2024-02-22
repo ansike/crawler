@@ -1,19 +1,20 @@
 import time
 import json
 import os
+import sys
 from ai import zhipuai_chat_completion
 # 获取执行命令的目录
 current_dir = os.getcwd()
 print(current_dir)
 
-read_path = os.path.join(current_dir, "./output/products.json")
-save_path = os.path.join(current_dir, "./output/new_products.json")
-
-print(read_path)
-print(save_path)
-
+arg1 = sys.argv[1]
+arg2 = sys.argv[2]
+# read_path = os.path.join(current_dir, "./output/products.json")
+# save_path = os.path.join(current_dir, "./output/new_products.json")
 
 def process_json_file(read_path, save_path):
+    print(read_path)
+    print(save_path)
     # 获取开始时间
     start_time = time.time()
     with open(read_path, encoding='utf-8') as file:
@@ -73,4 +74,4 @@ def process_json_file(read_path, save_path):
     print(f"程序执行时间：{time_diff} 秒")
 
 if __name__ == "__main__":
-    process_json_file(read_path, save_path)
+    process_json_file(arg1, arg2)
