@@ -56,10 +56,22 @@ const url =
   const sortProductFiles = productFiles.sort(sortFileName);
   console.log(sortProductFiles);
 
-  const sourceFile = path.resolve(outputDir, 'products-1.json')
-  const outputFile = path.resolve(outputDir, 'format-products-1.json')
+  const sourceFile = path.resolve(outputDir, "product-1.json");
+  const outputFile = path.resolve(outputDir, "format-product-1.json");
+  console.log(zhipuPy);
+  // G:\code\pro\crawler\src\ai\zhipu\index.py
+  console.log(sourceFile);
+  console.log(outputFile);
   // 执行Python脚本并传递参数
-  const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile]);
+  // const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile]);
+  const pythonProcess = spawn(
+    "python3.12.exe",
+    [zhipuPy, sourceFile, outputFile],
+    {
+      env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+      encoding: "utf-8", // 指定编码为UTF-8
+    }
+  );
 
   // 监听Python脚本的输出
   pythonProcess.stdout.on("data", (data) => {

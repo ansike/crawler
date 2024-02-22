@@ -3,12 +3,17 @@ import json
 import os
 import sys
 from ai import zhipuai_chat_completion
+
+
+
 # 获取执行命令的目录
 current_dir = os.getcwd()
 print(current_dir)
 
 arg1 = sys.argv[1]
 arg2 = sys.argv[2]
+
+print("index.py")
 # read_path = os.path.join(current_dir, "./output/products.json")
 # save_path = os.path.join(current_dir, "./output/new_products.json")
 
@@ -22,34 +27,34 @@ def process_json_file(read_path, save_path):
 
     # 循环处理数据
     for item in data:
-        print(item['subTitle'])
+        # print(item['subTitle'])
         subTitle = zhipuai_chat_completion(item['subTitle'])
         print('=>')
-        print(subTitle)
+        # print(subTitle)
         item['subTitle'] = subTitle
         print('subTitle =======')
 
-        print(item['pmRec'])
+        # print(item['pmRec'])
         pmRec = zhipuai_chat_completion(item['pmRec'])
         print('=>')
-        print(pmRec)
+        # print(pmRec)
         item['pmRec'] = pmRec
         print('pmRec =======')
 
         if 'detailDescriptionContentView' in item and 'text' in item['detailDescriptionContentView'] and item['detailDescriptionContentView']['text'] != '' and item['detailDescriptionContentView']['text'].replace('\n', '').replace(' ', '') != '':               
-            print(item['detailDescriptionContentView']['text'])
+            # print(item['detailDescriptionContentView']['text'])
             detailDescriptionContentView = zhipuai_chat_completion(item['detailDescriptionContentView']['text'])
             print('=>')
-            print(detailDescriptionContentView)
+            # print(detailDescriptionContentView)
             item['detailDescriptionContentView']['text'] = detailDescriptionContentView
             print('detailDescriptionContentView =======')
 
         print('dailyItinerary ==========================')
         for dailyItinerary in item['dailyItinerary']:
-            print(dailyItinerary['title'])
+            # print(dailyItinerary['title'])
             title = zhipuai_chat_completion(dailyItinerary['title'])
             print('=>')
-            print(title)
+            # print(title)
             dailyItinerary['title'] = title
             print('dailyItinerary title ==========================')
             for subItem in dailyItinerary['subItems']:
@@ -57,13 +62,13 @@ def process_json_file(read_path, save_path):
                     continue
                 if subItem['daily_itinerary_sub_tit'] == '早餐' or subItem['daily_itinerary_sub_tit'] == '午餐' or subItem['daily_itinerary_sub_tit'] == '晚餐':
                     continue
-                print(subItem['rich_content_view'])
+                # print(subItem['rich_content_view'])
                 rich_content_view = zhipuai_chat_completion(subItem['rich_content_view'])
                 print('=>')
-                print(rich_content_view)
+                # print(rich_content_view)
                 subItem['rich_content_view'] = rich_content_view
 
-    print(data)
+    # print(data)
     with open(save_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
