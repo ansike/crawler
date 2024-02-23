@@ -219,11 +219,41 @@ const sortFileName = (a, b) => {
   return numA - numB;
 };
 
+const filterProductByAI = async () => {
+  const files = await promiseReaddir(outputDir);
+  const productFiles = files.filter((file) => file.includes("product"));
+  const sortProductFiles = productFiles.sort(sortFileName);
+  console.log(sortProductFiles);
+
+  const sourceFile = path.resolve(outputDir, "product-1.json");
+  const outputFile = path.resolve(outputDir, "format-product-1.json");
+  // 执行Python脚本并传递参数
+  const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile],{
+    stdio: "inherit",
+    env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+    encoding: "utf-8", // 指定编码为UTF-8
+  });
+  // const pythonProcess = spawn(
+  //   "python3.12.exe",
+  //   [zhipuPy, sourceFile, outputFile],
+  //   {
+  //     env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+  //     encoding: "utf-8", // 指定编码为UTF-8
+  //   }
+  // );
+
+  // 监听Python脚本的退出事件
+  pythonProcess.on("close", (code) => {
+    console.log(`Python脚本退出，退出码：${code}`);
+  });
+}
+
 module.exports = {
   sleep,
   writeJson,
   getProductList,
   getProductInfo,
   getDataByUrl,
-  sortFileName
+  sortFileName,
+  filterProductByAI
 };
