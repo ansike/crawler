@@ -63,25 +63,29 @@ const url =
   console.log(sourceFile);
   console.log(outputFile);
   // 执行Python脚本并传递参数
-  // const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile]);
-  const pythonProcess = spawn(
-    "python3.12.exe",
-    [zhipuPy, sourceFile, outputFile],
-    {
-      env: { ...process.env }, // 要确保子进程继承父进程的环境变量
-      encoding: "utf-8", // 指定编码为UTF-8
-    }
-  );
+  const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile],{
+    stdio: "inherit",
+    env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+    encoding: "utf-8", // 指定编码为UTF-8
+  });
+  // const pythonProcess = spawn(
+  //   "python3.12.exe",
+  //   [zhipuPy, sourceFile, outputFile],
+  //   {
+  //     env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+  //     encoding: "utf-8", // 指定编码为UTF-8
+  //   }
+  // );
 
   // 监听Python脚本的输出
-  pythonProcess.stdout.on("data", (data) => {
-    console.log(`Python脚本输出：${data}`);
-  });
+  // pythonProcess.stdout.on("data", (data) => {
+  //   console.log(`Python脚本输出：${data}`);
+  // });
 
-  // 监听Python脚本的错误输出
-  pythonProcess.stderr.on("data", (data) => {
-    console.error(`Python脚本错误：${data}`);
-  });
+  // // 监听Python脚本的错误输出
+  // pythonProcess.stderr.on("data", (data) => {
+  //   console.error(`Python脚本错误：${data}`);
+  // });
 
   // 监听Python脚本的退出事件
   pythonProcess.on("close", (code) => {

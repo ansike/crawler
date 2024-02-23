@@ -12,19 +12,22 @@ print(api_key)
 client = ZhipuAI(api_key=api_key)
 
 def zhipuai_chat_completion(str):
-    response = client.chat.completions.create(
-    
-        model="glm-4",
-        messages=[
-            {"role": "system", "content": "You are the copywriting assistant adjusting the wording of the copy, do not modify the overall meaning, only use Chinese, and the modified copy cannot have more characters than the original. The output format should be consistent with the input format, as long as the result is irrelevant information, do not output!!!"},
-            {"role": "user", "content": str},
-            # {"role": "user", "content": "『快乐迪士尼 假期嗨翻天』指定入住智微国际品牌酒店 高性价比【畅享迪士尼7大园区+烟花秀】【第二天迪士尼】"},
-        ],
-    )
+    try:
+        response = client.chat.completions.create(
+            model="glm-4",
+            messages=[
+                {"role": "system", "content": "You are the copywriting assistant adjusting the wording of the copy, do not modify the overall meaning, only use Chinese, and the modified copy cannot have more characters than the original. The output format should be consistent with the input format, as long as the result is irrelevant information, do not output!!!"},
+                {"role": "user", "content": str},
+            ],
+        )
 
-    print(response)
-    
-    return response.choices[0].message.content.strip("`plaintext").strip()
+        # print(response)
+
+        return response.choices[0].message.content.strip("`plaintext").strip()
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return str
 
 # zhipuai_chat_completion('''【发掘迪士尼小镇的魅力】：
 #         当您四处寻找商品、美食，享受美好时光时，好似穿越到20世纪初！迪士尼小镇各区域古朴雅致，多元别致，对每个人来说都有其独特之处。这个令人愉悦、魅力非凡的地方将带给您前所未有的体验，您既可以沉浸在回忆中，同时期待充满无限可能的未来。
