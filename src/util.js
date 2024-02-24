@@ -129,7 +129,7 @@ async function getProductInfo(browser, product, resolve, reject) {
   resolve(product);
 }
 
-async function getProductList(browser, url, resolve, tag) {
+async function getProductList(browser, url, resolve, filterFn) {
   console.log("getProductList");
   const newPage = await browser.newPage();
   let list = null;
@@ -141,7 +141,7 @@ async function getProductList(browser, url, resolve, tag) {
     list = await newPage.$$eval(".js_product_item", (el) =>
       el.map((el) => {
         console.log("=====", el.querySelectorAll(".list_label_blue").length);
-        debugger;
+        const sell = el.querySelector(".list_product_travel");
         return {
           id: el.getAttribute("data-track-product-id"),
           title: el.querySelector(".list_product_right .list_product_title")
@@ -152,14 +152,13 @@ async function getProductList(browser, url, resolve, tag) {
           tags: Array.from(el.querySelectorAll(".list_label_blue span")).map(
             (it) => it.innerText
           ),
+          sellNum: sell ? sell.innerText : "",
           // src: el.querySelector(".list_product_left .list_product_pic").src,
         };
       })
     );
-    if (tag) {
-      list = list.filter((pro) => {
-        return pro.tags.find((it) => it.includes(tag));
-      });
+    if (filterFn) {
+      list = list.filter(filterFn);
     }
   } catch (error) {
     console.log("getProductList error", error);
@@ -171,7 +170,7 @@ async function getProductList(browser, url, resolve, tag) {
   resolve(list);
 }
 
-async function getDataByUrl(browser, url, tag) {
+async function getDataByUrl(browser, url, filterFn) {
   // 打开一个新的页面
   const page = await browser.newPage();
   // 设置页面的URL
@@ -194,13 +193,18 @@ async function getDataByUrl(browser, url, tag) {
       return new Promise((resolve) => {
         queue1.add(
           async () =>
-            await getProductList(browser, `${url}&p=${idx + 1}`, resolve, tag)
+            await getProductList(
+              browser,
+              `${url}&p=${idx + 1}`,
+              resolve,
+              filterFn
+            )
         );
       });
     })
   );
 
-  console.log(allPageProducts);
+  // console.log(allPageProducts);
   return allPageProducts;
 }
 
@@ -214,8 +218,8 @@ function sleep(timeout) {
 
 // 自定义排序函数
 const sortFileName = (a, b) => {
-  const numA = parseInt(a.split('-')[1].split('.')[0]);
-  const numB = parseInt(b.split('-')[1].split('.')[0]);
+  const numA = parseInt(a.split("-")[1].split(".")[0]);
+  const numB = parseInt(b.split("-")[1].split(".")[0]);
   return numA - numB;
 };
 
@@ -228,7 +232,7 @@ const filterProductByAI = async () => {
   const sourceFile = path.resolve(outputDir, "product-1.json");
   const outputFile = path.resolve(outputDir, "format-product-1.json");
   // 执行Python脚本并传递参数
-  const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile],{
+  const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile], {
     stdio: "inherit",
     env: { ...process.env }, // 要确保子进程继承父进程的环境变量
     encoding: "utf-8", // 指定编码为UTF-8
@@ -246,7 +250,7 @@ const filterProductByAI = async () => {
   pythonProcess.on("close", (code) => {
     console.log(`Python脚本退出，退出码：${code}`);
   });
-}
+};
 
 module.exports = {
   sleep,
@@ -255,5 +259,5 @@ module.exports = {
   getProductInfo,
   getDataByUrl,
   sortFileName,
-  filterProductByAI
+  filterProductByAI,
 };

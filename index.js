@@ -12,28 +12,54 @@ const { generateExcel } = require("./src/generateExcel");
 const { TaskQueue } = require("./src/TaskQueue");
 const { outputDir, zhipuPy } = require("./src/config");
 const promiseReaddir = promisify(fs.readdir);
+const promiseMkdir = promisify(fs.mkdir);
+const promiseReadFile = promisify(fs.readFile);
+const promiseExists = promisify(fs.exists);
 const { spawn } = require("child_process");
 
-const listFile = path.resolve(outputDir, "list.json");
 const url =
   "https://vacations.ctrip.com/list/personalgroup/sc1.html?p=6&s=2&st=%E6%9E%97%E8%8A%9D&startcity=1&sv=%E6%9E%97%E8%8A%9D";
 
+const region = "lingzhi";
+const groupSize = 20;
 (async () => {
+  const productDir = path.resolve(outputDir, `${region}`);
+  const isExist = await promiseExists(productDir);
+  if (!isExist) {
+    await promiseMkdir(productDir);
+  }
+  const listFile = path.resolve(productDir, "list.json");
   // 创建一个浏览器对象
   // const browser = await puppeteer.launch({ headless: false });
   const browser = await puppeteer.launch();
 
-  const allPageProducts = await getDataByUrl(browser, url, "花");
+  // ----------------------- 1. 获取产品列表 --------------------------
+  // {
+  //   const allPageProducts = await getDataByUrl(browser, url, (pro) => {
+  //     return pro.tags.find((tag) => tag.includes("花")) && !!pro.sellNum;
+  //   });
 
-  // // 获取所有产品的信息数据
-  await writeJson(JSON.stringify(allPageProducts), listFile);
+  //   const flatList = allPageProducts.flat(1);
+  //   console.log("flatList", flatList.length);
+  //   const resGroupProducts = [];
+  //   for (let i = 0; i < flatList.length; i += groupSize) {
+  //     resGroupProducts.push(flatList.slice(i, i + groupSize));
+  //   }
 
+  //   // 获取所有产品的信息数据
+  //   await writeJson(JSON.stringify(resGroupProducts), listFile);
+  // }
+  // ----------------------- 2. 获取产品详情 --------------------------
+  const groupProductStr = await promiseReadFile(listFile, {
+    encoding: "utf-8",
+  });
+
+  const groupProducts = JSON.parse(groupProductStr);
   const queue2 = new TaskQueue(5);
-  for (let i = 0; i < allPageProducts.length; i++) {
-    const list = allPageProducts[i];
+  for (let i = 0; i < groupProducts.length; i++) {
+    const list = groupProducts[i];
     const newProducts = (
       await Promise.all(
-        // list.slice(0, 1).map(getProductInfo)
         list.map(
           (pro) =>
             new Promise((resolve) =>
@@ -44,15 +70,16 @@ const url =
         )
       )
     ).filter((pro) => pro);
-    const productFile = path.resolve(outputDir, `product-${i + 1}.json`);
+    const productFile = path.resolve(productDir, `product-${i + 1}.json`);
     await writeJson(JSON.stringify(newProducts), productFile);
   }
 
   // 最后关闭浏览器（如果不关闭，node程序也不会结束的）
   await browser.close();
 
-  // await filterProductByAI()
+  // ----------------------- 3. AI 清洗数据 --------------------------
 
+  // await filterProductByAI()
   // const files = await promiseReaddir(outputDir);
   // const productFiles = files.filter((file) => file.includes("products"));
   // const sortProductFiles = productFiles.sort(sortFileName);
