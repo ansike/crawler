@@ -24,25 +24,24 @@ def process_json_file(read_path, save_path):
     start_time = time.time()
     with open(read_path, encoding='utf-8') as file:
         data = json.load(file)
-
+    print('开始')
     # 循环处理数据
     for index, item in enumerate(data):
             # 打印进度
-        progress = (index + 1) / len(data) * 100
-        print(f"Progress: {progress:.2f}%")
+        print(f"Progress: {index + 1}/{len(data)}")
         # print(item['subTitle'])
         subTitle = zhipuai_chat_completion(item['subTitle'])
-        # print('=>')
+        print('=>')
         # print(subTitle)
         item['subTitle'] = subTitle
-        # print('subTitle =======')
+        print('subTitle =======')
 
         # print(item['pmRec'])
         pmRec = zhipuai_chat_completion(item['pmRec'])
         # print('=>')
         # print(pmRec)
         item['pmRec'] = pmRec
-        # print('pmRec =======')
+        print('pmRec =======')
 
         if 'detailDescriptionContentView' in item and 'text' in item['detailDescriptionContentView'] and item['detailDescriptionContentView']['text'] != '' and item['detailDescriptionContentView']['text'].replace('\n', '').replace(' ', '') != '':               
             # print(item['detailDescriptionContentView']['text'])
@@ -52,7 +51,7 @@ def process_json_file(read_path, save_path):
             item['detailDescriptionContentView']['text'] = detailDescriptionContentView
             # print('detailDescriptionContentView =======')
 
-        # print('dailyItinerary ==========================')
+        print('dailyItinerary ==========================')
         for dailyItinerary in item['dailyItinerary']:
             # print(dailyItinerary['title'])
             title = zhipuai_chat_completion(dailyItinerary['title'])

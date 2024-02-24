@@ -1,10 +1,12 @@
 const path = require("path");
 const fs = require("fs");
+const { spawn } = require("child_process");
 const { promisify } = require("util");
 const promiseWrite = promisify(fs.writeFile);
 const promiseMkdir = promisify(fs.mkdir);
+const promiseReaddir = promisify(fs.readdir);
 
-const { outputDir } = require("./config");
+const { outputDir, zhipuPy } = require("./config");
 const { TaskQueue } = require("./TaskQueue");
 
 async function writeJson(data, file) {
@@ -116,6 +118,7 @@ async function getProductInfo(browser, product, resolve, reject) {
       );
 
       product.dailyItinerary = dailyItinerary; // 推荐行程
+      product.days = dailyItinerary.map((day) => day.title);
     } catch (error) {
       console.error("推荐行程", error);
     }
@@ -130,7 +133,6 @@ async function getProductInfo(browser, product, resolve, reject) {
 }
 
 async function getProductList(browser, url, resolve, filterFn) {
-  console.log("getProductList");
   const newPage = await browser.newPage();
   let list = null;
   try {
@@ -223,33 +225,51 @@ const sortFileName = (a, b) => {
   return numA - numB;
 };
 
-const filterProductByAI = async () => {
-  const files = await promiseReaddir(outputDir);
-  const productFiles = files.filter((file) => file.includes("product"));
+const filterProductByAI = async (filterDir) => {
+  const files = await promiseReaddir(filterDir);
+  const productFiles = files.filter((file) => file.startsWith("product"));
   const sortProductFiles = productFiles.sort(sortFileName);
   console.log(sortProductFiles);
 
-  const sourceFile = path.resolve(outputDir, "product-1.json");
-  const outputFile = path.resolve(outputDir, "format-product-1.json");
-  // 执行Python脚本并传递参数
-  const pythonProcess = spawn("python3", [zhipuPy, sourceFile, outputFile], {
-    stdio: "inherit",
-    env: { ...process.env }, // 要确保子进程继承父进程的环境变量
-    encoding: "utf-8", // 指定编码为UTF-8
-  });
-  // const pythonProcess = spawn(
-  //   "python3.12.exe",
-  //   [zhipuPy, sourceFile, outputFile],
-  //   {
-  //     env: { ...process.env }, // 要确保子进程继承父进程的环境变量
-  //     encoding: "utf-8", // 指定编码为UTF-8
-  //   }
-  // );
+  const queue = new TaskQueue(10);
+  await Promise.all(
+    sortProductFiles.map(async (productFile) => {
+      const sourceFile = path.resolve(filterDir, productFile);
+      const outputFile = path.resolve(filterDir, `format-${productFile}`);
+      return new Promise((resolve1) => {
+        queue.add(() => {
+          return new Promise((resolve2) => {
+            // 执行Python脚本并传递参数
+            // const pythonProcess = spawn(
+            //   "python3",
+            //   ["-u", zhipuPy, sourceFile, outputFile],
+            //   {
+            //     stdio: "inherit",
+            //     env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+            //     encoding: "utf-8", // 指定编码为UTF-8
+            //   }
+            // );
+            const pythonProcess = spawn(
+              "python.exe",
+              ["-u", zhipuPy, sourceFile, outputFile],
+              {
+                stdio: "inherit",
+                env: { ...process.env }, // 要确保子进程继承父进程的环境变量
+                encoding: "utf-8", // 指定编码为UTF-8
+              }
+            );
 
-  // 监听Python脚本的退出事件
-  pythonProcess.on("close", (code) => {
-    console.log(`Python脚本退出，退出码：${code}`);
-  });
+            // 监听Python脚本的退出事件
+            pythonProcess.on("close", (code) => {
+              console.log(`Python脚本退出，退出码：${code}`);
+              resolve2();
+              resolve1();
+            });
+          });
+        });
+      });
+    })
+  );
 };
 
 module.exports = {
