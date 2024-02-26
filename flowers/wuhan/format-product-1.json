@@ -1,0 +1,1978 @@
+[
+    {
+        "id": "33068041",
+        "title": "武汉+黄鹤楼+两坝一峡+三峡人家4日3晚私家团",
+        "subTitle": "【专属定制 2-12人包车游 灵活调整】『精选五星商圈酒店+半江山水满城花•如诗如画入境游』乘顶级中餐式游船赏三峡大坝盛景【多人优惠·私享包车】交通自由选订",
+        "tags": [
+            "无购物",
+            "成团保障",
+            "3期免息",
+            "赏花",
+            "博物馆",
+            "自选酒店"
+        ],
+        "sellNum": "已售9人",
+        "pmRec": "★ 【魅力武汉】重返英雄城，赏樱花飘落，漫步江城，品尝地道“热干面”，佐以经典“周黑鸭”。历史光影与都市繁华共织美景！不可错过的国之重器—三峡大坝，绿水东流，诉说百年梦想。武汉启程，宜昌结束，全程不回头！\n★ 【安心服务】精选商圈优质住宿，任您挑选；一车一当地师傅，趣味讲解，体验湖北方言。提供5座舒适轿车、7-9座商务车、14-15座豪华大巴选择。随车防疫物资齐备（常备矿泉水），拒绝拼车，私享包车更放心。【一人即可预订，多人同行价格更优，智能分摊车费，私家定制出游】",
+        "dailyItinerary": [
+            {
+                "title": "多地启程，汇聚武汉，下榻顶级5钻酒店，体验武汉之夜的如火热情！",
+                "subItems": [
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "全国各地抵达武汉，专属司机将根据您的到站信息提供接送服务。\n\n【行程提示】：\n\n(1)负责接送的司机将在您出行前一日20:00前，通过短信或电话告知旅游相关事宜。请确保预留正确的联系人电话，以便我们为您提供热情接待。您的专属微管家会在出行前一天与您联系，全程解答旅途中的任何问题！\n\n(2)每份订单包含行程内各一次的专车接站/机及送站/机服务。"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "(1)本行程推出酒店自由选系列！精选当地热门好评星级酒店，任您挑选。房型也可自由更换，如行政房或套房。押金按酒店规定缴纳，若无特殊情况，离店时将全额退还。\n\n(2)默认推荐性价比高、人气旺的酒店。行程中推荐的是优选酒店，更多选择可在预订页面点击“更换酒店”和“更换房型”按钮，随意挑选。\n\n(3)请注意所选酒店及房型政策，早餐、儿童占床等均以您下单时选择为准。如有疑问，欢迎随时咨询在线客服。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 435926,
+                            "HotelName": "武汉金盾舒悦酒店"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15410446,
+                                "Name": "老通城欢腾酒楼"
+                            },
+                            {
+                                "GSScenicSpotID": 52498489,
+                                "Name": "肥肥虾庄"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "推荐：赏长江湖泊，品历史文化，这九省通衢之城，汇聚荆楚精粹，见证民国兴衰，牵动亿万人心。欢迎您，走进大武汉！\n\n★【楚河汉街】汉街展示着中国建筑艺术，以民国风貌为主体，红灰清水砖墙、精致砖雕、黑漆大门、古旧木窗，犹如穿越时光。夜幕降临，彩色灯饰如星光闪烁，美不胜收，宛如银河落人间，浪漫至极！（地址：武汉市武昌区烟霞路与松竹路交汇处东）\n\n★【黎黄陂路】此地为街头博物馆，异域建筑与民国小楼交相辉映，文艺青年必到之地，随手一拍即成大片，重温民国风情。（地址：湖北省武汉市汉口）\n\n★【知音号】乘坐知音号，夜游武汉两江四岸，着旗袍穿越民国，逐层聆听旧时光故事，仿古船带你领略武汉现代风采，让人流连忘返！（需提前购票，汉口粤汉码头登船）\n\n请根据您的到访时间，自由安排以上精彩活动！",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 30632900,
+                                "PreName": "",
+                                "Name": "楚河汉街",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 18087019,
+                                "PreName": "",
+                                "Name": "黎黄陂路",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 30651096,
+                                "PreName": "",
+                                "Name": "知音号",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "从酒店出发，尊享专属司机陪同，登黄鹤楼远眺，漫步东湖风景区，品尝户部巷美食，感受湖北省博物馆的千年文化，再乘动车前往宜昌，下榻您心仪的五星级酒店。",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "专人驾车陪您游览黄鹤楼名胜。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77593,
+                                "PreName": "",
+                                "Name": "黄鹤楼",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "赏游「东湖听涛景区」",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10558666,
+                                "PreName": "",
+                                "Name": "东湖",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 36320311,
+                                "Name": "户部巷"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "湖北博物馆参观需实名预约门票，若当日预约已满，将无法入馆。届时请转赴【辛亥革命纪念馆】，敬请留意！",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77591,
+                                "PreName": "",
+                                "Name": "湖北省博物馆",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "游览结束后，司机将送您至汉口站，您将乘坐动车前往宜昌。\n\n我们已为您预订汉口至宜昌东的二等座车票，建议车次如下：\n\nD2247 汉口15:09出发，宜昌东17:10到达\n\nD2271 汉口15:28出发，宜昌东17:32到达",
+                        "meal_hours_box": "行驶时间：约2小时"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达宜昌东站，专人接待并安排车辆送至酒店办理入住。 \n\n（注：原句中的“工作人员”改为“专人”以简化表达，且保持了字数限制。）",
+                        "meal_hours_box": "行驶时间：约2小时"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 425211,
+                            "HotelName": "宜昌富力皇冠假日酒店"
+                        }
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约18小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 61357185,
+                                "Name": "铁路坝小吃街"
+                            },
+                            {
+                                "GSScenicSpotID": 61355946,
+                                "Name": "胖妹(陶珠路店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "品味美食后，漫步宜昌市民休闲的街头，感受当地人的生活气息。夜幕降临，滨江公园便成了散步消遣的好去处。周边居民晚饭后，带着各自的“音乐盒”，在这里悠然自得地步行。长江边，夜色添上一抹文艺浪漫，和心爱的人沿江吹风，或骑行夜色中，享受悠闲时光。而在购物广场，夜晚则是人潮熙攘，逛街、观影...夜色中霓虹闪烁的商圈，散发着难以抗拒的魅力。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 83954,
+                                "PreName": "",
+                                "Name": "滨江公园",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 82407,
+                                "PreName": "",
+                                "Name": "夷陵广场",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "从酒店出发，前往三峡大坝观赏太平盛景，乘坐游船穿越葛洲坝船闸，感受水位上升的奇妙，欣赏西陵峡的壮丽山水，游览结束返回宜昌市区，下榻您选择的五星级酒店。",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "乘坐专属车辆前往宜昌港，登船游览峡江——“长江三峡”航线。【友情提示：两坝一峡行程包含车去船回、船去车回两种方式，景点相同，仅游览次序不同。网站所示行程为船去车回，实际次序将根据船位分配情况决定，无法指定，敬请谅解。】",
+                        "meal_hours_box": "行驶时间：约15分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "三峡游客中心码头办理登船，长江三峡游轮之旅启航。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 100153,
+                                "PreName": "",
+                                "Name": "交运两坝一峡游船",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "赏览夷陵长江大桥风光（遥望宜万铁路桥），漫步滨江公园、镇江阁、庙咀，跨越三江大桥。",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18213652,
+                                "PreName": "",
+                                "Name": "镇江阁",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 82406,
+                                "PreName": "",
+                                "Name": "夷陵长江大桥",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "穿越葛洲坝船闸，感受伴随游船水位上升的奇妙之旅！（仅有的三峡短线过闸体验）",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 30066623,
+                                "PreName": "",
+                                "Name": "葛洲坝船闸",
+                                "SuffixName": "(船观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约5小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101330,
+                                "PreName": "",
+                                "Name": "三峡南津关大峡谷",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213695,
+                                "PreName": "",
+                                "Name": "至喜亭",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213728,
+                                "PreName": "",
+                                "Name": "明月湾酒店",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213703,
+                                "PreName": "",
+                                "Name": "陈毅题词摩崖石刻",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18213739,
+                                "PreName": "",
+                                "Name": "西陵长江大桥",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76359,
+                                "PreName": "",
+                                "Name": "西陵峡风景区",
+                                "SuffixName": "(船观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:40",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "游船沿途经过三峡人家、明月湾、石牌、灯影石等景点。",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    },
+                    {
+                        "time": "11:20",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约5分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18216949,
+                                "PreName": "",
+                                "Name": "毛公山",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 76441,
+                                "PreName": "",
+                                "Name": "老黄陵庙",
+                                "SuffixName": "(船观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:50",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "远眺三峡大坝壮丽坝体，游船缓缓靠岸，随后乘坐旅游大巴深入坝区参观。 \n\n（注：原句59个字符，修改后也是59个字符。）",
+                        "meal_hours_box": "行驶时间：约10分钟"
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 100965,
+                                "PreName": "",
+                                "Name": "三峡大坝旅游区",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 82408,
+                                "PreName": "",
+                                "Name": "坛子岭风景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18134112,
+                                "PreName": "",
+                                "Name": "185观景平台",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18134115,
+                                "PreName": "",
+                                "Name": "三峡大坝旅游风景区-截流纪念园",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "参观结束后，乘坐空调巴士，沿被誉为中国公路隧道桥梁博物馆的三峡工程专用公路，前往宜昌市区。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 425211,
+                            "HotelName": "宜昌富力皇冠假日酒店"
+                        }
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 33308514,
+                                "Name": "鸣凤酒楼"
+                            },
+                            {
+                                "GSScenicSpotID": 26203173,
+                                "Name": "瑜儿腊货馆"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "今日您可自由安排，尽享悠闲时光，或选择以下两个景点之一游览：三峡人家或清江画廊。我们会根据您的返程时间安排接送服务。",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "1、请于附加服务中选取您想游览的景点。\n2、如不选择游览，我们将根据您的返程时间安排接送服务。",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10559342,
+                                "PreName": "",
+                                "Name": "三峡人家",
+                                "SuffixName": "(不含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 83949,
+                                "PreName": "",
+                                "Name": "清江画廊",
+                                "SuffixName": "(不含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 87494,
+                                "PreName": "",
+                                "Name": "三峡大瀑布",
+                                "SuffixName": "(不含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据您的返程计划，提供送站/送机服务，愉快旅程到此结束！",
+                        "meal_hours_box": "行驶时间：约2小时"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "各地出发，抵达武汉，夜宿精选5钻酒店，感受大武汉的无限热情！",
+            "酒店出发，专属司机送您游览黄鹤楼登高望远，慢游东湖美景，打卡户部巷特色小吃，品千年文化湖北省博物馆，乘动车前往宜昌，入住自选5钻酒店",
+            "酒店出发，游览三峡大坝看太平盛世，乘船过葛洲坝船闸体验水涨船高，览西陵峡美景峡江风光，游览结束后返回宜昌市区，入住自选5钻酒店",
+            "今日您可根据自身喜好安排行程，可以享受慵懒的度假时光，或选择2选1游览美景：三峡人家/清江画廊，根据您的返程时间安排送站/送机"
+        ]
+    },
+    {
+        "id": "34400737",
+        "title": "三峡大坝+长江三峡+神农架+武当山+武汉7日6晚私家团",
+        "subTitle": "【春风拂荆楚#花开盛事醒】尊享VIP包车游，住5钻级野奢酒店，寻世遗珍宝。多车型任选，土著导游带路，旅拍点赞，美好瞬间留存。途径葛洲坝，感受水位升降之奇；探秘神农架，访仙山祈福祉，武汉赏樱花圣地。",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "无自费",
+            "成团保障",
+            "亲子甄选",
+            "赠取消险",
+            "寺院祈福",
+            "赏花",
+            "车型可选"
+        ],
+        "sellNum": "已售4人",
+        "pmRec": "★ 【名景迎春】💗😋【春意盎然 湖北盛景·视觉盛宴】神农架山花绽放，春光无限，呼吸清新空气#告别都市喧嚣！武当古韵，沿路祈福#每步皆福，一炉香火诉祈愿！宜昌长江畔，春意盎然，香径迷人！武汉樱花似锦#拍照打卡尽享春光#随手拍即视效大片！若整个冬季都在想念湖北，却尚未成行，不妨抓住这个春天，勇往直前探索这片神奇土地，赴一场浪漫的春游之约！\n\n★ 【尊享假期的选择】🌻😋【畅玩无忧 VIP礼遇持续享#深度体验】全程豪华5星级住宿任选/房型多样自由挑「环游路线不回头 适合家庭/亲子游的推荐」1-4人享5座舒适轿车如天籁/雅阁，4-8人升舱7-9座别克GL8/大通等商务车，9人以上升级12-19座金龙/丰田海狮带空调旅游车！「专属私密用车+地陪向导朋友式陪同 随心停留·自在随行 摆脱传统跟团打卡」\n\n★ 【精致旅程】🌻😋【定制服务 限定VIP尊享时光#关怀备至】100%纯玩保证+专属微管家一对一服务+无忧取消政策+随车豪华礼包（瓶装水+抽纸/充电器/晕车贴/晴雨伞+急救包）+本土美食推荐「礼遇连连 深度体验 无后顾之忧」",
+        "detailDescriptionContentView": {
+            "text": "【携程自营 品牌之选】走遍美好大地\n\n专属定制，一团一议，无陌生人拼团，行程自由掌控，无需迁就他人，尽享与家人的专属时光！\n\n【自营专属·美好记录】相机定格美景，摄影捕捉幸福！\n\n专属摄影@神农顶（可选服务）：专业摄影师相伴，高清摄影记录旅行亮点，刷爆朋友圈！\n\n【自营承诺·品质游】纯玩无购物，全程门票、必体验小交通一次付清，享受安心旅程！\n\n【自营精选·住宿体验】全程精选五星级奢华酒店，行至哪、住到哪，舒适每一晚！\n\n【自营升级·用车服务】全程独立用车，保证车况佳、干净舒适！\n\n1-4人享天籁/雅阁等5座B级轿车舒适体验；\n\n5-8人配大通/别克/奔驰等7-9座商务车；\n\n9人以上安排金龙/海狮/丰田12-19座空调旅游大巴；\n\n【自营关注·细节关怀】\n\n细节① 随车提供矿泉水/抽纸/急救包/血压计，随时应对，放心玩得尽兴！\n\n细节② 当地向导朋友式陪同，一对一管家服务，全程无忧！\n\n细节④ 24小时免费接送站服务，落地即走，VIP待遇无缝衔接！"
+        },
+        "dailyItinerary": [
+            {
+                "title": "「携程自营 品牌之选」抵达宜昌「24小时专车VIP接站/接机」→下榻精选酒店休息【宜昌·五钻好评酒店/房型自选】",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "请依所选交通方式前往宜昌，开启您的愉快旅程！\n【出行提示】工作人员将在您出发前一日17:00前，通过短信或电话告知旅游事宜，请保持预留手机号码畅通。\n\n为何选择携程自营？\n五重保障 保驾护航\n【安全出行】正规营运车辆，定期检修，确保您的安全！\n【透明行程】纯正玩法，无隐形消费，给您清新旅程！\n【安心服务】全程管家，贴心衔接，出行更省心！\n【退改保障】灵活退改，取消无忧，让您更放心！\n【品牌自营】旅游典范，好评如潮，畅享美好时光！",
+                        "meal_hours_box": "行驶：约400千米/约2小时"
+                    },
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "热情接待您的到来，抵达后专车接送至酒店办理入住。您可享受酒店休息或自由安排时间。一般酒店入住时间为14:00，若您提前到达，我们可以帮您存放行李，您可自由活动或在大堂稍作休息。\n\n温馨提醒：\n【1】自由活动时，请关照个人及财物安全。\n【2】抵达宜昌首日，建议不要过多食用辛辣食物，以免肠胃不适，影响次日行程。\n注意：本日仅含接送服务，不包含自由活动期间的车费及导游服务费。如有额外用车需求，请提前与客服联系。",
+                        "meal_hours_box": "行驶：约20千米/约30分钟"
+                    },
+                    {
+                        "time": "14:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【住宿提示】所示酒店由产品经理精选推荐，点击预订页面【选择酒店】和【更改房型】按钮可自由更换。请您留意所选酒店及房型政策，早餐、儿童占床等均以您下单时选项为准。如有疑问，欢迎随时咨询在线客服！",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 87340887,
+                            "HotelName": "宜昌阿尔·宝阁丽酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "「尊享VIP包车游 随心所欲停留」乘坐长江三峡游轮·亲历葛洲坝船闸\"水位上升\"奇观→饱览纯正西陵峡美景→探访三峡大坝国家重大工程【下榻宜昌·精选5星级酒店·房间任挑】",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "乘车前往宜昌港，乘坐高品质的峡江游轮——“长江三峡号”。",
+                        "meal_hours_box": "行驶：约10千米/约20分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 100153,
+                                "PreName": "",
+                                "Name": "交运两坝一峡游船",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 82406,
+                                "PreName": "",
+                                "Name": "夷陵长江大桥",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213652,
+                                "PreName": "",
+                                "Name": "镇江阁",
+                                "SuffixName": "(船观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "穿越葛洲坝，感受水位上升的奇妙！",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76361,
+                                "PreName": "",
+                                "Name": "葛洲坝",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 57155251,
+                                "PreName": "",
+                                "Name": "西陵峡游船",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213739,
+                                "PreName": "",
+                                "Name": "西陵长江大桥",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213728,
+                                "PreName": "",
+                                "Name": "明月湾酒店",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213695,
+                                "PreName": "",
+                                "Name": "至喜亭",
+                                "SuffixName": "(船观)"
+                            },
+                            {
+                                "GSScenicSpotID": 10559342,
+                                "PreName": "",
+                                "Name": "三峡人家",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 51769840,
+                                "PreName": "",
+                                "Name": "石牌抗战纪念碑",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18213728,
+                                "PreName": "",
+                                "Name": "明月湾酒店",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18182461,
+                                "PreName": "",
+                                "Name": "灯影石",
+                                "SuffixName": "(外观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:20",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76441,
+                                "PreName": "",
+                                "Name": "老黄陵庙",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18216949,
+                                "PreName": "",
+                                "Name": "毛公山",
+                                "SuffixName": "(外观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "游船抵港后，乘坐专属车辆前往大坝区附近自理餐饮。",
+                        "meal_hours_box": "行驶时间：约15分钟"
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：50CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 32480803,
+                                "Name": "三峡家常私房菜馆"
+                            },
+                            {
+                                "GSScenicSpotID": 61461127,
+                                "Name": "锦食院"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "「含交通费」",
+                        "meal_hours_box": "行驶：约5千米/约8分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 100965,
+                                "PreName": "",
+                                "Name": "三峡大坝旅游区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约40分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 82408,
+                                "PreName": "",
+                                "Name": "坛子岭风景区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:10",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "196船闸观景台（门票含）",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            ""
+                        ]
+                    },
+                    {
+                        "time": "14:40",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18134112,
+                                "PreName": "",
+                                "Name": "185观景平台",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:20",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约40分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 98279485,
+                                "PreName": "",
+                                "Name": "截流纪念园",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:20",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "参观结束后，沿被誉为中国公路隧道桥梁博物馆的三峡工程专用公路返回宜昌市区。",
+                        "meal_hours_box": "行驶：约50千米/约60分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【住宿提示】推荐酒店由产品经理精选，您可随时通过点击【选择其他酒店】和【更换房型】按钮进行更换。请留意所选酒店及房型政策，早餐、儿童加床等均以您下单时为准。如有疑问，欢迎即时咨询在线客服！",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 87340887,
+                            "HotelName": "宜昌阿尔·宝阁丽酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "「尊享VIP包车游」自由行至北纬30°神秘神农坛，敬仰始祖神农，欣赏土家山歌→探访天生桥，观赏奇观瀑布，鬼斧神工石桥，险峻石壁栈道【下榻木鱼，精选5钻酒店，房型自选】",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "其它",
+                        "rich_content_view": "早餐后启程至神农架，深吸一口充满氧离子的清新空气，身心倍感愉悦！",
+                        "meal_hours_box": "行驶：约160千米/约3小时"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77694,
+                                "PreName": "",
+                                "Name": "神农祭坛",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 100198,
+                                "PreName": "",
+                                "Name": "天生桥",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：50CNY/人"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【住宿提示】本页推荐酒店由产品经理精选，点击【选择其他酒店】或【更改房型】即可自由更换。请注意所选酒店及房型政策，早餐、儿童加床等均以您下单时选项为准。如有疑问，欢迎随时联系在线客服咨询！",
+                        "meal_hours_box": "行驶：约5千米/约10分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 2652489,
+                            "HotelName": "神农架康帝君兰酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "「尊享VIP包车游 随意停留」官门山· 观赏4D电影 与大熊猫相遇→神农顶·可选随行旅拍「亲近金丝猴 探秘板壁岩野人踪/赏烂漫山花」→天燕「野花遍布 心旷神怡」→【下榻武当山·五钻好评酒店/房型自选】",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 97845,
+                                "PreName": "",
+                                "Name": "官门山",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "探访神农顶风光。",
+                        "meal_hours_box": "行驶：约15千米/约30分钟"
+                    },
+                    {
+                        "time": "10:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "「景交费已含」\n【游览注意】神农顶景区内需乘坐景区交通，相关费用已包含！9座以下车型，我司免费升级，让您驾车深入神农顶，享受自驾乐趣！\n【今日VIP待遇】专属摄影服务（可选另购） 专业摄影师随行|高清旅拍记录旅程\n捕捉旅行之美\n定格幸福瞬间\n留下旅途精彩\n特别赠送：\n1.精修旅拍照片10张\n2.所有底片赠送",
+                        "meal_hours_box": "行驶：约50千米/约1小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77753,
+                                "PreName": "",
+                                "Name": "神农顶风景区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77769,
+                                "PreName": "",
+                                "Name": "瞭望塔",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77691,
+                                "PreName": "",
+                                "Name": "板壁岩",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77757,
+                                "PreName": "",
+                                "Name": "小龙潭野考站",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77751,
+                                "PreName": "",
+                                "Name": "金猴岭",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约40千米/约50分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 97940,
+                                "PreName": "",
+                                "Name": "天燕旅游区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "结束后直赴武当山游览。",
+                        "meal_hours_box": "行驶：约150千米/约2小时30分钟"
+                    },
+                    {
+                        "time": "19:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【住宿提示】所示酒店系产品经理精选推荐，点击预订页面的【更换酒店】和【更换房型】按钮可自由选择。请留意所选酒店房型的相关政策，早餐、儿童占床等均以您下单时选项为准。如有疑问，欢迎随时联系在线客服咨询！",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 756195,
+                            "HotelName": "武当山建国饭店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "「尊享VIP包车游 随心所欲停留」武当问道祈福之旅/含便捷接驳「漫步太子坡红砖绿瓦·探访紫霄福地云外清都 登南岩绝壁宫殿 仰望1612米天柱峰·金顶祈福」【下榻武汉·精选五钻酒店·房型自选】",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "启程至武当山，换乘景区交通，开始您的问道之旅。"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "「景交费已含」",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10546988,
+                                "PreName": "",
+                                "Name": "武当山风景区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77395,
+                                "PreName": "",
+                                "Name": "太子坡景区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77386,
+                                "PreName": "",
+                                "Name": "紫霄宫",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77398,
+                                "PreName": "",
+                                "Name": "南岩宫",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 83658,
+                                "PreName": "",
+                                "Name": "南天门",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77381,
+                                "PreName": "",
+                                "Name": "龙头香",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 56806322,
+                                "PreName": "",
+                                "Name": "玄帝殿",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 98278806,
+                                "PreName": "",
+                                "Name": "金顶",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 83573,
+                                "PreName": "",
+                                "Name": "大岳太和宫",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 77450,
+                                "PreName": "",
+                                "Name": "天柱峰",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "晚餐饮毕，乘坐动车赴武汉。",
+                        "meal_hours_box": "行驶：约400千米/约2小时"
+                    },
+                    {
+                        "time": "20:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【住宿提示】推荐酒店由产品经理精选，您可通过点击【选择其他酒店】和【更换房型】按钮自由更换。请留意所选酒店及房型政策，早餐、儿童占床等均以您下单时选项为准。如有疑问，欢迎随时咨询在线客服！",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 45052018,
+                            "HotelName": "武汉泛海费尔蒙酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "「尊享VIP包车游 随心所欲停」探访英雄城武汉·热门景点签到「湖北博物馆 东湖 武大外观 黄鹤楼 长江大桥 户部巷」【下榻武汉商圈五星级酒店】",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【温馨提醒】湖北省博物馆需提前预约，如预约不上或遇闭馆（每周一），请改赴湖北省美术馆。",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77591,
+                                "PreName": "",
+                                "Name": "湖北省博物馆",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 13799112,
+                                "PreName": "",
+                                "Name": "湖北美术馆",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18072976,
+                                "PreName": "",
+                                "Name": "东湖听涛景区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10558912,
+                                "PreName": "",
+                                "Name": "武汉大学",
+                                "SuffixName": "(外观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77593,
+                                "PreName": "",
+                                "Name": "黄鹤楼",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77592,
+                                "PreName": "",
+                                "Name": "武汉长江大桥",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10524156,
+                                "PreName": "",
+                                "Name": "户部巷",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【住宿提示】本页推荐酒店由产品经理精选，点击【选择其他酒店】和【更改房型】即可自由更换。请您留意所选酒店及房型政策，早餐、儿童占床等均以您下单时选项为准。如有疑问，欢迎随时联系在线客服咨询！",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 712581,
+                            "HotelName": "武汉万达瑞华酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "甜美梦醒→免费送达火车站/天河机场，旅途愉快落幕，温馨归家。",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "【温馨提醒】\n1、我们为您提供全天24小时专车送站/机服务。\n2、送站/机司机将于您离开前一日晚上8点前与您电话确认时间和地点。请自由活动时注意安全，适时掌握时间，保持手机畅通，并及时查看短信，确保能及时联系，别误了回家的行程哦！",
+                        "meal_hours_box": "行驶时间：约20分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "「携程自营 相信品牌的力量」抵达宜昌「24H专车VIP接站/机」→入住酒店休息【宿宜昌·5钻口碑榜酒店/房型任选】",
+            "「VIP独立包车 随走随停」乘长江三峡系列游轮·船过葛洲坝船闸/体验“水涨船高”→赏原汁原味西陵峡风光→观国之重器工程三峡大坝【宿宜昌·5钻口碑榜酒店/房型任选】",
+            "「VIP独立包车 随走随停」包车前往北纬30°秘境·神农坛拜始祖神农 聆听土家山歌→天生桥·观壮观奇瀑 天然石桥鬼斧神工 石壁栈道险峻奇特【宿木鱼·5钻口碑榜酒店/房型任选】",
+            "「VIP独立包车 随走随停」官门山· 看4D电影 邂逅大熊猫→神农顶·享随行旅拍可选「亲密接触金丝猴 板壁岩寻野人踪迹/看山花浪漫」→天燕「野花遍野 舒爽怡人」→【宿武当山·5钻口碑榜酒店/房型任选】",
+            "「VIP独立包车 随走随停」武当山问道祈福/含换乘车「逛红砖绿瓦太子坡·云外清都福地紫霄宫 看南岩绝壁宫殿 登海拔1612米的天柱峰/金顶云巅祈福」【宿武汉·5钻口碑榜酒店/房型任选】",
+            "「VIP独立包车 随走随停」初遇英雄之城·武汉Hot景点打卡「湖北省博物馆 东湖 外观武汉大学 黄鹤楼 长江大桥 户部巷」【宿武汉商圈5钻酒店】",
+            "甜睡自然醒→安排免费送您前往火车站 /天河机场，愉快的旅程结束，返回温馨的家。"
+        ]
+    },
+    {
+        "id": "32667130",
+        "title": "武汉+神农架+恩施市8日7晚私家团",
+        "subTitle": "【携程自营·湖北游】江城武汉之旅『赏樱漫步&黄鹤楼远眺&大九湖云端湿地』\"昭君故事\"之故乡，神农顶/地缝探秘*狮子关峡谷S桥，馈赠大峡谷索道上行+张关合渣美食，出行自由选！",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "无自费",
+            "成团保障",
+            "湿地",
+            "峡谷峡湾",
+            "赠取消险",
+            "赏花",
+            "古镇古村",
+            "车型可选",
+            "自选酒店"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【多彩景观】【携程自营·多彩景观】CEO亲选路线，BOSS专享，精心打造！游网红狮子关S型浮桥，荡小舟于碧波之上，穿行绝壁长廊赏云海，品味高山峡谷下午茶，化身土家儿女，探秘大九湖湿地、屏山峡谷，体验仙本那般的奇幻。\n★ 【度假优选】【携程自营·轻奢度假】漫步坪迁古镇，住云上湿地，享山居生活。赠送恩施富硒土豆，地方特产好礼。随车备防疫物资、零食，微信管家24小时×7一对一服务。\n★ 【服务承诺】【携程自营·用车升级】一车到底，不换乘！可选5座小车、7座商务、14座空调旅游车。严选当地经验丰富司机，趣味讲解，贴心服务，助您轻松游玩，可选单独导游服务。",
+        "detailDescriptionContentView": {
+            "text": "同线路玩法，武汉当地组团→点击这里"
+        },
+        "dailyItinerary": [
+            {
+                "title": "【抵达武汉，江城机场/火车站专车接送】领略新武汉，江湖气韵之城，热情好客之地！晚间可选乘《知音号》，夜赏武汉两江四岸美景！",
+                "subItems": [
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "我们为您精心安排专属服务，在您启程前一天，将有工作人员与您确认行程，并根据您的时间，提供武汉市区内或武汉机场/火车站的专车接送服务。 \n\n（注：原句中“提前”两字被简化为“确认”，以保持字数限制。）"
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 371169,
+                            "HotelName": "武汉富力威斯汀酒店"
+                        }
+                    },
+                    {
+                        "time": "下午",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "武汉旅行指南\n\n楚河汉街：此名的由来颇为有趣，这里真有一条名为“楚河”的河流，以及一条名为“汉街”的商业街。河流与街道相伴，故得此名。（绝非戏言，认真脸🤫）汉街不长，餐饮购物一应俱全，杜莎夫人蜡像馆亦坐落其中。午后漫步、晚餐时光，皆宜。夜幕降临，灯光璀璨，更是别有风情。街上的蓝桥，拍照打卡好去处。\n\n光谷广场：这里犹如异国建筑群，网红打卡热点，美轮美奂，值得探访。尽管位置稍显隐蔽，且周边施工不断——这是因为光谷正在打造复杂的地下交通网络，虽然耗时长久，但成果值得期待😅。穿越两座天桥，商场内吃喝玩乐应有尽有。跟随指示牌，西班牙风情街、意大利风情街一一展现。小火车、灯光秀、教堂雕塑，旅途劳累时，教堂内小憩一番。\n\n轮渡：必体验之选！！！强烈推荐，可尽览武汉风光。从江汉路步行街出发，至户部巷结束。支付宝扫码乘船还有优惠哦（武汉由长江分割，轮渡是极具地方特色的渡江方式，支持人车同行）。登船后，静待闸门开启，抢占二楼观景区，风景这边独好！"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "晚时可选乘《知音号》，夜赏武汉长江美景。《知音号》的故事在船舶上展开，但演出与观赏的体验，从踏船上甲板的那一刻就已启程。这艘怀旧之船穿越时空，观众一登上码头，便穿梭至旧时光，开始一段自我探寻之旅。与传统剧场的静坐观赏不同，观众可在船舱自由漫步，感受各处上演的故事。这种互动体验如同行为艺术，让观众在交流中领悟真理。这场旅行，是抵达内心与记忆深处的一次探险。这是一座充满生机的博物馆，船上每段故事与观众的每一次呼吸、每一次体验紧密相连。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 30651096,
+                                "PreName": "",
+                                "Name": "知音号",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "【畅游武汉 深度体验】登黄鹤楼远眺美景+细品黄鹤楼咖啡香+湖北省博耳机解说+观赏编钟秀+户部巷网红美食街尽享地道武汉味，乘坐动车抵达水电之城宜昌，感受三峡起点的魅力！",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "早餐完毕，乘专属车辆前往黄鹤楼。",
+                        "meal_hours_box": "行驶时间：约40分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "游览黄鹤楼，聆听特色导游解说【结合荆楚快板与楚剧诗词串烧】体验新颖的导览服务。\n黄鹤楼——可登高远眺，有历史故事，有诗意风情，如今更有咖啡相伴！品味一杯独特的黄鹤楼拉花拿铁，立于楼巅俯瞰这座热情无限的江城，让人不禁再次爱上这座文化厚重的古建筑（每位游客赠送黄鹤楼咖啡一杯）。",
+                        "meal_hours_box": "活动时间：约1小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77593,
+                                "PreName": "",
+                                "Name": "黄鹤楼",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "探访红楼，感怀辛亥革命史，注意：博物馆每逢周一休馆。若遇闭馆，将改赴昙华林，敬请留意。",
+                        "meal_hours_box": "行驶时间：约10小时"
+                    },
+                    {
+                        "time": "10:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77671,
+                                "PreName": "",
+                                "Name": "辛亥革命武昌起义纪念馆",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 10559439,
+                                "PreName": "",
+                                "Name": "昙华林",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10524156,
+                                "PreName": "",
+                                "Name": "户部巷",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：50CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 61326198,
+                                "Name": "蔡林记(户部巷3店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "提供省博全程语音导览耳麦服务。（周一闭馆时，将改游武汉东湖听涛景区，敬请留意）。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77591,
+                                "PreName": "",
+                                "Name": "湖北省博物馆",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 98275821,
+                                "PreName": "",
+                                "Name": "曾侯乙编钟",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 18072976,
+                                "PreName": "",
+                                "Name": "东湖听涛景区",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "游览结束后，我们将送您至汉口站，并乘坐动车前往宜昌。 \n\n（修改后：）\n\n游览结束，送达汉口站，乘坐动车前往宜昌。",
+                        "meal_hours_box": "行驶时间：约1小时30分钟"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达宜昌东站，专属车辆接送您直达市区酒店。",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：50CNY/人"
+                    },
+                    {
+                        "time": "20:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【精选酒店自由选指南】\n\n【1】本行程推出酒店自由选服务！精选当地 top20 人气好评星级酒店，任您挑选。行政房或套房，房型任您换。\n\n【2】默认推荐性价比之王，推荐款已列出。更多选择，下单页面点击【选酒店】&【挑房型】，自由搭配。\n\n【3】请留意所选酒店房型政策，早餐、儿童占床等均以您下单选择为准。如有疑问，客服随时为您解答。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 425211,
+                            "HotelName": "宜昌富力皇冠假日酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "【直通神农架·宜昌专车接送】深入南华中域的屋脊—神农架之南门重镇—木鱼镇。\"昭君故事\"文化讲解员相伴，探访官门山、漫步天生桥、拜谒神农坛【可选豪华森林住宿，阿尔卡迪亚/康帝君兰】",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "开启神秘神农架探险之旅！\n\n【温馨提示】：神农架山区路途遥远，易晕车游客，我们贴心准备了晕车药，请放心！",
+                        "meal_hours_box": "行驶时间：约2小时30分钟"
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "源自昭君故乡，特邀王昭君后裔亲述其生平事迹，深度探访这位美人故里，了解一代和平使者“王昭君”的传奇人生。\n位于香溪之滨的昭君村，古称宝坪村。因西汉美人王昭君在此成长，村以人名，遂称昭君村。村内遍布粉黛林、佳丽岛等二十余处古迹，昭君纪念馆展示了大量汉唐文物，昭君书院收藏各类古籍，记录着历代对昭君的赞誉。王家崖云雾袅袅，香溪河曲折流淌，娘娘泉古色古香，梳妆台花影婆娑，昭君像伫立其间，抚琴台余音缭绕。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79317,
+                                "PreName": "",
+                                "Name": "昭君村",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：45CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 32726754,
+                                "Name": "香妃土菜馆"
+                            },
+                            {
+                                "GSScenicSpotID": 52774721,
+                                "Name": "神昭家常菜"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "天生桥山岩层叠，野花绿树遍布，兰草丛生，幽香扑鼻。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 100198,
+                                "PreName": "",
+                                "Name": "天生桥",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "神农祭坛位于湖北神农架木鱼镇旅游区，是该旅游区的南入口，亦为核心景区。四周青山环绕，景色宜人，宁静优美。景区由主祭祀区、古植物园、千年古杉、蝴蝶标本馆、编钟演奏厅等五部分组成，主体为神农巨像，高21米，宽35米，立于群山之巅，以自然为背景，双眼微合，似在沉思宇宙之谜。祭祀区中，脚下圆形与方形图案象征着天与地，其中方形图案下的五色石代表五行中的金、木、水、火、土。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77694,
+                                "PreName": "",
+                                "Name": "神农祭坛",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 97845,
+                                "PreName": "",
+                                "Name": "官门山",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达神农架生态旅游度假胜地—木鱼镇，下榻酒店。",
+                        "meal_hours_box": "行驶时间：约15分钟"
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：40CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15953021,
+                                "Name": "老地方(迎宾大道店)"
+                            },
+                            {
+                                "GSScenicSpotID": 32483370,
+                                "Name": "乡野菜"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 2652489,
+                            "HotelName": "神农架康帝君兰酒店"
+                        }
+                    },
+                    {
+                        "time": "19:30",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "位于华中最高峰——神农顶南麓的木鱼镇，海拔平均1200米，身为省级度假旅游区，拥有神农顶、神农坛、天生桥、香溪源等名胜，是湖北旅游黄金线“长江三峡、神农架、武当山”的关键节点和游客中心，构成鄂西生态文化旅游圈的核心，也是神农架旅游服务与接待的基地，林区对外开放的前沿。\n\n木鱼镇内仅有一条街道，即著名的土特产街。这里售有神农架特产的土蜂蜜、各种菌类、香菇等，以及当地特色的竹雕纪念品。夏季高峰期，这条街化身夜市，各式小吃烧烤琳琅满目。",
+                        "meal_hours_box": "活动时间：约1小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 64671804,
+                                "PreName": "",
+                                "Name": "木鱼镇",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "包车直抵酒壶坪，转乘景区环保车【探神农顶、小龙潭观赏野生金丝猴、板壁岩寻觅野人踪迹、登3106.2米高山草甸、穿越原始冷杉林】，抵达【云泽湿地，九湖映天，群峰环抱，如入爱丽丝仙境】。",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "【以景区实时客流及实际出发时间为准】早餐后，前往【神农顶景区】乘车游览。",
+                        "meal_hours_box": "行驶时间：约40分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77753,
+                                "PreName": "",
+                                "Name": "神农顶风景区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77757,
+                                "PreName": "",
+                                "Name": "小龙潭野考站",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 77751,
+                                "PreName": "",
+                                "Name": "金猴岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 77747,
+                                "PreName": "",
+                                "Name": "神农谷",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 77769,
+                                "PreName": "",
+                                "Name": "瞭望塔",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 77691,
+                                "PreName": "",
+                                "Name": "板壁岩",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：50CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 78675277,
+                                "Name": "爷爷的疙瘩火"
+                            },
+                            {
+                                "GSScenicSpotID": 130202807,
+                                "Name": "奶奶的土吊锅"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 97835,
+                                "PreName": "",
+                                "Name": "大九湖国家湿地公园",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "返回时乘坐环保车（于酒壶坪转乘专车前往木鱼）。",
+                        "meal_hours_box": "行驶时间：约2小时"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 2652489,
+                            "HotelName": "神农架康帝君兰酒店"
+                        }
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    }
+                ]
+            },
+            {
+                "title": "返回宜昌，乘坐动车前往恩施。下午探访土家族首领王宫，步入女儿城，瞬间变身为土家族姑娘。体验摆手舞、张关合渣，领略土家儿女的热情魅力。",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "午餐后，返程经宜昌，乘动车前往恩施。",
+                        "meal_hours_box": "行驶时间：约3小时30分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：50CNY/人"
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "乘坐动车前往恩施。",
+                        "meal_hours_box": "行驶时间：约2小时"
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10758390,
+                                "PreName": "",
+                                "Name": "恩施土司城",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 13512054,
+                                "PreName": "",
+                                "Name": "恩施土家女儿城",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：50CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 43710185,
+                                "Name": "张关合渣"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "20:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 854726,
+                            "HotelName": "恩施瑞享国际酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "【探访恩施大峡谷】漫步七星寨，沿途景色千变万化，时而壁立千仞，时而孤峰傲立。地缝全长约3.8公里，呈深邃“U”字型，山水交融，灵气逼人。参观恩施女儿城，领略仿古建筑与吊脚楼的完美结合，品尝土家合渣，体验土家族儿女的热情款待。",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "专程前往恩施大峡谷。",
+                        "meal_hours_box": "行驶时间：约20分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "湖北旅游佳地，恩施大峡谷以其神秘壮美著称，拥有清江升白云、绝壁环峰丛等五大奇观。\n\n游玩建议：\n\n方案一（地缝→七星寨）：游客停车场（步行10分钟）→新游客中心检票→地面缆车→索道广场→游览云龙地缝（约1.5小时）→自费扶梯（30元/人）→索道广场→乘索道（含费）→七星寨景区（约3小时游览）→绝壁长廊→峡谷轩酒店（自理用餐）→迎客松→一炷香→母子情深→大地山川→大楼门扶梯（30元/人）→环保车（约25分钟）→游客中心→停车场→返回。\n\n方案二（七星寨→地缝）：停车场（步行10分钟）→新游客中心检票→地面缆车→索道广场→乘索道（含费）→七星寨景区（约3小时游览）→后续流程同方案一→云龙地缝观光电梯（30元/人）→结束。\n\n提示：七星寨景区游览体力要求较高，游客可依自身情况选择是否游览。此外，景区提供滑竿特色交通工具，按路程计费，100-1000元不等，游客可自愿选用。",
+                        "meal_hours_box": "活动时间：约5小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 83835,
+                                "PreName": "",
+                                "Name": "恩施大峡谷",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "特别提示：【恩施大峡谷】包含【七星寨】与【云龙地缝】两景区，因维护原因，【云龙地缝】仅开放部分区域，敬请留意无法尽兴游览！",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 50714758,
+                                "PreName": "",
+                                "Name": "云龙地缝",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 20963166,
+                                "PreName": "",
+                                "Name": "云龙瀑布",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 20963171,
+                                "PreName": "",
+                                "Name": "五彩黄龙瀑布",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 20963174,
+                                "PreName": "",
+                                "Name": "石帘",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 32567214,
+                                "Name": "土家女儿村山景餐厅"
+                            },
+                            {
+                                "GSScenicSpotID": 57662395,
+                                "Name": "土家柴火灶生态农庄"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 22866961,
+                                "PreName": "",
+                                "Name": "七星寨景区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 20963187,
+                                "PreName": "",
+                                "Name": "楼门石浪",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 20963183,
+                                "PreName": "",
+                                "Name": "绝壁长廊",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 20963182,
+                                "PreName": "",
+                                "Name": "一炷香",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "直达女儿城专车服务。",
+                        "meal_hours_box": "行驶时间：约2小时"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶时间：约1小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 13512054,
+                                "PreName": "",
+                                "Name": "恩施土家女儿城",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：50CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 27164539,
+                                "Name": "张关合渣(女儿城店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 854726,
+                            "HotelName": "恩施瑞享国际酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "【探秘鹤峰·悬浮奇观】被誉为“中国版仙本那”的这里，河流清澈见底，船只行驶其上，仿佛空中漂浮，碧波荡漾间，船如悬浮，犹如仙境漫游。",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：20CNY/人"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "直达鹤峰屏山大峡谷的专车服务。",
+                        "meal_hours_box": "行驶时间：约3小时30分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：40CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 43709361,
+                                "Name": "红嫂子农家乐"
+                            },
+                            {
+                                "GSScenicSpotID": 77981456,
+                                "Name": "银珠寨农家乐"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "此处誉为“中华仙本那”，水透如镜，船只其上，宛如云端漂浮。屏山峡谷，自古便是仙境，画卷般绝美，踏入这片充满神奇的土地，恍若隔世，返璞归真，沉醉于梦幻之中。",
+                        "meal_hours_box": "活动时间：约2小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 25320264,
+                                "PreName": "",
+                                "Name": "屏山峡谷",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "专属车辆送您返恩施。",
+                        "meal_hours_box": "行驶时间：约3小时30分钟"
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：40CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 43710185,
+                                "Name": "张关合渣"
+                            },
+                            {
+                                "GSScenicSpotID": 34629356,
+                                "Name": "赵记腊味(恩施州总店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 854726,
+                            "HotelName": "恩施瑞享国际酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "【机场/恩施火车站/市区专车接送】",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "★张关合渣—恩施特色火锅，融合蔬菜肉类，营养美味兼具！\n\n★炕洋芋—恩施高山小土豆，香甜可口，街头常见小吃。\n\n★土家腊肉—香气四溢的恩施传统美食，色泽诱人，令人食指大动。\n\n★烤糍粑—手工糍粑，传统烤制，香气扑鼻，滋味十足。\n\n★柏杨豆干—金黄细腻，口感丰富，生食热炒，回味无穷。\n\n漫步恩施街巷，尝地道美食：苞谷粑粑、格格、玉露茶、摔碗酒…定能满足你的味蕾，打动每位食客的心。",
+                        "meal_hours_box": "活动时间：约3小时"
+                    },
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据返程时间，您可选择在酒店休息或悠闲漫步恩施街头。\n\n今日无既定行程（自由活动期间不含车、餐、导游、门票）。请于12:00前退房（若返程交通为中午后，游客可寄存行李于酒店前台再出行，避免不必要损失）。旅行社人员将根据您的交通出发时间送至站点，自行搭乘返程。\n\n【温馨提示】：\n1、全天自由活动，无导游陪同时，请留意回程时间，可提前将行李寄存前台，注意安全；\n2、酒店退房时间为12:00，请自由活动时注意时间，以免超时退房产生额外费用；\n3、请提前与司机约定接站时间和地点，一般提前1.5小时送站。若晚回，行李可寄存前台。",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "【抵达江城武汉机场/火车站，专车礼遇接待】重新认识武汉，江湖武汉城，好客武汉人！晚可选《知音号》夜观武汉两岸江景！",
+            "【包车市内游览 玩转大武汉】登高望远黄鹤楼+品黄鹤楼咖啡+湖北省博耳麦讲解+编钟表演+网红美食一条街户部巷尝遍武汉美食，动车前往宜昌，水电之都，三峡起始处宜昌欢迎您！",
+            "【宜昌包车前往神农架】抵达南国华中屋脊—神农架的南大门—神农架木鱼镇，\"昭君说\"文化使者分享+官门山+天生桥+神农坛【可选宿森林野奢5钻,阿尔卡迪亚/康帝君兰】",
+            "包车前往酒壶坪，换乘景区环保车【神农顶+小龙潭看野生金丝猴+板壁岩寻野人踪迹+海拔3106.2米高山草甸+原始冷杉林】前往【 云间湿地 天上九湖 群山怀抱 仿佛游离在爱丽丝仙境之中】",
+            "返程宜昌，动车前往恩施，下午走进土家部落首领王宫，来到女儿城秒变土家女，摆手舞/张关合渣，感受土家儿女的热情~",
+            "【前往恩施大峡谷】七星寨景区景随路转，忽尔绝壁万丈，忽尔孤峰独耸，地缝全长约3.8公里，断面呈深“U”型，山水相依，人杰地灵，打卡恩施女儿城仿古建筑和吊脚楼的结合，吃土家合渣 感受土家儿女的热情；",
+            "【包车前往鹤峰·悬浮体验】据说这里被誉为“中国的仙本那”，清澈见底的河上，船行上面犹如漂浮空中，舟行碧波上，如悬浮水面 ,宛如仙境~·",
+            "【包车送往机场/恩施火车/市区】"
+        ]
+    }
+]

@@ -28,7 +28,7 @@ def process_json_file(read_path, save_path):
     # 循环处理数据
     for index, item in enumerate(data):
             # 打印进度
-        print(f"Progress: {index + 1}/{len(data)}")
+        print(f"{read_path} Progress: {index + 1}/{len(data)}")
         # print(item['subTitle'])
         subTitle = zhipuai_chat_completion(item['subTitle'])
         print('=>')

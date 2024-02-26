@@ -7,8 +7,8 @@ const { generateExcel } = require("./generateExcel");
 
 async function dealFilterExcel(filterDir) {
   const files = await promiseReaddir(filterDir);
-  const formatProductFiles = files.filter((file) =>
-    file.startsWith("format-product")
+  const formatProductFiles = files.filter(
+    (file) => file.startsWith("format-product") && file.endsWith("json")
   );
   for (let i = 0; i < formatProductFiles.length; i++) {
     const fileName = formatProductFiles[i];

@@ -26,7 +26,7 @@ def zhipuai_chat_completion(str):
         return response.choices[0].message.content.strip("`plaintext").strip()
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred: {e} \n {str}")
         return str
 
 # zhipuai_chat_completion('''【发掘迪士尼小镇的魅力】：

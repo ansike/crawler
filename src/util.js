@@ -231,9 +231,9 @@ const filterProductByAI = async (filterDir) => {
   const sortProductFiles = productFiles.sort(sortFileName);
   console.log(sortProductFiles);
 
-  const queue = new TaskQueue(10);
+  const queue = new TaskQueue(3);
   await Promise.all(
-    sortProductFiles.map(async (productFile) => {
+    sortProductFiles.map(async (productFile, idx) => {
       const sourceFile = path.resolve(filterDir, productFile);
       const outputFile = path.resolve(filterDir, `format-${productFile}`);
       return new Promise((resolve1) => {
