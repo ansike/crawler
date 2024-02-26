@@ -1,6 +1,10 @@
 // 通过当前的脚本在浏览器的控制台中批量创建资源
+
+// 携程价格的比率
+const priceRate = 1.087083333333;
+
 const cars = [];
-for (let i = 40200; i <= 64800; i += 100) {
+for (let i = 150; i <= 64750; i += 100) {
 // for (let i = 400; i <= 400; i += 100) {
   cars.push(i);
 }
@@ -10,14 +14,19 @@ for (let i = 40200; i <= 64800; i += 100) {
 // 3. 修改用车最大人数
 
 const carType = {
+  normal_5: {
+    carIds: "2654, 2688, 1928",
+    carName: "经济5座：金杯S70/金杯S50 等同级车",
+    maxPersonQuantity: 3,
+  },
   comfort_5: {
-    carIds: "4729",
-    carName: "舒适5座：丰田bZ4X",
+    carIds: "4729, 1929, 1922, 1951",
+    carName: "舒适5座：丰田bZ4X/奔驰GLB 等同级车",
     maxPersonQuantity: 3,
   },
   7: {
-    carIds: "4594",
-    carName: "商务7座：丰田塞纳",
+    carIds: "4594, 2076, 5196",
+    carName: "商务7座：丰田塞纳/丰田普瑞维亚 等同级车",
     maxPersonQuantity: 5,
   },
   9: {
@@ -94,7 +103,7 @@ function getDatesBetween(start, end) {
 // 使用这个函数：
 async function savePrice(resourceId, cost) {
   let dateArr = getDatesBetween(new Date("2024/02/26"), new Date("2030/03/31"));
-  const marketPrice = Math.ceil(cost * 1.087083333333);
+  const marketPrice = Math.ceil(cost * priceRate);
   const body = {
     contentType: "json",
     head: {

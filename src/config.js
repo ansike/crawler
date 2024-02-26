@@ -34,40 +34,8 @@ const regions = [
   },
 ];
 
-const carRate = [
-  {
-    label: "5座经济型车(1-3)",
-    value: 1.2,
-  },
-  {
-    label: "5座舒适型车(1-3)",
-    value: 1.35,
-  },
-  {
-    label: "7座商务车(1-5)",
-    value: 2.6,
-  },
-  {
-    label: "9座商务车(1-7)",
-    value: 3.3,
-  },
-  {
-    label: "12座用车",
-    value: 4.2,
-  },
-  {
-    label: "14座用车",
-    value: 4.5,
-  },
-  {
-    label: "19座用车",
-    value: 5.5,
-  },
-];
-
 module.exports = {
   outputDir,
   zhipuPy,
   regions,
-  carRate,
 };
