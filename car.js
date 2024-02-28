@@ -5,7 +5,7 @@ const carRate = [
   },
   {
     label: "5座舒适",
-    value: 1.35,
+    value: 1.4,
   },
   {
     label: "7座",
@@ -30,7 +30,7 @@ const carRate = [
 ];
 
 const rate5 = 1.2;
-for (let i = 100; i <= 200; i += 50) {
+for (let i = 100; i <= 1000; i += 50) {
   const basePrice = i / rate5;
   const prices = carRate.map((car) => {
     let price = Math.ceil(parseInt(car.value * basePrice));
