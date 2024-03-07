@@ -46,39 +46,88 @@ const holidays = [
     end: "2024-10-08",
     rate: "1.5",
   },
+  // 寒假
+  {
+    start: "2025-01-16",
+    end: "2025-01-23",
+    rate: "1.3",
+  },
+  {
+    start: "2025-01-24",
+    end: "2025-02-04",
+    rate: "1.5",
+  },
+  {
+    start: "2025-02-05",
+    end: "2025-02-12",
+    rate: "1.3",
+  },
 ];
 
-const pageSize = 1;
+class Queue {
+  constructor() {
+    this.limit = 10;
+    this.running = 0;
+    this.queue = [];
+  }
+  async add(task) {
+    this.queue.push(task);
+    await this.run();
+  }
+  async run() {
+    while (this.queue.length && this.running < this.limit) {
+      const task = this.queue.shift();
+      try {
+        this.running++;
+        await task();
+      } catch (error) {
+        console.log("task run", error);
+      }
+      this.running--;
+      await this.run();
+    }
+  }
+}
+const pageSize = 100;
+const taskQueue = new Queue();
 (async () => {
   const res = await getResourceList();
   // 总的资源数量
   const totalCount = res.totalCount;
   const pageNums = Math.ceil(totalCount / pageSize);
-  for (let i = 1; i <= 1; i++) {
-    console
+  for (let i = 20; i <= pageNums; i++) {
     const { resources } = await getResourceList(i);
     console.log(i, resources.length);
     for (let j = 0; j < resources.length; j++) {
       const resource = resources[j];
-      await changeResource(resource);
+      console.log(`page: ${i}, num: ${j}`);
+      taskQueue.add(() => changeResource(resource));
     }
   }
-
-  // changeResource({
-  //   resourceId: 41832416,
-  //   resourceDesc: 64750,
-  // });
 })();
 
 // 修改资源
 async function changeResource(resource) {
   const { resourceId, resourceDesc } = resource;
+  const resourcePrices = [];
   for (let i = 0; i < holidays.length; i++) {
     const { start, end, rate } = holidays[i];
     const cost = Math.ceil(resourceDesc * rate);
-    console.log(start, end, cost)
-    await changePrice({ resourceId, cost, start, end });
+    const marketPrice = Math.ceil(cost * priceRate);
+    const tempArr = getDatesBetween(new Date(start), new Date(end));
+    resourcePrices.push(
+      ...tempArr.map((date) => {
+        return {
+          date: date,
+          active: true,
+          marketPrice,
+          cost,
+        };
+      })
+    );
   }
+  await changePrice({ resourceId, resourcePrices });
+  console.log(resourceId, "success");
 }
 
 function getDatesBetween(start, end) {
@@ -123,9 +172,7 @@ async function getResourceList(pageNo = 1) {
   return await res.json();
 }
 
-async function changePrice({ resourceId, cost, start, end }) {
-  let dateArr = getDatesBetween(new Date(start), new Date(end));
-  const marketPrice = Math.ceil(cost * priceRate);
+async function changePrice({ resourceId, resourcePrices }) {
   const body = {
     contentType: "json",
     head: {
@@ -142,39 +189,37 @@ async function changePrice({ resourceId, cost, start, end }) {
     costPriceCurrency: "CNY",
     inventoryMode: "U",
     saveType: "M",
-    resourcePrices: dateArr.map((date) => {
-      return {
-        date: date,
-        active: true,
-        marketPrice,
-        cost,
-      };
-    }),
+    resourcePrices,
     resourceChildPrices: [],
     resourceStorages: [],
     relatedSingleRoomPrices: [],
     vendorId: "1431565",
   };
-  const res = await fetch("https://online.ctrip.com/restapi/soa2/15638/SaveResourceStoragePriceInfo.json?_fxpcqlniredt=09031119411217359276&_fxpcqlniredt=09031119411217359276", {
-    "headers": {
-      "accept": "*/*",
-      "accept-language": "zh-CN,zh;q=0.9",
-      "content-type": "application/json",
-      "cookieorigin": "https://vbooking.ctrip.com",
-      "sec-ch-ua": "\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Google Chrome\";v=\"122\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": "\"macOS\"",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site",
-      "x-ctx-locale": "zh-CN"
-    },
-    "referrer": "https://vbooking.ctrip.com/ivbk/vendor/additionalservicedetail?type=edit&tabkey=2&vendorid=1431565&resourceid=41832416&from=vbk",
-    "referrerPolicy": "no-referrer-when-downgrade",
-    "body": JSON.stringify(body),
-    "method": "POST",
-    "mode": "cors",
-    "credentials": "include"
-  });
+  const res = await fetch(
+    "https://online.ctrip.com/restapi/soa2/15638/SaveResourceStoragePriceInfo.json?_fxpcqlniredt=09031119411217359276&_fxpcqlniredt=09031119411217359276",
+    {
+      headers: {
+        accept: "*/*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "content-type": "application/json",
+        cookieorigin: "https://vbooking.ctrip.com",
+        "sec-ch-ua":
+          '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"macOS"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "x-ctx-locale": "zh-CN",
+      },
+      referrer:
+        "https://vbooking.ctrip.com/ivbk/vendor/additionalservicedetail?type=edit&tabkey=2&vendorid=1431565&resourceid=41832416&from=vbk",
+      referrerPolicy: "no-referrer-when-downgrade",
+      body: JSON.stringify(body),
+      method: "POST",
+      mode: "cors",
+      credentials: "include",
+    }
+  );
   //   console.log("save price", res);
 }

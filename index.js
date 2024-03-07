@@ -39,7 +39,11 @@ async function main(region, url) {
   // ----------------------- 1. 获取产品列表 --------------------------
   {
     const allPageProducts = await getDataByUrl(browser, url, (pro) => {
-      return pro.tags.find((tag) => tag.includes("花")) && !!pro.sellNum;
+      return (
+        (pro.tags.find((tag) => tag.includes("花")) ||
+          pro.subTitle.includes("花")) &&
+        !!pro.sellNum
+      );
     });
 
     const flatList = allPageProducts.flat(1);
@@ -80,17 +84,17 @@ async function main(region, url) {
 
   await browser.close();
 
-  // ----------------------- 3. AI 清洗数据 --------------------------
-  await filterProductByAI(productDir);
-  
-  // ----------------------- 4. 生成excel --------------------------
-  await dealFilterExcel(productDir);
+  // // ----------------------- 3. AI 清洗数据 --------------------------
+  // await filterProductByAI(productDir);
+
+  // // ----------------------- 4. 生成excel --------------------------
+  // await dealFilterExcel(productDir);
 }
 (async () => {
   for (let i = 0; i < regions.length; i++) {
     const { region, regionPinYin } = regions[i];
     const url = `https://vacations.ctrip.com/list/personalgroup/sc1.html?s=2&st=${region}&startcity=1&sv=${region}`;
-    console.log(region, url)
+    console.log(region, url);
     await main(regionPinYin, url);
   }
 })();

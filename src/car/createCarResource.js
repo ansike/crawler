@@ -4,8 +4,8 @@
 const priceRate = 1.087083333333;
 
 const cars = [];
-for (let i = 150; i <= 64750; i += 100) {
-// for (let i = 400; i <= 400; i += 100) {
+for (let i = 62750; i <= 64750; i += 100) {
+  // for (let i = 400; i <= 400; i += 100) {
   cars.push(i);
 }
 

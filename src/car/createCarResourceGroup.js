@@ -7,6 +7,13 @@ const { car12 } = require("./config/car-12");
 const { car14 } = require("./config/car-14");
 const { car19 } = require("./config/car-19");
 
+// 5-25000
+// 5 comfort-29200
+// 7-54200
+// 9-68750
+// 12-70000
+// 14-70000
+// 19-70000
 const carRate = [
   {
     label: "5座经济",
@@ -45,7 +52,9 @@ const carRate = [
   },
 ];
 
-
+const maxMoney = 70000;
+// 超过7w之后对应的资源不出现在用车资源组中
+const limitCar7w = carRate.slice(-3).map((it) => it.label);
 
 // 用车组规则：
 // 1. 5座经济最大价格为25000，最小价格为100
@@ -56,23 +65,34 @@ main();
 
 async function main() {
   const rate5 = 1.2;
-  for (let i = 550; i <= 1000; i += 50) {
+  for (let i = 11100; i <= 25000; i += 50) {
     const basePrice = i / rate5;
     const resourceIds = [];
-    const prices = carRate.map((car) => {
-      const { label, value, carConf } = car;
-      let price = Math.ceil(parseInt(value * basePrice));
-      // 确保价格是50的倍数
-      price = Math.ceil(price / 50) * 50;
-      const id = carConf[price];
-      if (!id) {
-        console.log(car, price);
-        return;
-      }
-      // console.log(`${label} ${price} ${id}`);
-      resourceIds.push(id);
-      return `${label}${price}`;
-    });
+    const prices = carRate
+      .map((car) => {
+        const { label, value, carConf } = car;
+        let price = Math.ceil(parseInt(value * basePrice));
+        // 确保价格是50的倍数
+        price = Math.ceil(price / 50) * 50;
+        // 价格超过最大限制，且在数组内跳过
+        if (price > maxMoney && limitCar7w.includes(label)) {
+          return;
+        }
+        // 没有找到当前车辆的ID
+        const id = carConf[price];
+        if (!id) {
+          console.log(car, price);
+          return;
+        }
+        // console.log(`${label} ${price} ${id}`);
+        resourceIds.push(id);
+        return `${label}${price}`;
+      })
+      .filter((it) => !!it);
+
+    if (prices.length < 4) {
+      return;
+    }
     const resourceGroupName = prices.join("+");
     // console.log(`${resourceGroupName}`, resourceIds);
     const resourceGroupId = await createResourceGroup(resourceGroupName);
