@@ -5,6 +5,7 @@ const zhipuPy = path.resolve(process.cwd(), "./src/ai/zhipu/index.py");
 
 // 新疆（10）、陕西（10）、江苏（20）、浙江（30）、上海（10）
 const regions = [
+  // // 第一批
   // {
   //   region: "金川",
   //   regionPinYin: "jinchuan",
@@ -33,6 +34,7 @@ const regions = [
   //   region: "婺源",
   //   regionPinYin: "wuyuan",
   // },
+  // // 第二批
   // {
   //   region: "西藏",
   //   regionPinYin: "xizang",
@@ -57,10 +59,6 @@ const regions = [
   //   region: "新疆",
   //   regionPinYin: "xinjiang",
   // },
-  {
-    region: "莫斯科",
-    regionPinYin: "mosike",
-  },
 ];
 
 module.exports = {
