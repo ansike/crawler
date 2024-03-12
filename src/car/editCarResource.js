@@ -95,7 +95,8 @@ const taskQueue = new Queue();
   // 总的资源数量
   const totalCount = res.totalCount;
   const pageNums = Math.ceil(totalCount / pageSize);
-  for (let i = 20; i <= pageNums; i++) {
+  console.log({ totalCount, pageNums });
+  for (let i = 0; i <= pageNums; i++) {
     const { resources } = await getResourceList(i);
     console.log(i, resources.length);
     for (let j = 0; j < resources.length; j++) {
@@ -109,6 +110,8 @@ const taskQueue = new Queue();
 // 修改资源
 async function changeResource(resource) {
   const { resourceId, resourceDesc } = resource;
+  console.log("start change", resourceId, resourceDesc);
+
   const resourcePrices = [];
   for (let i = 0; i < holidays.length; i++) {
     const { start, end, rate } = holidays[i];
@@ -127,7 +130,7 @@ async function changeResource(resource) {
     );
   }
   await changePrice({ resourceId, resourcePrices });
-  console.log(resourceId, "success");
+  console.log("success", resourceId, resourceDesc);
 }
 
 function getDatesBetween(start, end) {
@@ -163,7 +166,7 @@ async function getResourceList(pageNo = 1) {
       referrer:
         "https://vbooking.ctrip.com/ivbk/vendor/additionalservicelist?from=vbk",
       referrerPolicy: "no-referrer-when-downgrade",
-      body: `{\"contentType\":\"json\",\"head\":{\"cid\":\"09031119411217359276\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"extension\":[]},\"resourceIds\":[],\"resourceName\":\"\",\"categoryList\":[{\"categoryId\":\"2\",\"piCategoryId\":\"1132\"}],\"departureCityId\":null,\"destinationCityId\":null,\"productRegion\":null,\"active\":\"\",\"vendorId\":null,\"pmEid\":\"\",\"paEid\":\"\",\"createTimeStart\":null,\"createTimeEnd\":null,\"bookingContactId\":642097,\"pageNo\":${pageNo},\"pageSize\":${pageSize},\"businessOwner\":\"VBK\"}`,
+      body: `{\"contentType\":\"json\",\"head\":{\"cid\":\"09031119411217359276\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"extension\":[]},\"resourceIds\":[],\"resourceName\":\"\",\"categoryList\":[{\"categoryId\":\"2\",\"piCategoryId\":\"1132\"}],\"departureCityId\":null,\"destinationCityId\":null,\"productRegion\":null,\"active\":\"\",\"vendorId\":null,\"pmEid\":\"\",\"paEid\":\"\",\"createTimeStart\":null,\"createTimeEnd\":null,\"bookingContactId\":506368,\"pageNo\":${pageNo},\"pageSize\":${pageSize},\"businessOwner\":\"VBK\"}`,
       method: "POST",
       mode: "cors",
       credentials: "include",
