@@ -1,35 +1,13 @@
-// 通过当前的脚本在浏览器的控制台中批量创建导游资源200-2000
-// const ids = [
-//   { id: 42369918, price: 50 },
-//   { id: 42369917, price: 100 },
-//   { id: 42369916, price: 150 },
-//   { id: 42369915, price: 250 },
-//   { id: 42369914, price: 350 },
-//   { id: 42369913, price: 450 },
-//   { id: 42369912, price: 550 },
-// ];
-// (async () => {
-//   for (let i = 0; i < ids.length; i++) {
-//     const { id, price } = ids[i];
-//     const tour = await createTour(price, id);
-//     const dateArr = getDatesBetween(
-//       new Date("2024/02/26"),
-//       new Date("2030/03/31")
-//     );
-//     await SaveResourceStoragePriceInfo(tour.resourceId, price, dateArr);
-//   }
-// })();
+// 通过当前的脚本在浏览器的控制台中批量创建优惠资源200-2000
 
 (async () => {
-  for (let i = 1950; i <= 1950; i+=100) {
-    // const { id, price } = ids[i];
-    const price = i
-    const tour = await createTour(price);
+  for (let i = 200; i <= 200; i += 100) {
+    const tour = await createDiscount(i);
     const dateArr = getDatesBetween(
       new Date("2024/02/26"),
       new Date("2030/03/31")
     );
-    await SaveResourceStoragePriceInfo(tour.resourceId, price, dateArr);
+    await SaveResourceStoragePriceInfo(tour.resourceId, -i, dateArr);
   }
 })();
 
@@ -45,7 +23,7 @@ function getDatesBetween(start, end) {
 }
 
 // 使用这个函数：
-async function createTour(price = 300, resourceId) {
+async function createDiscount(price) {
   const data = {
     contentType: "json",
     head: {
@@ -60,15 +38,15 @@ async function createTour(price = 300, resourceId) {
     },
     resourceInfo: {
       baseInfo: {
-        piCategoryId: 1037,
-        // resourceId,
-        name: "导游" + price,
-        categoryId: 58,
-        categoryName: "导游",
+        piCategoryId: 1174,
+        // resourceId: 42107791,
+        name: `整单优惠${price}`,
+        categoryId: 18,
+        categoryName: "优惠",
         inputLocale: "zh-CN",
         subName: "",
-        description: price + "",
-        chargeUnit: "天",
+        description: `-${price}`,
+        chargeUnit: "单",
         visaPeopleGroupType: 0,
         destinationCity: {
           cityId: 41,
@@ -88,23 +66,15 @@ async function createTour(price = 300, resourceId) {
         zone: [],
         airportInfo: [],
         businessType: "OPT",
-        carInfo: {
-          carMode: 1,
-          useCarMode: 1,
-        },
-        trainInfo: {
-          trainType: 1,
-        },
+        carInfo: { carMode: 1, useCarMode: 1 },
+        trainInfo: { trainType: 1, productTrainID: 3239797 },
         ticketType: 0,
         peopleGroup: 1,
         poiScenicSpot: {},
         isHighRisk: "F",
         isHotelResource: "F",
         isHotelShareRoom: "F",
-        receiveAndSend: {
-          isNeed: "F",
-          selectedReceiveAndSend: [],
-        },
+        receiveAndSend: { isNeed: "F", selectedReceiveAndSend: [] },
         isChildNeedExtraPriceForNotShareRoom: "T",
         isChildAsAdult: "F",
         maxAdultNum: 1,
@@ -124,17 +94,17 @@ async function createTour(price = 300, resourceId) {
         vendorBookingEmergencyContactId: 501507,
         vendorComplainContactId: 501507,
         isChooseRequired: "F",
-        isDefaultChoose: "F",
-        quantityCalculateMode: "D",
+        isDefaultChoose: "T",
+        quantityCalculateMode: "P",
         minQuantity: 1,
-        maxQuantity: 99,
-        chooseMode: "D",
+        maxQuantity: 1,
+        chooseMode: "O",
         forAdult: "T",
         forAdultQuantity: 1,
-        forAdultProductQuantity: 15,
+        forAdultProductQuantity: 1,
         forChild: "T",
         forChildQuantity: 1,
-        forChildProductQuantity: 15,
+        forChildProductQuantity: 1,
         minPersonQuantity: 1,
         maxPersonQuantity: 9999,
         minTravelDays: 1,
@@ -177,7 +147,7 @@ async function createTour(price = 300, resourceId) {
         isDefinedPhone: "F",
         isSmsVBKNoticeType: 1,
         fillInNumberLimit: "A",
-        piCustomerInfoTemplateId: 29738092,
+        piCustomerInfoTemplateId: 29718325,
         unBookingInfo: {},
         vendorBookingEmergencyPhoneAreaCode: "86",
         vendorBookingEmergencyContact: "李鑫",
@@ -201,7 +171,10 @@ async function createTour(price = 300, resourceId) {
         operationNote: "",
         vendorId: 1431565,
         vendorName: "西藏北纬三十度旅行社有限责任公司",
-        receiptDay: null,
+        isNeedReceipt: "F",
+        receiptDay: 0,
+        receiptTime: "",
+        receiptContent: "",
         pMEID: "PTZC",
         pAEID: "PTZC",
         pBMEI: "",
@@ -223,34 +196,29 @@ async function createTour(price = 300, resourceId) {
     },
     customerInfoTemplateOpen: "T",
   };
-  const res = await fetch(
-    "https://online.ctrip.com/restapi/soa2/15638/saveResource?_fxpcqlniredt=09031111115146167449&_fxpcqlniredt=09031111115146167449",
-    {
-      headers: {
-        accept: "*/*",
-        "accept-language": "zh-CN,zh;q=0.9",
-        "cache-control": "no-cache",
-        "content-type": "application/json",
-        cookieorigin: "https://vbooking.ctrip.com",
-        pragma: "no-cache",
-        "sec-ch-ua":
-          '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"Windows"',
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site",
-        "x-ctx-locale": "zh-CN",
-      },
-      referrer:
-        "https://vbooking.ctrip.com/ivbk/vendor/serviceInfoMerge?from=vbk",
-      referrerPolicy: "no-referrer-when-downgrade",
-      body: JSON.stringify(data),
-      method: "POST",
-      mode: "cors",
-      credentials: "include",
-    }
-  );
+  const res = await fetch("https://online.ctrip.com/restapi/soa2/15638/saveResource?_fxpcqlniredt=09031111115146167449&_fxpcqlniredt=09031111115146167449", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "zh-CN,zh;q=0.9",
+      "cache-control": "no-cache",
+      "content-type": "application/json",
+      "cookieorigin": "https://vbooking.ctrip.com",
+      "pragma": "no-cache",
+      "sec-ch-ua": "\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Google Chrome\";v=\"122\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "x-ctx-locale": "zh-CN"
+    },
+    // "referrer": "https://vbooking.ctrip.com/ivbk/vendor/serviceInfoMerge?resourceid=42107791&from=vbk",
+    "referrerPolicy": "no-referrer-when-downgrade",
+    "body": JSON.stringify(data),
+    "method": "POST",
+    "mode": "cors",
+    "credentials": "include"
+  });
   return await res.json();
 }
 // 使用这个函数：
