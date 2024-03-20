@@ -68,7 +68,7 @@ async function checkResource(resource) {
 async function getResourceList(pageNo = 1) {
   // dr 506368
   // tl 621237
-  const bookingContactId = 621237;
+  const bookingContactId = 506368;
   const res = await fetch(
     "https://online.ctrip.com/restapi/soa2/15638/searchResourceList.json?_fxpcqlniredt=09031119411217359276&_fxpcqlniredt=09031119411217359276",
     {
@@ -133,18 +133,22 @@ async function checkResourcePrice({ resourceId, expectCost }) {
     try {
       realCost = resourcePricesAdultAndChild[0].cost;
     } catch (error) {
+      const id = await getResourceInfo(resourceId);
       errorIds.push({
         id: resourceId,
         errorType: "EmptyPriceError",
         reason: ErrorConf.EmptyPriceError,
+        vendorBookingContactId: id,
       });
       throw new Error("未设置价格库存");
     }
     if (+expectCost !== +realCost) {
+      const id = await getResourceInfo(resourceId);
       errorIds.push({
         id: resourceId,
         errorType: "NotEqualError",
         reason: ErrorConf.NotEqualError,
+        vendorBookingContactId: id,
       });
       throw new Error("描述金额与价格库存金额不等");
     }
@@ -154,16 +158,51 @@ async function checkResourcePrice({ resourceId, expectCost }) {
   console.log("errorIds", JSON.stringify(errorIds));
 }
 
-function groupBy(arr, key){
+function groupBy(arr, key) {
   const map = new Map();
-  arr.forEach(it=>{
-      if(map.has(it[key])){
-          const group = map.get(it[key]);
-          group.push(it);
-          map.set(it[key], group);
-      }else{
-          map.set(it[key], [it]);
-      }
-  })
-  return Array.from(map.values())
+  arr.forEach((it) => {
+    if (map.has(it[key])) {
+      const group = map.get(it[key]);
+      group.push(it);
+      map.set(it[key], group);
+    } else {
+      map.set(it[key], [it]);
+    }
+  });
+  return Array.from(map.values());
+}
+
+async function getResourceInfo(resourceId) {
+  const res = await fetch(
+    "https://online.ctrip.com/restapi/soa2/15638/queryResourceInfo?_fxpcqlniredt=09031111115146167449&_fxpcqlniredt=09031111115146167449",
+    {
+      headers: {
+        accept: "*/*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-cache",
+        "content-type": "application/json",
+        cookieorigin: "https://vbooking.ctrip.com",
+        pragma: "no-cache",
+        "sec-ch-ua":
+          '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "x-ctx-locale": "zh-CN",
+      },
+      referrer:
+        "https://vbooking.ctrip.com/ivbk/vendor/serviceInfoMerge?resourceid=41381397&from=vbk",
+      referrerPolicy: "no-referrer-when-downgrade",
+      body: `{"contentType":"json","head":{"cid":"09031111115146167449","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","extension":[]},"resourceId":${resourceId}}`,
+      method: "POST",
+      mode: "cors",
+      credentials: "include",
+    }
+  );
+  const data = await res.json();
+  return data["resourceInfo"]["bookingControllerInfo"][
+    "vendorBookingContactId"
+  ];
 }

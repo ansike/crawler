@@ -1,67 +1,40 @@
 // 通过当前的脚本在浏览器的控制台中批量创建导游资源200-2000
+const ids = [
+  { id: 42369911, price: 2000 },
 
-// 导游 42107885
+  { id: 42369910, price: 1900 },
 
-// 携程价格的比率
-const priceRate = 1.087083333333;
+  { id: 42369908, price: 1800 },
 
+  { id: 42369907, price: 1700 },
 
+  { id: 42369905, price: 1600 },
 
-class Queue {
-  constructor() {
-    this.limit = 10;
-    this.running = 0;
-    this.queue = [];
-  }
-  async add(task) {
-    this.queue.push(task);
-    await this.run();
-  }
-  async run() {
-    while (this.queue.length && this.running < this.limit) {
-      const task = this.queue.shift();
-      try {
-        this.running++;
-        await task();
-      } catch (error) {
-        console.log("task run", error);
-      }
-      this.running--;
-      await this.run();
-    }
-  }
-}
-const pageSize = 100;
-const taskQueue = new Queue();
+  { id: 42369904, price: 1500 },
+
+  { id: 42369903, price: 1400 },
+
+  { id: 42369902, price: 1300 },
+
+  { id: 42369901, price: 1200 },
+
+  { id: 42369899, price: 1100 },
+
+  { id: 42369893, price: 1000 },
+
+  { id: 42369892, price: 900 },
+];
 (async () => {
-  for(let i = 0; i < 2000; i++){
-    // 
+  for (let i = 0; i < ids.length; i++) {
+    const { id, price } = ids[i];
+    const tour = await createTour(price, id);
+    const dateArr = getDatesBetween(
+      new Date("2024/02/26"),
+      new Date("2030/03/31")
+    );
+    await SaveResourceStoragePriceInfo(tour.resourceId, price, dateArr);
   }
 })();
-
-// 修改资源
-async function changeResource(resource) {
-  const { resourceId, resourceDesc } = resource;
-  const resourcePrices = [];
-  for (let i = 0; i < holidays.length; i++) {
-    const { start, end, rate } = holidays[i];
-    const cost = Math.ceil(resourceDesc * rate);
-    const marketPrice = Math.ceil(cost * priceRate);
-    const tempArr = getDatesBetween(new Date(start), new Date(end));
-    resourcePrices.push(
-      ...tempArr.map((date) => {
-        return {
-          date: date,
-          active: true,
-          marketPrice,
-          cost,
-        };
-      })
-    );
-  }
-  await changePrice({ resourceId, resourcePrices });
-  console.log(resourceId, "success");
-}
 
 function getDatesBetween(start, end) {
   for (
@@ -75,28 +48,207 @@ function getDatesBetween(start, end) {
 }
 
 // 使用这个函数：
-async function getResourceList(pageNo = 1) {
+async function createTour(price = 300, resourceId) {
+  const data = {
+    contentType: "json",
+    head: {
+      cid: "09031111115146167449",
+      ctok: "",
+      cver: "1.0",
+      lang: "01",
+      sid: "8888",
+      syscode: "09",
+      auth: "",
+      extension: [],
+    },
+    resourceInfo: {
+      baseInfo: {
+        piCategoryId: 1037,
+        resourceId,
+        name: "导游" + price,
+        categoryId: 58,
+        categoryName: "导游",
+        inputLocale: "zh-CN",
+        subName: "",
+        description: price + "",
+        chargeUnit: "天",
+        visaPeopleGroupType: 0,
+        destinationCity: {
+          cityId: 41,
+          cityName: "拉萨",
+          countryId: 1,
+          countryName: "中国",
+          provinceId: 30,
+          provinceName: "西藏",
+          eName: "Lhasa",
+          key: 41,
+          value: "拉萨",
+        },
+        departureCities: [],
+        saleCities: [],
+        departurePlace: "",
+        departureTime: "08:00",
+        zone: [],
+        airportInfo: [],
+        businessType: "OPT",
+        carInfo: {
+          carMode: 1,
+          useCarMode: 1,
+        },
+        trainInfo: {
+          trainType: 1,
+        },
+        ticketType: 0,
+        peopleGroup: 1,
+        poiScenicSpot: {},
+        isHighRisk: "F",
+        isHotelResource: "F",
+        isHotelShareRoom: "F",
+        receiveAndSend: {
+          isNeed: "F",
+          selectedReceiveAndSend: [],
+        },
+        isChildNeedExtraPriceForNotShareRoom: "T",
+        isChildAsAdult: "F",
+        maxAdultNum: 1,
+        maxChildNum: 1,
+        isVisaOnTheirOwn: "F",
+        visaInfo: [],
+        isAutoVisa: "F",
+        isAutoGetVisa: "F",
+        expansionCouponId: 0,
+        businessOwner: "VBK",
+        transportation: 0,
+        canCashBack: "F",
+        isVisaAssignInAdvance: "F",
+      },
+      bookingControllerInfo: {
+        vendorBookingContactId: 642097,
+        vendorBookingEmergencyContactId: 501507,
+        vendorComplainContactId: 501507,
+        isChooseRequired: "F",
+        isDefaultChoose: "F",
+        quantityCalculateMode: "D",
+        minQuantity: 1,
+        maxQuantity: 99,
+        chooseMode: "D",
+        forAdult: "T",
+        forAdultQuantity: 1,
+        forAdultProductQuantity: 15,
+        forChild: "T",
+        forChildQuantity: 1,
+        forChildProductQuantity: 15,
+        minPersonQuantity: 1,
+        maxPersonQuantity: 9999,
+        minTravelDays: 1,
+        maxTravelDays: 999,
+        advanceBookingDays: 1,
+        advanceBookingTime: "23:59",
+        visaAdvanceBookingDayTime: {
+          visaStuffMakeTime: 0,
+          visaWaitTime: 0,
+          visaWorkday: 0,
+          visaDeliverDay: 0,
+          visaOrderAndStuff: 0,
+          visaConfirmDay: 0,
+          visaAdvanceBookingTime: "23:59",
+          bookingTimeZoneId: 21,
+        },
+        isWeekendWork: "F",
+        isHolidayWork: "F",
+        workTemplateId: 1,
+        vendorConfirmModeID: 2,
+        vendorConfirmHours: 0,
+        contact: "安思科",
+        vendorBookingPhone: "15910250965",
+        msgVenderToConfirmFax: "F",
+        vendorBookingContactPhoneAreaCode: "86",
+        isChooseDate: "F",
+        departureDays: [1, 2, 3, 4, 5, 6, 7],
+        canFirstDayBooking: "T",
+        canLastDayBooking: "T",
+        isAutoMatch: "F",
+        dPSuitPattern: [1, 2, 4],
+        active: "T",
+        isShow: "T",
+        customerInfoTemplateID: 0,
+        needCertificate: "F",
+        isSmsNotice: "F",
+        smsInfo: "",
+        bookingTimeZoneId: 21,
+        isSmsVBKNotice: "F",
+        isDefinedPhone: "F",
+        isSmsVBKNoticeType: 1,
+        fillInNumberLimit: "A",
+        piCustomerInfoTemplateId: 29738092,
+        unBookingInfo: {},
+        vendorBookingEmergencyPhoneAreaCode: "86",
+        vendorBookingEmergencyContact: "李鑫",
+        vendorBookingEmergencyPhone: "17740792695",
+        vendorComplainContact: "李鑫",
+        vendorComplainPhoneAreaCode: "86",
+        vendorComplainPhone: "17740792695",
+        vendorComplainEMail: "1065035216@qq.com",
+        vendorBookingEmail: "ansike@qq.com",
+        fullVendorBookingPhone: "+86 15910250965",
+        fullVendorBookingEmergencyPhone: "+86 17740792695",
+        fullVendorComplainPhone: "+86 17740792695",
+        providerERAId: null,
+      },
+      vendorRelatedInfo: {
+        bookingMode: "S",
+        forModifyOrder: "F",
+        canModify: "T",
+        exchangeMode: 1,
+        isProviderDistribution: "F",
+        operationNote: "",
+        vendorId: 1431565,
+        vendorName: "西藏北纬三十度旅行社有限责任公司",
+        receiptDay: null,
+        pMEID: "PTZC",
+        pAEID: "PTZC",
+        pBMEI: "",
+        regionId: 32,
+        regionName: "代理-运营支持",
+        isClientAssign: "F",
+        productDistributionChannelList: [
+          "bestone",
+          "bestoneb2b",
+          "youtripshop",
+          "ctripshop",
+          "ctrip",
+          "trip",
+          "tripsystem",
+        ],
+        deliveryType: 0,
+        deliveryGoodsDescription: "",
+      },
+    },
+    customerInfoTemplateOpen: "T",
+  };
   const res = await fetch(
-    "https://online.ctrip.com/restapi/soa2/15638/searchResourceList.json?_fxpcqlniredt=09031119411217359276&_fxpcqlniredt=09031119411217359276",
+    "https://online.ctrip.com/restapi/soa2/15638/saveResource?_fxpcqlniredt=09031111115146167449&_fxpcqlniredt=09031111115146167449",
     {
       headers: {
         accept: "*/*",
         "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-cache",
         "content-type": "application/json",
         cookieorigin: "https://vbooking.ctrip.com",
+        pragma: "no-cache",
         "sec-ch-ua":
           '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"macOS"',
+        "sec-ch-ua-platform": '"Windows"',
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
         "x-ctx-locale": "zh-CN",
       },
       referrer:
-        "https://vbooking.ctrip.com/ivbk/vendor/additionalservicelist?from=vbk",
+        "https://vbooking.ctrip.com/ivbk/vendor/serviceInfoMerge?from=vbk",
       referrerPolicy: "no-referrer-when-downgrade",
-      body: `{\"contentType\":\"json\",\"head\":{\"cid\":\"09031119411217359276\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"extension\":[]},\"resourceIds\":[],\"resourceName\":\"\",\"categoryList\":[{\"categoryId\":\"2\",\"piCategoryId\":\"1132\"}],\"departureCityId\":null,\"destinationCityId\":null,\"productRegion\":null,\"active\":\"\",\"vendorId\":null,\"pmEid\":\"\",\"paEid\":\"\",\"createTimeStart\":null,\"createTimeEnd\":null,\"bookingContactId\":642097,\"pageNo\":${pageNo},\"pageSize\":${pageSize},\"businessOwner\":\"VBK\"}`,
+      body: JSON.stringify(data),
       method: "POST",
       mode: "cors",
       credentials: "include",
@@ -104,9 +256,9 @@ async function getResourceList(pageNo = 1) {
   );
   return await res.json();
 }
-
-async function changePrice({ resourceId, resourcePrices }) {
-  const body = {
+// 使用这个函数：
+async function SaveResourceStoragePriceInfo(resourceId, price, resourcePrices) {
+  const data = {
     contentType: "json",
     head: {
       cid: "09031111115146167449",
@@ -121,38 +273,45 @@ async function changePrice({ resourceId, resourcePrices }) {
     resourceId,
     costPriceCurrency: "CNY",
     inventoryMode: "U",
-    saveType: "M",
-    resourcePrices,
+    saveType: "N",
+    resourcePrices: resourcePrices.map((date) => {
+      return { date, active: true, marketPrice: price, cost: price };
+    }),
+    // [
+    //   { date: "2024-03-19", active: true, marketPrice: 300, cost: 300 },
+    // ],
     resourceChildPrices: [],
     resourceStorages: [],
     relatedSingleRoomPrices: [],
     vendorId: "1431565",
   };
   const res = await fetch(
-    "https://online.ctrip.com/restapi/soa2/15638/SaveResourceStoragePriceInfo.json?_fxpcqlniredt=09031119411217359276&_fxpcqlniredt=09031119411217359276",
+    "https://online.ctrip.com/restapi/soa2/15638/SaveResourceStoragePriceInfo.json?_fxpcqlniredt=09031111115146167449&_fxpcqlniredt=09031111115146167449",
     {
       headers: {
         accept: "*/*",
         "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-cache",
         "content-type": "application/json",
         cookieorigin: "https://vbooking.ctrip.com",
+        pragma: "no-cache",
         "sec-ch-ua":
           '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"macOS"',
+        "sec-ch-ua-platform": '"Windows"',
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
         "x-ctx-locale": "zh-CN",
       },
-      referrer:
-        "https://vbooking.ctrip.com/ivbk/vendor/additionalservicedetail?type=edit&tabkey=2&vendorid=1431565&resourceid=41832416&from=vbk",
+      // referrer:
+      //   "https://vbooking.ctrip.com/ivbk/vendor/additionalservicedetail?type=new&tabkey=2&resourceid=42369553&from=vbk",
       referrerPolicy: "no-referrer-when-downgrade",
-      body: JSON.stringify(body),
+      body: JSON.stringify(data),
       method: "POST",
       mode: "cors",
       credentials: "include",
     }
   );
-  //   console.log("save price", res);
+  return await res.json();
 }
