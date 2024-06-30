@@ -1,4 +1,5 @@
 // 通过当前的脚本在浏览器的控制台中批量修改车辆资源的预定时间
+// advanceBookingTime = "20:00";
 
 class Queue {
   constructor() {
@@ -49,7 +50,7 @@ async function changeResource(resource) {
   const { resourceId, resourceDesc } = resource;
   console.log("start change", resourceId, resourceDesc);
   const resourceData = await getResource({ resourceId });
-  changeResourceDate({resourceId, resourceData: resourceData.resourceInfo})
+  changeResourceDate({ resourceId, resourceData: resourceData.resourceInfo });
   console.log("success", resourceData);
 }
 
