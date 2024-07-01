@@ -26,13 +26,7 @@ const { car19 } = require("./config/car-19");
 // 9
 
 // TODO 1. 调整车型人数
-// 查找ask、tl、dr 三人 创建的所有用车资源，将 5座舒适-19座 等关键字样筛选出来，在原数字的基础上减1设置新的人数。
-
 // TODO 2. 7座及以上比率降低0.1
-// 本质上是修改用车资源组的价格配置
-// 565636	5座经济100+5座舒适150+7座250+9座300+12座350+14座400+19座500
-// =>
-// 565636	5座经济100+5座舒适150+7座250+9座300+12座350+14座400+19座500
 
 /**
  * 5座经济 1-3人
@@ -45,44 +39,43 @@ const { car19 } = require("./config/car-19");
  */
 
 
-
 const carRate = [
   {
-    label: "5座经济", // 100
+    label: "5座经济", 
     value: 1.2,
+    carConf: normal5,
   },
   {
-    label: "5座舒适",  // 100/1.2*1.4 = 116
+    label: "5座舒适",  
     value: 1.4,  
+    carConf: comfort5,
   },
   {
-    label: "7座", // 100/1.2*2.6 = 216
-    value: 2.6,  // 100/1.2*2.4 = 200
+    label: "7座", 
+    value: 2.6,  
+    carConf: car7,
   },
   {
     label: "9座",
     value: 3.3,
+    carConf: car9,
   },
   {
     label: "12座",
     value: 4.2,
+    carConf: car12,
   },
   {
     label: "14座",
     value: 4.5,
+    carConf: car14,
   },
   {
     label: "19座",
     value: 5.5,
+    carConf: car19,
   },
 ];
-
-const price = 100;
-const res = carRate.map(car=>{
-  return car.label+Math.floor(price/1.2*car.value);
-})
-
-console.log(res.join('+'))
 
 const maxMoney = 70000;
 // 超过7w之后对应的资源不出现在用车资源组中
@@ -97,7 +90,7 @@ main();
 
 async function main() {
   const rate5 = 1.2;
-  for (let i = 11100; i <= 25000; i += 50) {
+  for (let i = 1050; i <= 1050; i += 50) {
     const basePrice = i / rate5;
     const resourceIds = [];
     const prices = carRate
