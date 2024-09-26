@@ -7,72 +7,40 @@ const { car12 } = require("./config/car-12");
 const { car14 } = require("./config/car-14");
 const { car19 } = require("./config/car-19");
 
-// 5-25000
-// 5 comfort-29200
-// 7-54200
-// 9-68750
-// 12-70000
-// 14-70000
-// 19-70000
-
-// 车型  价格  2人  3人   4人  5人  6人
-// 5     120  60   40
-// 5     140  70   47
-
-// 7     260            65  52   43
-// 7     240            60  50   40vc
-
-// 9
-// 9
-
-// TODO 1. 调整车型人数
-// TODO 2. 7座及以上比率降低0.1
-
-/**
- * 5座经济 1-3人
- * 5座舒适 1-4人
- * 7座 1-6人
- * 9座 1-8人
- * 12座 1-11人
- * 14座 1-14人
- * 19座 1-18人
- */
-
-
 const carRate = [
   {
-    label: "5座经济", 
+    label: "5座经济",
     value: 1.2,
     carConf: normal5,
   },
   {
-    label: "5座舒适",  
-    value: 1.4,  
+    label: "5座舒适",
+    value: 1.3,
     carConf: comfort5,
   },
   {
-    label: "7座", 
-    value: 2.6,  
+    label: "7座",
+    value: 2.4,
     carConf: car7,
   },
   {
     label: "9座",
-    value: 3.3,
+    value: 3,
     carConf: car9,
   },
   {
     label: "12座",
-    value: 4.2,
+    value: 3.8,
     carConf: car12,
   },
   {
     label: "14座",
-    value: 4.5,
+    value: 4,
     carConf: car14,
   },
   {
     label: "19座",
-    value: 5.5,
+    value: 4.9,
     carConf: car19,
   },
 ];
@@ -89,8 +57,9 @@ const limitCar7w = carRate.slice(-3).map((it) => it.label);
 main();
 
 async function main() {
-  const rate5 = 1.2;
-  for (let i = 1050; i <= 1050; i += 50) {
+  const rate5 = carRate[0].value;
+
+  for (let i = 100; i <= 25000; i += 50) {
     const basePrice = i / rate5;
     const resourceIds = [];
     const prices = carRate
