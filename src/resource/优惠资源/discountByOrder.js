@@ -1,15 +1,31 @@
 // 通过当前的脚本在浏览器的控制台中批量创建优惠资源200-2000
 
-(async () => {
-  for (let i = 200; i <= 200; i += 100) {
-    const tour = await createDiscount(i);
+const vendorMap = {
+  // 西藏
+  1431565: {
+    vendorBookingContactId: 642097,
+    piCustomerInfoTemplateId: 31578645,
+  },
+  // 安徽
+  1393638: {
+    vendorBookingContactId: 981597,
+    piCustomerInfoTemplateId: 29312799,
+  },
+};
+
+const main = async () => {
+  const vendorId = await getVendorId();
+
+  for (let i = 200; i <= 200; i += 50) {
+    const tour = await saveResource(i, vendorId);
     const dateArr = getDatesBetween(
-      new Date("2024/02/26"),
+      new Date(),
       new Date("2030/03/31")
     );
     await SaveResourceStoragePriceInfo(tour.resourceId, -i, dateArr);
+    console.log(i, tour.resourceId)
   }
-})();
+}
 
 function getDatesBetween(start, end) {
   for (
@@ -23,7 +39,9 @@ function getDatesBetween(start, end) {
 }
 
 // 使用这个函数：
-async function createDiscount(price) {
+async function saveResource(price, vendorId) {
+  const conf = vendorMap[vendorId]
+
   const data = {
     contentType: "json",
     head: {
@@ -90,27 +108,36 @@ async function createDiscount(price) {
         isVisaAssignInAdvance: "F",
       },
       bookingControllerInfo: {
-        vendorBookingContactId: 642097,
-        vendorBookingEmergencyContactId: 501507,
-        vendorComplainContactId: 501507,
-        isChooseRequired: "F",
+        vendorConfirmModeID: 2,
+        workTemplateId: 1,
+        vendorBookingContactId: conf.vendorBookingContactId,
+        vendorConfirmHours: 0,
+        isChooseRequired: "T",
         isDefaultChoose: "T",
-        quantityCalculateMode: "P",
-        minQuantity: 1,
-        maxQuantity: 1,
-        chooseMode: "O",
+        chooseMode: "P",
+        isChooseDate: "F",
+        canFirstDayBooking: "T",
+        canLastDayBooking: "T",
+        isAutoMatch: "F",
+        active: "T",
+        isShow: "T",
+        isSmsNotice: "F",
+        isSmsVBKNoticeType: 1,
         forAdult: "T",
         forAdultQuantity: 1,
         forAdultProductQuantity: 1,
         forChild: "T",
         forChildQuantity: 1,
         forChildProductQuantity: 1,
+        advanceBookingDays: 1,
+        advanceBookingTime: "12:00",
+        bookingTimeZoneId: 21,
         minPersonQuantity: 1,
-        maxPersonQuantity: 9999,
+        maxPersonQuantity: 1,
         minTravelDays: 1,
         maxTravelDays: 999,
-        advanceBookingDays: 1,
-        advanceBookingTime: "23:59",
+        maxQuantity: 99,
+        minQuantity: 1,
         visaAdvanceBookingDayTime: {
           visaStuffMakeTime: 0,
           visaWaitTime: 0,
@@ -118,49 +145,16 @@ async function createDiscount(price) {
           visaDeliverDay: 0,
           visaOrderAndStuff: 0,
           visaConfirmDay: 0,
-          visaAdvanceBookingTime: "23:59",
+          visaAdvanceBookingTime: "12:00",
           bookingTimeZoneId: 21,
         },
-        isWeekendWork: "F",
-        isHolidayWork: "F",
-        workTemplateId: 1,
-        vendorConfirmModeID: 2,
-        vendorConfirmHours: 0,
-        contact: "安思科",
-        vendorBookingPhone: "15910250965",
-        msgVenderToConfirmFax: "F",
-        vendorBookingContactPhoneAreaCode: "86",
-        isChooseDate: "F",
-        departureDays: [1, 2, 3, 4, 5, 6, 7],
-        canFirstDayBooking: "T",
-        canLastDayBooking: "T",
-        isAutoMatch: "F",
-        dPSuitPattern: [1, 2, 4],
-        active: "T",
-        isShow: "T",
-        customerInfoTemplateID: 0,
-        needCertificate: "F",
-        isSmsNotice: "F",
-        smsInfo: "",
-        bookingTimeZoneId: 21,
-        isSmsVBKNotice: "F",
-        isDefinedPhone: "F",
-        isSmsVBKNoticeType: 1,
-        fillInNumberLimit: "A",
-        piCustomerInfoTemplateId: 29718325,
-        unBookingInfo: {},
-        vendorBookingEmergencyPhoneAreaCode: "86",
-        vendorBookingEmergencyContact: "李鑫",
-        vendorBookingEmergencyPhone: "17740792695",
-        vendorComplainContact: "李鑫",
-        vendorComplainPhoneAreaCode: "86",
-        vendorComplainPhone: "17740792695",
-        vendorComplainEMail: "1065035216@qq.com",
-        vendorBookingEmail: "ansike@qq.com",
-        fullVendorBookingPhone: "+86 15910250965",
-        fullVendorBookingEmergencyPhone: "+86 17740792695",
-        fullVendorComplainPhone: "+86 17740792695",
         providerERAId: null,
+        contact: "安思科",
+        vendorBookingEmail: "ansike@qq.com",
+        vendorBookingContactPhoneAreaCode: "+86",
+        vendorBookingPhone: "15910250965",
+        fullVendorBookingPhone: "+86 15910250965",
+        piCustomerInfoTemplateId: conf.piCustomerInfoTemplateId,
       },
       vendorRelatedInfo: {
         bookingMode: "S",
@@ -168,30 +162,25 @@ async function createDiscount(price) {
         canModify: "T",
         exchangeMode: 1,
         isProviderDistribution: "F",
-        operationNote: "",
-        vendorId: 1431565,
-        vendorName: "西藏北纬三十度旅行社有限责任公司",
-        isNeedReceipt: "F",
-        receiptDay: 0,
-        receiptTime: "",
-        receiptContent: "",
+        isNeedReceipt: "T",
+        receiptDay: 2,
+        receiptTime: "12:00",
+        receiptContent:
+          "等待地点，司机电话，司机姓名，供应商紧急联系人，供应商紧急电话",
         pMEID: "PTZC",
         pAEID: "PTZC",
-        pBMEI: "",
         regionId: 32,
-        regionName: "代理-运营支持",
         isClientAssign: "F",
         productDistributionChannelList: [
           "bestone",
           "bestoneb2b",
           "youtripshop",
           "ctripshop",
+          "online",
           "ctrip",
           "trip",
           "tripsystem",
         ],
-        deliveryType: 0,
-        deliveryGoodsDescription: "",
       },
     },
     customerInfoTemplateOpen: "T",
@@ -248,7 +237,6 @@ async function SaveResourceStoragePriceInfo(resourceId, price, resourcePrices) {
     resourceChildPrices: [],
     resourceStorages: [],
     relatedSingleRoomPrices: [],
-    vendorId: "1431565",
   };
   const res = await fetch(
     "https://online.ctrip.com/restapi/soa2/15638/SaveResourceStoragePriceInfo.json?_fxpcqlniredt=09031111115146167449&_fxpcqlniredt=09031111115146167449",
@@ -280,3 +268,51 @@ async function SaveResourceStoragePriceInfo(resourceId, price, resourcePrices) {
   );
   return await res.json();
 }
+
+
+const getVendorId = async () => {
+  const res = await fetch(
+    "https://vbooking.ctrip.com/ivbk/vendor/saleControlMerge?producttype=0&from=vbk",
+    {
+      headers: {
+        accept:
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-cache",
+        pragma: "no-cache",
+        priority: "u=0, i",
+        "sec-ch-ua":
+          '"Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "same-origin",
+        "upgrade-insecure-requests": "1",
+      },
+      referrerPolicy: "no-referrer-when-downgrade",
+      body: null,
+      method: "GET",
+      mode: "cors",
+      credentials: "include",
+    }
+  );
+  const text = await res.text();
+  const { vendorId } = parseHtmlToObj(text);
+  return vendorId;
+};
+
+const parseHtmlToObj = (html) => {
+  const match = html.match(/<script>([\s\S]*?)<\/script>/);
+  if (match) {
+    // TODO 换一个方法获取 product 基础数据
+    const str = match[1].split(" = ")[2].split("\n")[0];
+    // const obj = JSON.parse(str)
+    return JSON.parse(str);
+  } else {
+    console.log("Unable to find __INITIAL_STATE__ object in the input string.");
+    return;
+  }
+};
+
+main()
