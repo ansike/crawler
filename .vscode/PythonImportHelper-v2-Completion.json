@@ -1,0 +1,125 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
+        "isExtraImport": true,
+        "detail": "zhipuai",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "zhipuai_chat_completion",
+        "importPath": "ai",
+        "description": "ai",
+        "isExtraImport": true,
+        "detail": "ai",
+        "documentation": {}
+    },
+    {
+        "label": "zhipuai_chat_completion",
+        "kind": 2,
+        "importPath": "src.ai.zhipu.ai",
+        "description": "src.ai.zhipu.ai",
+        "peekOfCode": "def zhipuai_chat_completion(str):\n    try:\n        response = client.chat.completions.create(\n            model=\"glm-4\",\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are the copywriting assistant adjusting the wording of the copy, do not modify the overall meaning, only use Chinese, and the modified copy cannot have more characters than the original. The output format should be consistent with the input format, as long as the result is irrelevant information, do not output!!!\"},\n                {\"role\": \"user\", \"content\": str},\n            ],\n        )\n        # print(response)",
+        "detail": "src.ai.zhipu.ai",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "src.ai.zhipu.ai",
+        "description": "src.ai.zhipu.ai",
+        "peekOfCode": "api_key = os.getenv('ZHIPU_API_KEY')\nprint(api_key)\nclient = ZhipuAI(api_key=api_key)\ndef zhipuai_chat_completion(str):\n    try:\n        response = client.chat.completions.create(\n            model=\"glm-4\",\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are the copywriting assistant adjusting the wording of the copy, do not modify the overall meaning, only use Chinese, and the modified copy cannot have more characters than the original. The output format should be consistent with the input format, as long as the result is irrelevant information, do not output!!!\"},\n                {\"role\": \"user\", \"content\": str},",
+        "detail": "src.ai.zhipu.ai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "src.ai.zhipu.ai",
+        "description": "src.ai.zhipu.ai",
+        "peekOfCode": "client = ZhipuAI(api_key=api_key)\ndef zhipuai_chat_completion(str):\n    try:\n        response = client.chat.completions.create(\n            model=\"glm-4\",\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are the copywriting assistant adjusting the wording of the copy, do not modify the overall meaning, only use Chinese, and the modified copy cannot have more characters than the original. The output format should be consistent with the input format, as long as the result is irrelevant information, do not output!!!\"},\n                {\"role\": \"user\", \"content\": str},\n            ],\n        )",
+        "detail": "src.ai.zhipu.ai",
+        "documentation": {}
+    },
+    {
+        "label": "process_json_file",
+        "kind": 2,
+        "importPath": "src.ai.zhipu.index",
+        "description": "src.ai.zhipu.index",
+        "peekOfCode": "def process_json_file(read_path, save_path):\n    print(read_path)\n    print(save_path)\n    # 获取开始时间\n    start_time = time.time()\n    with open(read_path, encoding='utf-8') as file:\n        data = json.load(file)\n    print('开始')\n    # 循环处理数据\n    for index, item in enumerate(data):",
+        "detail": "src.ai.zhipu.index",
+        "documentation": {}
+    },
+    {
+        "label": "current_dir",
+        "kind": 5,
+        "importPath": "src.ai.zhipu.index",
+        "description": "src.ai.zhipu.index",
+        "peekOfCode": "current_dir = os.getcwd()\nprint(current_dir)\narg1 = sys.argv[1]\narg2 = sys.argv[2]\nprint(\"index.py\")\n# read_path = os.path.join(current_dir, \"./output/products.json\")\n# save_path = os.path.join(current_dir, \"./output/new_products.json\")\ndef process_json_file(read_path, save_path):\n    print(read_path)\n    print(save_path)",
+        "detail": "src.ai.zhipu.index",
+        "documentation": {}
+    },
+    {
+        "label": "arg1",
+        "kind": 5,
+        "importPath": "src.ai.zhipu.index",
+        "description": "src.ai.zhipu.index",
+        "peekOfCode": "arg1 = sys.argv[1]\narg2 = sys.argv[2]\nprint(\"index.py\")\n# read_path = os.path.join(current_dir, \"./output/products.json\")\n# save_path = os.path.join(current_dir, \"./output/new_products.json\")\ndef process_json_file(read_path, save_path):\n    print(read_path)\n    print(save_path)\n    # 获取开始时间\n    start_time = time.time()",
+        "detail": "src.ai.zhipu.index",
+        "documentation": {}
+    },
+    {
+        "label": "arg2",
+        "kind": 5,
+        "importPath": "src.ai.zhipu.index",
+        "description": "src.ai.zhipu.index",
+        "peekOfCode": "arg2 = sys.argv[2]\nprint(\"index.py\")\n# read_path = os.path.join(current_dir, \"./output/products.json\")\n# save_path = os.path.join(current_dir, \"./output/new_products.json\")\ndef process_json_file(read_path, save_path):\n    print(read_path)\n    print(save_path)\n    # 获取开始时间\n    start_time = time.time()\n    with open(read_path, encoding='utf-8') as file:",
+        "detail": "src.ai.zhipu.index",
+        "documentation": {}
+    }
+]

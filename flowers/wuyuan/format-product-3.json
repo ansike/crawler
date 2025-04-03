@@ -1,0 +1,4105 @@
+[
+    {
+        "id": "34409509",
+        "title": "宏村+婺源2日1晚私家团",
+        "subTitle": "【周末趣游徽州•赏花盛宴】单人预订享多人优惠『AB线可选市区指定酒店/CD线自由挑酒店』漫步如画宏村•黑墨山水间，探访婺源篁岭•悬崖古村油菜花海『全程一对一线上管家服务，出行更放心』",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "无自费",
+            "成团保障",
+            "动车高铁游",
+            "梯田",
+            "赠取消险",
+            "赏油菜花",
+            "车型可选"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【严选住宿】AB线指定高端酒店住宿/CD线多样酒店自由选，均位于市中心，网评优秀，拒绝虚假宣传，确保住宿品质，邻近屯溪老街或黎阳商圈，舒适与便利兼顾！\n★ 【迷人景观】婺源篁岭—媲美江南水乡之美，色彩斑斓如画，春季限定，赏万亩梯田油菜花海；宏村美景—粉墙黛瓦，青石板路，炊烟袅袅！\n★ 【专属服务】拒绝拼车，享受私人包车游，更安全，更私密【一人即可预订！人越多越优惠！】精心定制，人数越多越划算！",
+        "detailDescriptionContentView": {
+            "text": "【黄山官方自营门票】优惠退款详情，点击查看\n\n对应交通行程，立即点击选购。"
+        },
+        "dailyItinerary": [
+            {
+                "title": "专属接驾—探秘水墨宏村·倾听徽州旧事·夜宿屯溪·漫步老街·尽览人间灯火",
+                "subItems": [
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "其它",
+                        "rich_content_view": "以下所示时间为参考，请以您实际出行时间为准。\n客服人员会提前通知您具体的接驳时间和地点，随后前往宏村。\n建议您乘坐13:30前的班次到达。"
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "按预定时间出发，司机将依您的要求，准时接送您前往被誉为中国画里的乡村—【宏村景区】。",
+                        "meal_hours_box": "行驶：约70千米/约1小时10分钟"
+                    },
+                    {
+                        "time": "14:40",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "摄影小贴士：\n\n宏村有两处摄影佳地。\n一是南湖上的画桥，此为游客必经之地，亦是众多画家摄影师流连忘返之处。画桥拍摄要点在于角度，立于石桥捕捉拱桥，恰到好处地展现建筑的3/4弧线。\n\n二是宏村月沼，此地为大片诞生地。低角度拍摄以捕捉水面倒影，犹如画境，怎么拍都韵味十足。旁边晒笋干的当地人作为前景，广角镜头捕捉，若逢晴好天气，必成朋友圈爆款。此处也是奥斯卡获奖影片《卧虎藏龙》取景地，南湖桥是李慕白牵马走过的，月沼则是玉娇龙轻点水面的地方。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530403,
+                                "PreName": "",
+                                "Name": "树人堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 8499093,
+                            "HotelName": "月栖溪·喜宝民宿集群(黄山屯溪老街店)"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 489617,
+                                "Name": "老街第一楼"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "出行提示：黄山市区面积较小，推荐使用网约车，如滴滴出行，不同目的地间的车费大致在10至20元之间。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 22866755,
+                                "PreName": "",
+                                "Name": "黎阳in巷",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "启航婺源篁岭：悬崖古村，晒秋艺术，美景尽收眼底。",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "出发时间仅供参考，司机将依照您的要求，在约定时间内接送您至天街古巷—篁岭景区。\"晒秋\"这一独特农俗，展现了浓郁的地域风情。山区居民因地形崎岖，平地稀缺，便在房前屋后、窗台屋顶晾晒或悬挂作物，这一习惯逐渐演变为一种传统农俗和文化景观。这一独特的晾晒方式和景象，也成为了艺术家和摄影师捕捉创作灵感之源，营造出充满诗意的\"晒秋\"景象。",
+                        "meal_hours_box": "行驶：约60千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【篁岭亮点介绍】\n1. 中国醉美符号——晒秋（最佳观赏点：1.晒工坊 2.晒秋人家 3.观景台 4.摄影区）\n2. 婺源民俗文化展——宗祠参观\n3. 明清古商街——天街漫步\n4. 徽派古建精华——竹虚厅（木雕艺术）、五桂堂（徽派豪宅、小姐楼）、怡心楼（聊斋拍摄地、婚房）、树和堂（官厅）\n5. 心跳玻璃栈道——垒心桥体验",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 71331927,
+                                "PreName": "",
+                                "Name": "花溪水街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 112653224,
+                                "PreName": "",
+                                "Name": "天街",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15600896,
+                                "Name": "天街食府"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "用餐完毕，司机将准点接送您返回黄山市区。",
+                        "meal_hours_box": "行驶：约60千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据返程时间，提供专车送至屯溪机场/高铁站/火车站，搭乘相应交通返程，愉快旅程至此圆满结束！\n\n贴心提示：建议预订16:00以后航班或车次。"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "专车接站-游水墨宏村▪聆听徽州往事▪夜泊屯溪▪游老街▪看尽灯火人间",
+            "启程婺源篁岭-悬崖上的古村-花样晒秋-不负风光不负景"
+        ]
+    },
+    {
+        "id": "34409509",
+        "title": "宏村+婺源2日1晚私家团",
+        "subTitle": "【周末徽州花海游】单人预订享多人优惠！AB线可选市区指定酒店，CD线任挑市区酒店。漫步如画宏村，领略山水墨染之美，探访婺源篁岭，古村悬岩油菜花海。全程一对一线上管家服务，出行更无忧。",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "无自费",
+            "成团保障",
+            "动车高铁游",
+            "梯田",
+            "赠取消险",
+            "赏油菜花",
+            "车型可选"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【精挑住宿】AB线独享指定酒店，CD线多样酒店任君挑选，均位于市中心，好评如潮，拒绝以次充好，实住高于标准，邻近屯溪老街或黎阳商圈，舒适与便利并存！\n★ 【璀璨景点】婺源篁岭—媲美江南水乡，色彩斑斓如画，春日限定的万亩梯田油菜花海；宏村美景—粉墙黛瓦，青石板路，炊烟袅袅！\n★ 【服务承诺】专车私享，非拼车，更安全，更私密【一人即可预订！人越多越优惠！】私家定制，人数越多越划算！",
+        "detailDescriptionContentView": {
+            "text": "【黄山官方自营门票】优惠退款详情，点击查看\n\n对应交通行程，请点击此处查看"
+        },
+        "dailyItinerary": [
+            {
+                "title": "专属接驾—探水墨宏村·倾听徽州旧事·夜宿屯溪·漫步老街·赏尽人间灯火",
+                "subItems": [
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "其它",
+                        "rich_content_view": "以下所示时间为参考，请以您实际出行时间为准。\n管家将提前通知接您的具体时间和地点，随后前往宏村。\n建议您选择在13:30前抵达的班次。"
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据您的要求，司机将在约定时间接送您前往被誉为中国画里的乡村——【宏村景区】。",
+                        "meal_hours_box": "行驶：约70千米/约1小时10分钟"
+                    },
+                    {
+                        "time": "14:40",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "拍照攻略：\n\n宏村有两处摄影佳地。\n一是南湖上的画桥，此桥不仅是游客必经，亦是艺术家和摄影师流连之处。桥的拍摄要点在于角度，立于石桥之上，以3/4的视角捕捉拱桥的优美曲线。\n\n二是月沼，低角度取景，借助水面倒影，画面如诗如画，美不胜收。旁边有村民晾晒笋干，用广角镜头以此为前景，遇上晴好天气，朋友圈爆款照片唾手可得。《卧虎藏龙》便在此取景，南湖桥是李慕白牵马走过的，月沼则是玉娇龙轻点水面的地方。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530403,
+                                "PreName": "",
+                                "Name": "树人堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 8499093,
+                            "HotelName": "月栖溪·喜宝民宿集群(黄山屯溪老街店)"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 489617,
+                                "Name": "老街第一楼"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "交通提示：黄山市区较小，推荐使用滴滴打车，各点之间车费大致10至20元。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 22866755,
+                                "PreName": "",
+                                "Name": "黎阳in巷",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "启航婺源篁岭：悬崖古村，晒秋艺术，美景尽收眼底。",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "出发时间仅供参考，司机将依照您的要求，在约定时间内接送您至天街古巷—篁岭景区。\"晒秋\"这一独特农俗，展现了浓厚的地域风情。山区居民因地势崎岖，平地稀缺，便在房前屋后、窗台屋顶晾晒或悬挂作物，日积月累形成这一传统农俗和人文景观。这独特的晾晒方式与景象，也逐渐成为画家和摄影师捕捉创作灵感之源，营造出如诗如画的\"晒秋\"意境。",
+                        "meal_hours_box": "行驶：约60千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【篁岭亮点一览】\n1. 中国醉美符号——晒秋（最佳观赏点：1.晒工坊 2.晒秋民居 3.观景台 4.摄影区）\n2. 婺源民俗文化展——宗祠探访\n3. 明清古商街——天街漫步\n4. 徽派建筑精华——竹虚厅（木雕）、五桂堂（豪宅）、怡心楼（聊斋取景、婚房）、树和堂（官厅）\n5. 心跳玻璃栈道——垒心桥体验",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 71331927,
+                                "PreName": "",
+                                "Name": "花溪水街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 112653224,
+                                "PreName": "",
+                                "Name": "天街",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15600896,
+                                "Name": "天街食府"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "饭后，司机将准时接送您返回黄山城区。",
+                        "meal_hours_box": "行驶：约60千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据返程时间，我们将安排专车送达屯溪机场/高铁站/火车站，确保您顺利搭乘相应交通工具返程，结束美好的旅程！\n\n贴心提示：建议您选择下午16:00后的航班或车次。"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "专车接站-游水墨宏村▪聆听徽州往事▪夜泊屯溪▪游老街▪看尽灯火人间",
+            "启程婺源篁岭-悬崖上的古村-花样晒秋-不负风光不负景"
+        ]
+    },
+    {
+        "id": "37879916",
+        "title": "南昌+景德镇+庐山风景名胜区+婺源风景区6日5晚私家团",
+        "subTitle": "【名山古村·私密之旅】炊烟袅袅古镇 + 篁岭晒秋人家 『寻梦故乡』走进古徽州·小桥流水庐山飞瀑·瓷都景德镇·婺源白墙黑瓦『24小时接送机/站』附赠-滕王阁参观",
+        "tags": [
+            "无购物",
+            "无自费",
+            "成团保障",
+            "瀑布",
+            "梯田",
+            "赏油菜花",
+            "赏桃花",
+            "古镇古村",
+            "博物馆",
+            "车型可选",
+            "自选酒店"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【四季风光】春探花海秋赏晒秋，专车畅游春华秋实，观庐山飞瀑、田园篁岭，探访景德镇千年瓷都。\n★ 【尊享服务】酒店任选，舒适住宿，一对一私家团，专车接送，24小时机场/车站接送。\n★ 【度假新选】独家体验：夜游庐山牯岭镇、篁岭风情，晨观庐山日出，附赠滕王阁游览。",
+        "dailyItinerary": [
+            {
+                "title": "出发地：南昌；全天24小时接送服务【南昌住宿】",
+                "subItems": [
+                    {
+                        "time": "全天",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "尊敬的客人，莅临江西，请依据所选交通方式前往南昌—英雄城，我们提供24小时微笑接机/接站服务。\n提示：已含交通的客人请按预定交通前往南昌；未含交通的客人请自行抵达。\n\n【无忧抵达指南】：\n尊享南昌市中心五钻豪华酒店住宿，酒店邻赣江，近滕王阁、八一广场等地标，以及美食街绳金塔。\n1、管家将根据您的抵达时间及地点（南昌昌北机场、南昌站、南昌西站）安排专车接送。\n2、私人管家将提前一天与您联系，确认南昌落地事宜，请保持电话畅通。",
+                        "meal_hours_box": "行驶：约1千米/约6分钟"
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约3分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约5分钟"
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "滕王阁：敬请您自行安排往返酒店的交通，未使用不退款。",
+                        "meal_hours_box": "行驶：约9千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77653,
+                                "PreName": "",
+                                "Name": "滕王阁",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约4分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "自由活动期间，车辆费用需自理。个人安全请自行负责。",
+                        "meal_hours_box": "行驶：约4千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 92374,
+                                "PreName": "",
+                                "Name": "秋水广场",
+                                "SuffixName": null
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "了解：若预订酒店满房，将为您安排携程认证的同等级5钻酒店相同房型。谢谢配合。"
+                    }
+                ]
+            },
+            {
+                "title": "【秘境庐山】飞瀑垂落三千尺，宛如银河倾九天 · 世界建筑群别墅【夜眠庐山之巅】",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "今日行程山高路远，建议提前动身，以确保有更充分的游览时间。出发时间请自行决定。",
+                        "meal_hours_box": "行驶：约110千米/约2小时"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101223,
+                                "PreName": "",
+                                "Name": "庐山风景名胜区",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约40分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75831,
+                                "PreName": "",
+                                "Name": "美庐",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约6千米/约40分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75830,
+                                "PreName": "",
+                                "Name": "芦林湖",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约2分钟"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约3千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18134171,
+                                "PreName": "",
+                                "Name": "毛泽东庐山诗词苑",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约12千米/约60分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75833,
+                                "PreName": "",
+                                "Name": "三叠泉",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约55分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "自由活动相关费用，需自行承担。",
+                        "meal_hours_box": "行驶：约1千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 82191,
+                                "PreName": "",
+                                "Name": "牯岭街",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 10758994,
+                                "PreName": "",
+                                "Name": "庐山恋影院",
+                                "SuffixName": null
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约10分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "了解：若预订酒店满房，我们将为您安排携程认证的同等5钻级别房型。请注意。"
+                    }
+                ]
+            },
+            {
+                "title": "【庐山诗画】四月人间花事尽，山寺桃花始怒放 · 天工无我洞，仙府匠传 【景德镇陶瓷】博物院",
+                "subItems": [
+                    {
+                        "time": "04:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "请在预订时勾选【早起观日出服务】，次日凌晨4:30-5:00，我们将安排专车带您前往【含鄱口】欣赏庐山日出。\n（1）美丽的日出受天气影响，季节不同日出时间也有所变化，想要观赏的游客请提前做好早起准备。\n（2）若遇雨天或观日出条件不佳，活动将自动取消。\n（3）因时间较早，景区环保车未运行，我们将使用庐山当地商务车提供服务。\n（4）观赏时，请勿靠近悬崖或护栏，务必在休息区平台上欣赏（安全第一）。结束后，【请自行】返回酒店休息，恢复体力后继续您的旅程。\n路程：约10公里/约20分钟\n活动时长：约1小时",
+                        "meal_hours_box": "行驶：约10千米/约40分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75823,
+                                "PreName": "",
+                                "Name": "含鄱口",
+                                "SuffixName": null
+                            }
+                        ]
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约3分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约3千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75824,
+                                "PreName": "",
+                                "Name": "花径",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18134165,
+                                "PreName": "",
+                                "Name": "白居易草堂",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约5分钟"
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约60分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 91421,
+                                "PreName": "",
+                                "Name": "如琴湖",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约7千米/约60分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75828,
+                                "PreName": "",
+                                "Name": "庐山国家级旅游风景名胜区-锦绣谷",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18134102,
+                                "PreName": "",
+                                "Name": "庐山国家级旅游风景名胜区-天桥",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 24650172,
+                                "PreName": "",
+                                "Name": "好运石",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约3千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18257348,
+                                "PreName": "",
+                                "Name": "庐山国家级旅游风景名胜区-险峰",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约1千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 21064014,
+                                "PreName": "",
+                                "Name": "礼贤门",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约1千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 21063709,
+                                "PreName": "",
+                                "Name": "谈判台",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75835,
+                                "PreName": "",
+                                "Name": "仙人洞",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约3千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18137293,
+                                "PreName": "",
+                                "Name": "庐山国家级旅游风景名胜区-御碑亭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约10分钟"
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "景德镇中国陶瓷博物馆每周一休馆，若行程恰逢休馆日，将退还团费中博物馆门票部分，恕不接受相关投诉。",
+                        "meal_hours_box": "行驶：约160千米/约2小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 86625,
+                                "PreName": "",
+                                "Name": "景德镇中国陶瓷博物馆",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店"
+                    }
+                ]
+            },
+            {
+                "title": "【秋色篁岭】晒秋习俗·花海梯田·缩影版清明上河图 — 【夜宿三清山】",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约3分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约3分钟"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约2千米/约7分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    }
+                ]
+            },
+            {
+                "title": "三清山【南清园至阳光海岸经西海岸】—【夜宿南昌】",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约1千米/约1分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 93499,
+                                "PreName": "",
+                                "Name": "三清山风景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 79941,
+                                "PreName": "",
+                                "Name": "南清园景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 82178,
+                                "PreName": "",
+                                "Name": "阳光海岸景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 82176,
+                                "PreName": "",
+                                "Name": "三清山-西海岸",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 24649535,
+                                "PreName": "",
+                                "Name": "三清山-秀峰",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    }
+                ]
+            },
+            {
+                "title": "离别英雄城：今日启程，温馨归家。",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    },
+                    {
+                        "time": "全天",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "《返程交通指南》专车护送您抵达南昌火车站、南昌西站或昌北机场，结束美好旅程，温馨归家！",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约1分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "出发地--南昌； 24h接站接/机 【宿南昌】",
+            "【仙境庐山】飞流直下三千尺，疑似银河落九天 · 万国别墅建筑群【夜宿庐山顶】",
+            "{诗画庐山】人间四月芳菲尽，山寺桃花始盛开 · 天生无我洞仙府 【匠人传承】景德镇陶瓷博物馆",
+            "【秋上篁岭】晒秋民俗 · 花海梯田 · 缩写版清明上河图 — 【宿三清山】",
+            "三清山【南清园-阳光海岸-西海岸】—【宿南昌】",
+            "惜别英雄城： 今天为返程日 返程温馨的家"
+        ]
+    },
+    {
+        "id": "39186901",
+        "title": "宏村+西递+婺源篁岭+徽州古城+呈坎+屏山村+卢村5日4晚私家团",
+        "subTitle": "尊享定制【独立成团·私享行程】【门票全覆盖+3晚屯溪区四钻酒店+1晚宏村夜宿】探访皖南古韵 | 欣赏梯田美景|篁岭体验『24小时接送+一对一管家服务』可选导游解说服务",
+        "tags": [
+            "无购物",
+            "成团保障",
+            "动车高铁游",
+            "梯田",
+            "赏油菜花",
+            "夜宿宏村",
+            "自选酒店"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【出行保障】①多人同行更优惠！专车配备【可选导游解说】+全程贴心管家，微信群沟通，随时解答疑虑。包车私密游，仅与至亲同享！②落地全程专车，省去做攻略烦恼，畅游无忧；仅与密友同行。③私密小团，随走随停，自在随心。\n\n★ 【精彩景点】“水墨宏村”5A级景区&黄山风光，梦回徽州，领略“画中村”韵味。“西递古村”5A级景区&古今交汇，明清民居博物馆，探访桃花源里人家，感受古建艺术瑰宝；篁岭特色秋晒：索道俯瞰美景/古村落探幽/体验乡土风情。\n\n★ 【度假优选】探访中国印记|婺源篁岭，赏梯田花海，感受晒秋文化；徽州古街漫步。②包含景区门票+篁岭往返索道。",
+        "dailyItinerary": [
+            {
+                "title": "起点：黄山『24小时VIP专车接送』零等待→徽州古街自由行【可选市区四钻酒店住宿】",
+                "subItems": [
+                    {
+                        "time": "全天",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "请按航班/车次时间抵达黄山，轻松启程。抵达后，我们将有专车等候，无缝接送您至市区酒店。\n\n携程贵宾独享，24小时接站服务，零等待，高效利用每分每秒！\n\n包车游服务标准：\n\n★车辆安排：2-3人享5座轿车，4-6人配7座商务车，7人以上安排9-15座商务巴士；\n★专业司机：持证上岗，本地资深驾驶，路线熟络，技术娴熟；\n★导游服务：包车游不含导游，如需专业讲解，可选额外导游服务；\n★行程自由：包车游主打自在出行，无需早起，行程由您自主决定，摆脱团队游束缚。",
+                        "meal_hours_box": "行驶：约300千米/约30分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【精选酒店自由选指南】\n\n【1】本行程推出酒店自由选服务！精选当地 Top 20 人气好评星级酒店，任您挑选。房型也可按需更换，行政房或套房任君选择。\n\n【2】默认推荐性价比之选，推荐款已列出。更多选择，在下单页面点击【选酒店】&【换房型】，自由搭配您的理想住宿。\n\n【3】请留意所选酒店及房型政策，早餐、儿童占床等均以您下单设定为准。如有疑问，欢迎随时咨询在线客服。",
+                        "meal_hours_box": "行驶：约2千米/约30分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 512218,
+                            "HotelName": "悦居酒店(黄山屯溪老街店)"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "当天无固定行程，若您提前到达，完成酒店入住后，即可自由安排时间。\n\n【游览提示】：当天推荐项目仅供参考，您可按个人需求自主选择参加。此期间无专车和导游陪同，敬请理解！",
+                        "meal_hours_box": "行驶：约10千米/约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79450,
+                                "PreName": "",
+                                "Name": "屯溪老街",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约3千米/约30分钟"
+                    }
+                ]
+            },
+            {
+                "title": "婺源篁岭『天晒地场｜秋色斑斓』（含索道往返）—可选市区4钻级酒店入住",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "酒店组团乘车约1小时抵达梯田云村、晒秋风情地—【婺源篁岭】（携程贵宾专属赠送：含门票+千米缆车观光）。\n\n婺源之美，自然与人和谐共融，村落如画，步移景异。山水中弥漫的蒙蒙雾霭，古韵民居、石径、廊桥，青山绿水交相辉映，尽显水墨画卷之美。\n\n篁岭浓缩了婺源旅游的精华，古村落、古树群、梯田花海、晒秋民俗融为一景。\n\n篁岭四季皆宜，春观油菜花海，夏探峡谷溪流，秋赏晒秋古村，冬享民俗度假。",
+                        "meal_hours_box": "行驶时间：约1小时30分钟"
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "1、婺源精华所在的篁岭，融古村古木、梯田花海、晒秋民俗，绘就一幅美丽乡村画卷；\n2、全球独有的“晒秋”奇观，彰显美丽中国的文化符号；\n3、悬崖上的村落人家，屋顶下的晒秋风光，犹如梦回故乡，影视拍摄圣地；\n4、五百米“天街”商贾云集，古韵悠长，宛如活动的“清明上河图”缩影；\n5、综合性乡村旅游胜地，新婺源3.0版体验。",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 98279652,
+                                "PreName": "",
+                                "Name": "鲜花小镇",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 98279651,
+                                "PreName": "",
+                                "Name": "晒秋人家观景台",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "游程结束后，可选择乘坐观光缆车或景区交通车下山，我们将安排送您回酒店或前往屯溪老街。在屯溪老街，您可自由欣赏被誉为“活着的清明上河图”的景致，体验皖南古镇风情，感受徽派建筑之美。您还可以在酒楼茶肆稍作休息，或在古街闲逛，挑选文房四宝、旅游纪念品及当地土特产。",
+                        "meal_hours_box": "行驶时间：约1小时30分钟"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【酒店自由选择指南】\n\n【1】此行程提供酒店自由选择服务！精选当地 top20 人气好评星级酒店，您可自由挑选，房型也可升级至行政或套房。\n\n【2】默认推荐性价比人气酒店，行程推荐为精选款，更多酒店房型选择，在下单页面点击【更换酒店】或【房型升级】即可自主调整。\n\n【3】请留意所选酒店房型政策，早餐、儿童占床等均以您下单选择为准，如有疑问，欢迎随时咨询在线客服。",
+                        "meal_hours_box": "行驶：约2千米/约30分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 512218,
+                            "HotelName": "悦居酒店(黄山屯溪老街店)"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "徽州古城·呈坎·市区精选四钻酒店",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约3分钟"
+                    },
+                    {
+                        "time": "上午",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "司机将按时前往酒店接您，启程前往徽州古城。"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10524182,
+                                "PreName": "",
+                                "Name": "徽州古城",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "13:0000",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "赴呈坎乘车前往"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 80668,
+                                "PreName": "",
+                                "Name": "呈坎",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "返回市区驾车"
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【酒店自由选系列指南】\n\n【1】本行程推出酒店自由选系列！精选20家人气好评星级酒店，您可自由挑选，更可选行政或套房房型。\n\n【2】默认推荐高性价比人气酒店，日程中展示为推荐优选。更多选择，您可在预订页面点击【换酒店】或【换房型】按钮，随意更换。\n\n【3】请留意所选酒店及房型政策，早餐、儿童占床等均以预订时选择为准。如有疑问，欢迎咨询在线客服。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 512218,
+                            "HotelName": "悦居酒店(黄山屯溪老街店)"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "西递·屏山·卢村·夜宿宏村民宿任选",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "09:0000",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 80116,
+                                "PreName": "",
+                                "Name": "西递",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 80666,
+                                "PreName": "",
+                                "Name": "屏山村",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "14:000",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 98219,
+                                "PreName": "",
+                                "Name": "卢村",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:0000",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "晚上",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【酒店自由选系列温馨提示】\n\n【1】本行程推出酒店自由选系列！精选当地 top 20 人气好评星级酒店，任您挑选。房型也可自由更换，行政房或套房任君选择。\n\n【2】默认推荐性价比人气款，日程中另有优选推荐。更多选择，下单页面轻点【选酒店】&【换房型】，随心所欲。\n\n【3】请留意所选酒店房型政策，早餐、儿童占床等均以您下单选择为准。如有疑问，随时欢迎咨询在线客服。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 1387001,
+                            "HotelName": "宏村柒零柒陆·南湖畔休闲度假民宿"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "上午〖宏村水墨画卷〗感受中国画的淡墨浓彩—下午温馨送站，归家之旅启程",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "踏进“画卷中的中国乡村”——【宏村】，沿着古朴石板路，感受农家小院飘出的食香，这里，似曾相识，如梦中的——故乡。",
+                        "meal_hours_box": "行驶时间：约1小时30分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "宏村被誉为“画中乡村”，多年来备受国内外影视制作人和导演的喜爱，成为知名的天然影视拍摄基地。《卧虎藏龙》与《苏乞儿》等经典古装动作片便在此地取景。",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518795,
+                                "PreName": "",
+                                "Name": "宏村-画桥",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530402,
+                                "PreName": "",
+                                "Name": "水圳",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530403,
+                                "PreName": "",
+                                "Name": "树人堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518745,
+                                "PreName": "",
+                                "Name": "红白古树",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约5千米/约10分钟"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "圆满游览后，温馨归家送站。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "出发地→黄山『24小时Vip专车接机/站』0等候→自由漫步徽州古巷【宿市区自选4钻酒店】",
+            "婺源篁岭『天地晒场｜五彩斑斓浓郁的秋』（含往返索道）—入住市区自选4钻酒店",
+            "徽州古城–呈坎–市区自选4钻酒店",
+            "西递–屏山–卢村–夜宿宏村自选客栈",
+            "上午〖水墨宏村〗水墨淡雅中国画—下午送站返回温馨的家"
+        ]
+    },
+    {
+        "id": "35147880",
+        "title": "黄山+婺源篁岭+宏村4日3晚私家团",
+        "subTitle": "【徽州美景待赏】单人预订享多人优惠·黄山顶1晚云海日落相伴+市区品牌酒店2晚舒适住宿·探秘山林徽派古村·小桥流水人家的绚丽风光·全程1V1管家服务，出行更无忧·可选导游解说增色之旅程！",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "无自费",
+            "成团保障",
+            "双酒店",
+            "登山体验",
+            "梯田",
+            "赏油菜花",
+            "古镇古村",
+            "车型可选",
+            "住黄山山顶"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【度假优选】【一人即可预订！多人享自动减价优惠·惊喜不断！两人下单立减200元！】尊享专车接送，私密又自在；全程在线管家服务，微信社群支持，随时解答您的疑问，游玩无忧，其他交给我们！可选导游讲解服务！\n★ 【严选酒店】山顶黄山一晚住宿，官方直属酒店，品质有保证；两晚市区品牌商旅酒店，告别脏乱，品质服务，绝无虚假宣传！\n★ 【精彩景点】黄山绝美风光|奇松怪石，云海日出，美不胜收；徽州水墨宏村|\"小桥流水，白墙黑瓦\"的韵味；婺源篁岭，古老村落与花海小镇，远山近水，色彩斑斓！",
+        "detailDescriptionContentView": {
+            "text": "【温馨提示】\n\n【黄山官方门票优惠退款详情】请点击\n\n查看同类当地跟团行程，请点击\n\n专属车辆接送　无导游解说服务"
+        },
+        "dailyItinerary": [
+            {
+                "title": "专属接驾—夜宿屯溪【闲逛老街▪领略夜色中小镇风情】",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "以下所示时间仅供参考，以您实际体验为准。\n\n专职人员将提前与您确认接洽的具体时间和地点。",
+                        "meal_hours_box": "行驶：约15千米/约20分钟"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "请在市区酒店选择中，默认为您预定凯悦嘉轩。若需改选栢景国际，请于下拉菜单处注明。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 100342310,
+                            "HotelName": "黄山高铁站凯悦嘉轩酒店"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 489617,
+                                "Name": "老街第一楼"
+                            },
+                            {
+                                "GSScenicSpotID": 34627167,
+                                "Name": "一楼食业·临江一楼"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "黄山之夜，属于古韵黎阳。漫步其间，徽派古建映入眼帘：灰瓦白墙，青石街道，马头墙间，转角偶遇时尚咖啡馆、小教堂、电影院。古典与现代交织，历史潮流汇聚，偶遇老街活动，更添惊喜。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 22866755,
+                                "PreName": "",
+                                "Name": "黎阳in巷",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "世界文化遗产·宏村——漫步画桥，赏月沼风光，徽派建筑雕梁画栋，小桥流水人家。再登黄山，饱览山色壮丽，夜宿山顶，卧于云端。",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "出发时间仅供参考；根据您的要求，司机将准点从酒店接送您前往【宏村景区】。润泽的宏村，别具一格。潺潺溪流体现古村韵味；碧波荡漾，映照古村灵魂。宏村建筑外朴质宏伟，内部精致细腻，为徽派建筑的典范。",
+                        "meal_hours_box": "行驶：约70千米/约60分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530403,
+                                "PreName": "",
+                                "Name": "树人堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518795,
+                                "PreName": "",
+                                "Name": "宏村-画桥",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 78552948,
+                                "Name": "雷岗山庄(十三楼)"
+                            },
+                            {
+                                "GSScenicSpotID": 78699874,
+                                "Name": "徽聚味.徽州味道"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "司机将依照约定时间，为您提供前往黄山景区的接送服务。",
+                        "meal_hours_box": "行驶：约30千米/约60分钟"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达黄山脚下的汤口镇。\n\n在汤口新国线换乘中心乘坐景区巴士（含单程19元/人的景交费）前往新云谷索道（单程80元，费用自理，可依体力自选或步行）办理入园。随后可自由游览黄山风景区。\n索道乘坐时间：约12分钟，正常排队等待：约20分钟。",
+                        "meal_hours_box": "行驶时间：约10分钟"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 87869,
+                                "PreName": "",
+                                "Name": "黄山风景区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 18521840,
+                                "PreName": "",
+                                "Name": "黄山云谷索道",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76583,
+                                "PreName": "",
+                                "Name": "白鹅岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76416,
+                                "PreName": "",
+                                "Name": "梦笔生花",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75820,
+                                "PreName": "",
+                                "Name": "始信峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81883,
+                                "PreName": "",
+                                "Name": "曙光亭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81886,
+                                "PreName": "",
+                                "Name": "清凉台",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 432641,
+                            "HotelName": "黄山狮林大酒店"
+                        }
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约10分钟"
+                    }
+                ]
+            },
+            {
+                "title": "壮美的黄山日出，邂逅神奇的云海，更有神秘的西海大峡谷待探索。 \n\n（注：原句为31个字，修改后为30个字，尽量保持了原意。）",
+                "subItems": [
+                    {
+                        "time": "05:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【友情提示】：游客可依个人体力，自主选择山顶游览路线。\n【路线一】：酒店—丹霞峰—经飞来石—光明顶—天海（经典景观线）\n【路线二】：酒店—丹霞峰—西海大峡谷（远观飞来石）—天海（精选景观，需一定体力）\n☆注意：西海大峡谷将视天气情况适时关闭，每年开放时间：4月1日至11月30日（以景区公告为准）",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76582,
+                                "PreName": "",
+                                "Name": "光明顶",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 80577,
+                                "PreName": "",
+                                "Name": "西海大峡谷",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76771,
+                                "PreName": "",
+                                "Name": "天海",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76579,
+                                "PreName": "",
+                                "Name": "鳌鱼峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 84647,
+                                "PreName": "",
+                                "Name": "百步云梯",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76417,
+                                "PreName": "",
+                                "Name": "迎客松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76585,
+                                "PreName": "",
+                                "Name": "玉屏楼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18535293,
+                                "PreName": "",
+                                "Name": "玉屏索道",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "其它",
+                        "rich_content_view": "前往慈光阁，乘坐玉屏索道下行（单向90元，索道费需自理）；随后转乘景区内交通车（景交费-单程19元/人，费用自付）抵达山下。"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 31822444,
+                                "Name": "黄家徽府菜(老字号徽菜)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "司机将依约按时接送您返回黄山城区。",
+                        "meal_hours_box": "行驶：约60千米/约60分钟"
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "请在市区酒店选择中，默认为您预定凯悦嘉轩。若需更换至栢景国际，请在下拉菜单中注明！",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 100342310,
+                            "HotelName": "黄山高铁站凯悦嘉轩酒店"
+                        }
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 78306658,
+                                "Name": "徽三说·土徽菜(湖边商城店)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "启程前往婺源篁岭，探访悬崖上的古村落，漫步鲜花小镇，专车接送，期待江湖重逢！",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "按预定时间，司机将依您的要求，准时接送您前往天街古巷—篁岭景区。",
+                        "meal_hours_box": "行驶：约60千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【篁岭景观介绍】\n1. 中国醉美符号——晒秋（最佳观赏点：1.晒工坊 2.晒秋民居 3.观景台 4.摄影区）\n2. 婺源民俗文化展——宗祠探秘\n3. 明清古商街——天街风情\n4. 徽派建筑经典——竹虚厅（木雕艺术）、五桂堂（徽派府邸、小姐楼）、怡心楼（聊斋取景处、婚嫁房）、树和堂（官厅风貌）\n5. 心跳玻璃栈道——垒心桥体验",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15600896,
+                                "Name": "天街食府"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "饭后，司机将准点接送您返回黄山市区。",
+                        "meal_hours_box": "行驶：约60千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据返程时间，提供专车送至屯溪机场/高铁站/火车站，搭乘相应交通工具返程，愉快旅程圆满结束！\n\n温馨提醒：建议选择下午16:00后航班或车次。"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "专车接站—夜泊屯溪【自由逛老街▪感受灯火阑珊下的小城风情】",
+            "世界文化遗产·宏村|过画桥，看月沼，雕栏画栋，小桥流水的徽州人家+登黄山，一览山中景色-夜宿山顶|躺卧云端",
+            "超美的黄山日出，偶遇黄山云海，还有那神秘莫测的西海大峡谷",
+            "启程婺源篁岭-悬崖上的古村-鲜花小镇-专车送站，我们江湖再见！"
+        ]
+    },
+    {
+        "id": "39261205",
+        "title": "黄山+婺源+西递+宏村5日4晚私家团",
+        "subTitle": "【专属1团1单·夜宿篁岭宏村黄山】任选酒店房型，领略徽州日夜风光碰撞，邂逅黄山日出日落、奇松怪石，宏村水墨画卷，篁岭秋晒创意，无忧出行体验。",
+        "tags": [
+            "无购物",
+            "无自费",
+            "成团保障",
+            "梯田",
+            "深度登山",
+            "赏油菜花",
+            "车型可选",
+            "夜宿宏村",
+            "自选酒店",
+            "住黄山山顶"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【专属包车游-私家定制】一单一团，独立接待，创新玩法，畅游黄山。既省心于自由行，又自由过跟团游。不拼车、无购物、无需早起、不赶时间表。可选增聘专业导游服务，享受24小时一对一专属管家服务。\n★ 【安徽精华游线路】攀登世界级黄山，领略迎客松与云海奇观；探访中国符号婺源篁岭，观赏梯田花海与晒秋文化。提供1-3人5座舒适轿车，4-6人7座新款商务车升级体验，7-16人乘19座大型商务车。\n★ 【玩转热门攻略，点赞朋友圈】包含榜单7大热门景点（悬壁古村篁岭、世界名山黄山、水墨宏村西递），一景一画，步步皆景致！",
+        "detailDescriptionContentView": {
+            "text": "【尊享私人定制游】\n\n尊贵专享，定制您的出行，独立接待，私密用车，摆脱常规旅游的喧嚣！\n\n告别匆匆一瞥，体验慢旅行，自由安排时间，舒适晚起，您的行程您决定！\n\n【选择理由】：\n\n【品质承诺】纯正100%玩体验，门票全含，杜绝陷阱，享受透明旅程！\n\n【精选住宿】夜住宏村、篁岭、黄山，自选房型，住在如画风景里，远离都市喧嚣！\n\n【全程无忧】一对一专属管家，VIP级服务，为您的旅行保驾护航！"
+        },
+        "dailyItinerary": [
+            {
+                "title": "起点：黄山『24小时VIP专车接送』零等待→徽州古街自由徜徉 感受市井风情 讲述千年故事【可选屯溪市区5星级酒店】",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "请根据您的航班或列车时刻，安排前往黄山的行程，展开您的快乐之旅！抵达后，将有专车等候，直接送您至市区酒店。\n\n携程贵宾独享24小时专车接送服务，零等待，为您节省每一分宝贵时间！\n\n【温馨提示】\n工作人员将在您出发前一天17:00前，通过短信或电话通知您旅行相关事宜，请确保订单中手机号码畅通。\n\n仅您及报名亲友组成的独立小团，私密旅行，无需与陌生人同行，绝不与其他团合并。无需忍受早起晚归的疲劳，尽享“自然醒”的自由。无需等待团员，也无需在夜归时承受异样目光。专属包车游黄山，比自由行更省心，比团队游更自由，不拼车、无购物、无需早起、不受行程约束，随时停留，想玩就玩，自在舒适！\n\n包车游接待标准：\n★用车：2-3人配5座轿车，4-6人配7座商务车，7人以上配9-15座商务巴士；\n★司机：专业培训，本地经验丰富的司机，路线熟悉技术娴熟；\n★导游：包车游不含导游，如需讲解服务，可选额外增加导游；\n★行程：主打随心所欲，无早起，出发时间您说了算，摆脱团队游束缚。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【精选酒店自由选指南】\n\n【1】本行程推出酒店自由选服务！精选当地热门好评酒店，您可自由选择行政房或套房等各类房型。\n\n【2】默认推荐性价比高的人气酒店，推荐款已列出，更多酒店房型可选，下单时点击【酒店更换】&【房型调整】即可自由切换。\n\n【3】请留意所选酒店及房型政策，早餐、儿童占床等均以您下单时为准，如有疑问，欢迎咨询在线客服。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "当天无既定行程，若您抵达较早，完成酒店入住后，即可自由安排活动。\n\n【游览提示】：当日推荐项目仅供参考，您可根据个人需求自主选择参观，此期间无专车和导游陪同，敬请理解！",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79450,
+                                "PreName": "",
+                                "Name": "屯溪老街",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 20228486,
+                                "PreName": "",
+                                "Name": "黎阳老街",
+                                "SuffixName": null
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    }
+                ]
+            },
+            {
+                "title": "〖婺源篁岭〗梯田花海一站式体验，感受天地晒场魅力｜秋色斑斓醉人｜含索道往返，夜宿美景篁岭‍‌‍‍‍‍‌‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "酒店组团，车程约一小时抵达梯田云村、秋晒之美—【婺源篁岭】（携程贵宾专属赠送：含门票及千米索道观光）。\n\n婺源之美，天然画境，村村如诗，步步入画。山水中轻纱薄雾，古居、石径、廊桥古韵盎然，绿水青山环绕，宛如一幅水墨画卷。\n\n篁岭尽显婺源风华，融合古村、古木、梯田花海、晒秋民俗于一体的田园风光。\n\n篁岭四季皆宜，春观油菜花海，夏探溪谷清泉，秋鉴晒秋盛景，冬享民俗度假。",
+                        "meal_hours_box": "行驶：约60千米/约1小时20分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "篁岭岭上，浓缩了婺源之美，古村、古木、梯田花海、晒秋民俗共织一色。四季皆宜的旅行地，春赏油菜花海，夏探峡谷溪流，秋看晒秋盛景，冬享民俗之趣。\n\n1、婺源精粹尽收眼底，古村古木、梯田花海、晒秋民俗汇聚一地；\n2、全球独有的晒秋风光，绘就美丽中国符号；\n3、民居村落悬于山崖，晒秋美景屋顶铺陈，犹如梦回故里，影视拍摄圣地；\n4、五百米天街，商贾云集，古韵流转，宛如现世“清明上河图”；\n5、乡村旅游一站式体验，新婺源3.0版本。",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 98279652,
+                                "PreName": "",
+                                "Name": "鲜花小镇",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 98279651,
+                                "PreName": "",
+                                "Name": "晒秋人家观景台",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "游程结束，您可乘坐缆车或观光车下山，我们将安排送您回酒店或前往屯溪老街。在屯溪老街，自由感受“活着的清明上河图”，体验皖南古镇韵味，欣赏徽派建筑之美。您还可于酒楼茶肆稍作休息，或漫步古街，自由挑选文房四宝、旅游纪念品及当地特产。",
+                        "meal_hours_box": "行驶：约50千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【精选酒店自由选指南】\n\n【1】本行程推出酒店自由选服务！精选当地热门好评酒店，您可自由选择行政房或套房等各类房型。\n\n【2】默认推荐性价比高的热门房型，推荐行程中已列出优选酒店。更多选择，您可在预订页面点击【选酒店】或【换房型】按钮自由调整。\n\n【3】请留意所选酒店及房型政策，包括早餐、儿童占床等均以预订时选择为准。如有疑问，欢迎咨询在线客服。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 1350100,
+                            "HotelName": "篁岭晒秋美宿(篁岭景区店)"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "【西递宏村】粉墙青瓦，水墨绘就中国画卷 | 西递古镇，世外桃源之人家，明清古居博览【宿于宏村】",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "走进被誉为“中国画境的乡村”——【宏村】，沿着古朴石板路，感受农家小院飘来的食物香，恍若久别重逢的故乡。",
+                        "meal_hours_box": "行驶：约20千米/约60分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "宏村，生态建筑艺术村落，水系环绕。游客可欣赏南湖美景，探访南湖风光、书院、月沼春晓、牛肠水圳、双溪映碧、古树、雷岗落日、树人堂及明代乐叙堂等胜景。",
+                        "meal_hours_box": "行驶：约2千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530402,
+                                "PreName": "",
+                                "Name": "水圳",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10530403,
+                                "PreName": "",
+                                "Name": "树人堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95659,
+                                "PreName": "",
+                                "Name": "敬修堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518745,
+                                "PreName": "",
+                                "Name": "红白古树",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 80116,
+                                "PreName": "",
+                                "Name": "西递",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96640,
+                                "PreName": "",
+                                "Name": "胡文光牌坊",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96641,
+                                "PreName": "",
+                                "Name": "桃李园",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96642,
+                                "PreName": "",
+                                "Name": "青云轩",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96643,
+                                "PreName": "",
+                                "Name": "敬爱堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96644,
+                                "PreName": "",
+                                "Name": "追慕堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96646,
+                                "PreName": "",
+                                "Name": "瑞玉庭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "驱车前往黄山市区，下榻酒店稍息，以解旅途疲惫。",
+                        "meal_hours_box": "行驶：约40千米/约60分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【精选酒店自由选指南】\n\n【1】本行程推出酒店自由选服务！精选当地好评如潮的酒店，您可根据喜好选择行政房或套房。\n\n【2】默认推荐高性价比酒店，推荐款已在行程中列出。更多选择，您可在预订页面点击【换酒店】或【换房型】自主决定。\n\n【3】请留意所选酒店房型的政策，如早餐、儿童占床等，以您下单时为准。如有疑问，随时联系客服咨询。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 80939966,
+                            "HotelName": "宏村文舍·贰拾梦徽派私享花园民宿"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "初探黄山〖深度体验黄山风光〗登临世界遗产黄山、穿越西海峡谷、赏夕阳美景、手摘星辰【可选黄山4星/钻级酒店】",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "早上8点左右酒店集合，乘车沿屯黄公路前往黄山风景区，抵达山下换乘中心后，转乘景区交通车至云谷寺票房。可自费乘坐云谷缆车（80元/人），抵达白鹅岭索道站，开始游览【黄山风景区（大门票已含）】。\n\n缆车游览约12分钟，正常排队等候约20分钟。\n\n※欣赏山顶美景时，请留意脚下安全，遵循观景不拍照，行走不观景的原则。",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 87869,
+                                "PreName": "",
+                                "Name": "黄山风景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18521881,
+                                "PreName": "",
+                                "Name": "玉屏峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76417,
+                                "PreName": "",
+                                "Name": "迎客松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18537906,
+                                "PreName": "",
+                                "Name": "送客松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 84647,
+                                "PreName": "",
+                                "Name": "百步云梯",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76415,
+                                "PreName": "",
+                                "Name": "飞来石",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76581,
+                                "PreName": "",
+                                "Name": "莲花峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76579,
+                                "PreName": "",
+                                "Name": "鳌鱼峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76582,
+                                "PreName": "",
+                                "Name": "光明顶",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 84651,
+                                "PreName": "",
+                                "Name": "一线天",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "晚餐后，步行至附近酒店，观赏日落晚霞，随后办理入住。",
+                        "meal_hours_box": "活动时间：约1小时"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【酒店自由选系列指南】\n\n【1】本行程为酒店自由选系列！精选当地热门好评酒店，房型任选，可选行政或套房。\n\n【2】默认推荐性价比人气酒店，行程中另有优选推荐，更多选择可在预订页面点击【选酒店】&【换房型】自由搭配。\n\n【3】请留意所选酒店房型政策，早餐、儿童占床等均以预订时选择为准，有疑问可随时咨询在线客服。",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 432641,
+                            "HotelName": "黄山狮林大酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "〖再访黄山〗→午后返程│观赏日出奇观→晨间黄山行→归途，愉快旅程画上圆满句点！ \n\n(注：原句36字，修改后也是36字)",
+                "subItems": [
+                    {
+                        "time": "05:30",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "推荐：晨起赏日（天气许可）\n\n依据酒店提示的日出时间，早起前往附近欣赏黄山辉煌日出，按天气情况决定是否观赏。观赏后返回酒店小憩。",
+                        "meal_hours_box": "行驶：约2千米/约30分钟"
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "温馨提示：\n\n因天气影响，西海大峡谷及天都峰会将适时关闭。每年开放时段：4月1日至11月30日（以景区公告为准）。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 80577,
+                                "PreName": "",
+                                "Name": "西海大峡谷",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约5小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76580,
+                                "PreName": "",
+                                "Name": "排云亭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81890,
+                                "PreName": "",
+                                "Name": "仙人晒鞋",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81891,
+                                "PreName": "",
+                                "Name": "武松打虎",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18521797,
+                                "PreName": "",
+                                "Name": "北海景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 99905,
+                                "PreName": "",
+                                "Name": "散花坞",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76416,
+                                "PreName": "",
+                                "Name": "梦笔生花",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75820,
+                                "PreName": "",
+                                "Name": "始信峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76418,
+                                "PreName": "",
+                                "Name": "卧龙松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81877,
+                                "PreName": "",
+                                "Name": "黑虎松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81881,
+                                "PreName": "",
+                                "Name": "十八罗汉望南海",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76583,
+                                "PreName": "",
+                                "Name": "白鹅岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75819,
+                                "PreName": "",
+                                "Name": "云谷寺",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "步行或缆车下白鹅岭，再乘景区环保车至换乘中心，返回黄山市。",
+                        "meal_hours_box": "行驶：约10千米/约20分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达黄山屯溪，根据您的返程安排，将送至屯溪机场或黄山北站，旅程圆满结束！",
+                        "meal_hours_box": "行驶：约10千米/约60分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "出发地→黄山『24小时Vip专车接机/站』0等候→自由漫步徽州古巷 市井之间 净是故事【宿屯溪市区自选5钻酒店】",
+            "〖婺源篁岭〗一站式打卡梯田花海，天地晒场｜五彩斑斓浓郁的秋｜含往返索道【夜宿篁岭】",
+            "〖西递+宏村〗粉墙青瓦·水墨淡雅中国画 | 西递古镇·桃花源里人家·明清古民居博物馆【夜宿宏村】",
+            "初识黄山〖深度游览黄山风景区〗登世遗黄山+穿越西海大峡谷&看夕阳西下&手可摘星辰【自选黄山上4星/钻酒店】",
+            "〖续游黄山〗→返程||赏日出胜景→上午黄山游览→返回，结束愉快行程！"
+        ]
+    },
+    {
+        "id": "27707758",
+        "title": "黄山风景区+婺源篁岭+宏村5日4晚私家团",
+        "subTitle": "徽州全景游·提前5天预订立减150元/人！『2晚住宿美景中·宏村1晚+黄山1晚』环游黄山、观云海日升月落，探访崖上古村、鲜花小镇，领略画中人家的白墙黑瓦。【全程无忧·一对一管家服务】",
+        "tags": [
+            "无购物",
+            "无自费",
+            "成团保障",
+            "3期免息",
+            "6期免息",
+            "登山体验",
+            "梯田",
+            "赠取消险",
+            "赏油菜花",
+            "古镇古村",
+            "车型可选",
+            "住黄山山顶"
+        ],
+        "sellNum": "已售6人",
+        "pmRec": "★ 【尊享服务】单人预订即享优惠，两人成行立减200元/单；提前5日预订再减150元/人！1-36人小车费自动减免，专车私密游，自在舒适！一对一管家服务，全程无忧陪伴！自营品牌，承诺无购物纯玩之旅！【贴心赠送】赠送篁岭千米缆车往返+徽州特色美食一餐！\n★ 【精品住宿】宏村景区内一晚住宿，夜赏徽州灯火；黄山山顶直营酒店双人间一晚，日观日出星辰，夜宿风景中！两晚黄山市中心酒店，便利探索城市乐趣！\n★ 【绝美风光】探访黄山仙境，领略云海日出、奇松怪石；漫步崖上古村落，感受梯云鲜花小镇、晒秋风情；探访画中乡村，体验白墙黑瓦的江南水乡韵味！",
+        "detailDescriptionContentView": {
+            "text": "【注意】\n\n【黄山官方门票优惠退款详情】请点击此处查看\n\n同类当地跟团产品，请点击这里了解"
+        },
+        "dailyItinerary": [
+            {
+                "title": "抵达黄山，尊享VIP专车接站，夜游屯溪，自由漫步老街，领略灯火点缀下的小城韵味，宿于黄山市区。",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "以下时间为参考，以您的实际行程为准。\n管家将提前通知您具体的接驳时间与地点。\n\n【行程用车安排】2人以下安排5座轿车/3-5人安排商务车/6人以上安排15+1座旅游巴士。"
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约2小时"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "自由行程：今日安排自由活动，提供的景点为参考行程，餐饮需自理，无导游陪同。\n【游游精选】：\n文艺人士爱逛【黎阳老街】，书画爱好者宜去【屯溪老街】，购物选衣请至【商贸城】，若欲漫步画中，可前往【新安江滨水旅游区】。\n【美食品鉴】：\n地道小吃：蟹壳黄烧饼、五城茶干等不容错过；\n徽菜经典：徽州臭鳜鱼等必尝佳肴；\n黄山知名餐厅推荐：\n【老街第一楼】、【美食人家】、【临江一楼】、【徽三说】，黄山本地人也常光顾。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79450,
+                                "PreName": "",
+                                "Name": "屯溪老街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 20228486,
+                                "PreName": "",
+                                "Name": "黎阳老街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 101480,
+                                "PreName": "",
+                                "Name": "新安江滨水旅游景区",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    }
+                ]
+            },
+            {
+                "title": "探访黄山新亮点—【黄山城市展览馆】，邂逅抖音爆款IP—婺源篁岭【探秘水口雨林、悬崖古村晒秋人家、打卡星空艺术馆】，轻松称霸朋友圈！『下榻黄山市区』",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:50",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "启程时间仅供参考，选用车辆服务的客人，司机将依照您的要求准时接驾，前往黄山新城市地标——【黄山市城市展览馆】。\n\n在这里，您将深入探寻黄山市的历史沿革，徽州文化的渊源及其核心体系。感知徽州、徽商、徽派建筑、徽州教育、徽州科技艺术等丰富的文化内涵。",
+                        "meal_hours_box": "行驶：约3千米/约10分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "温馨提醒：\n1. 场馆营业时间：上午9点至下午5点；\n2. 每周一休馆，若遇周一，导游会与您协调安排其他时间参观，敬请留意，谢谢！",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 69484633,
+                                "PreName": "",
+                                "Name": "黄山市城市展示馆",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "时间仅为参考，按约定，导游与司机将准时接送您前往【篁岭景区】欣赏无边秋色。晒秋是富有地域特色的农俗行为。山区居民因地形崎岖，平地稀缺，便在房前屋后、窗台屋顶晾晒农作物，这一习惯逐渐演变为传统农俗文化，成为一道人文景观。这一独特的晒秋场景，也吸引了众多画家和摄影师前来寻找创作灵感，营造出一幅如诗如画的“晒秋”景象。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【览篁岭焦点】\n1.中国醉美符号—晒秋（最佳观赏点：1.晒工坊 2.晒秋人家 3.观景台 4.摄影区）\n2.婺源民俗展馆—宗祠\n3.明清古商街—天街\n4.徽派古建筑代表—竹虚厅（木雕）、五桂堂（徽派豪宅）、怡心楼（聊斋取景）、树和堂（官厅）\n5.刺激玻璃栈道—垒心桥",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：100CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15600896,
+                                "Name": "天街食府"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "返程时间供参考，导游和司机将按约定时间接送您返回黄山城区。",
+                        "meal_hours_box": "行驶时间：约1小时30分钟"
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：89CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 489617,
+                                "Name": "老街第一楼"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "世界自然与文化双重遗产——梦幻黄山，登临黄山，览尽天下无山之景，奇松怪石间，云海松涛起，日出胜景现【宿于黄山之巅——景区直属酒店】",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "出发时间仅供参考，导游和司机将依照您的要求准时在酒店接驾，随后乘坐车辆在导游陪同下前往黄山汤口旅游集散中心换乘。",
+                        "meal_hours_box": "行驶：约65千米/约60分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达汤口后，请换乘新国线景区巴士至新云谷索道。导游将陪同您乘索道上山，抵达白鹅岭站（索道费80元/单程，自理）。您可依体力状况选择付费乘索道或徒步登山。\n\n索道行程约12分钟，通常排队约20分钟；步行上山约需2.5小时。\n在保证景点数量不变且经您同意的情况下，导游可能会根据天气、游客流量等因素，对行程进行适当调整（如更改索道使用或调整景点参观顺序等），以确保行程顺畅进行。",
+                        "meal_hours_box": "行驶：约8千米/约20分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "☆山巅风光醉人，游览时请留意脚下，观赏时勿摄影，步行时忌赏景。",
+                        "meal_hours_box": "活动时间：约5小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 87869,
+                                "PreName": "",
+                                "Name": "黄山风景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76583,
+                                "PreName": "",
+                                "Name": "白鹅岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81877,
+                                "PreName": "",
+                                "Name": "黑虎松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75820,
+                                "PreName": "",
+                                "Name": "始信峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18521797,
+                                "PreName": "",
+                                "Name": "北海景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81883,
+                                "PreName": "",
+                                "Name": "曙光亭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81886,
+                                "PreName": "",
+                                "Name": "清凉台",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18521786,
+                                "PreName": "",
+                                "Name": "猴子观海",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 432641,
+                            "HotelName": "黄山狮林大酒店"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    }
+                ]
+            },
+            {
+                "title": "续行黄山之旅——夜栖宏村，领略徽州夜色『下榻宏村客栈』",
+                "subItems": [
+                    {
+                        "time": "05:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "今日再探前山胜景。行程安排：酒店→【排云亭】→【西海大峡谷】→【光明顶】→【天海】→【鳌鱼峰】→鳌鱼洞→【玉屏楼】→【迎客松】→【慈光阁】\n\n从后山启程，深入黄山精髓所在的西海大峡谷（全长10公里），继而抵达光明顶（1.5公里）。光明顶，黄山次高峰，海拔1860米，顶面开阔平坦，为赏云海佳地，可俯瞰东海、南海、西海、北海与天海，五海云雾尽在眼前。过光明顶至天海景区（1公里），攀鳌鱼峰，因其形似鳌鱼而得名。再由鳌鱼洞下行至玉屏楼，玉屏楼邻玉屏峰，海拔1668米，位于莲花、天都两峰之间，文殊台上，石景如“松鼠跳天都”、“孔雀戏莲花”等尽收眼底。迎客松、送客松分植于狮石和象石之前，迎送往来游客。\n\n☆西海大峡谷视天气情况适时关闭，每年开放时间：4月1日至11月30日（以景区公告为准）。",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76580,
+                                "PreName": "",
+                                "Name": "排云亭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 80577,
+                                "PreName": "",
+                                "Name": "西海大峡谷",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81887,
+                                "PreName": "",
+                                "Name": "丹霞峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76582,
+                                "PreName": "",
+                                "Name": "光明顶",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76579,
+                                "PreName": "",
+                                "Name": "鳌鱼峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76417,
+                                "PreName": "",
+                                "Name": "迎客松",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "其它",
+                        "rich_content_view": "抵达慈光阁，可乘玉屏缆车下行（单程90元，缆车费另计，依据体力状况自主选择，亦可徒步下山），随后转乘景区内交通车至山脚（交通车单程19元，费用已包含）。",
+                        "meal_hours_box": "行驶距离：约8千米"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "驱车前往桃花源中的人家——黟县。",
+                        "meal_hours_box": "行驶：约60千米/约60分钟"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    }
+                ]
+            },
+            {
+                "title": "漫步宏村古宅，聆听徽州历史故事——品【地道徽菜】—专车送往车站",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "导游将依您的时间安排，适时接送您前往宏村游览。",
+                        "meal_hours_box": "行驶：约8千米/约12分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【宏村摄影小贴士】:\n\n宏村有两处拍照绝佳地。一是南湖上的画桥，此桥为游客必经，亦是艺术家们流连之处。拍摄时应取桥的3/4侧面，以捕捉其优美的弧线。二是月沼，此地可拍出绝美大片。低角度拍摄水面倒影，画面宛如画作，美丽非凡。旁边晾晒的笋干作为前景，广角镜头捕捉，好天气更添风采。《卧虎藏龙》便在此取景，南湖桥与月沼，分别留下了李慕白与玉娇龙的足迹。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518795,
+                                "PreName": "",
+                                "Name": "宏村-画桥",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95657,
+                                "PreName": "",
+                                "Name": "南湖书院",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：100CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 11725695,
+                                "Name": "雷岗山庄(十三楼)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "行程时间仅供参考，以您实际出行计划为准。我们将根据您的返程时间，安排车辆送至市区、机场或黄山北站。为圆满结束旅程，建议您选择13:30后的交通方式，乘机返程者，建议预定14:30后的航班。",
+                        "meal_hours_box": "行驶：约50千米/约1小时10分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "抵达黄山『vip专车接站』夜泊屯溪▪自由逛老街▪感受灯火阑珊下的小城风光『宿黄山市区』",
+            "打卡黄山新地标-【黄山城市展览馆】-初遇抖音热门IP-婺源篁岭【探秘水口雨林、悬崖古村晒秋人家、打卡星空艺术馆】分分钟刷爆你的朋友圈『宿黄山市区』",
+            "世界自然与文化双遗产-梦幻黄山，登黄山，天下无山，奇松怪石，云海松涛，日出胜景『宿黄山山顶-景区直属酒店』",
+            "续游黄山-夜宿宏村、感受夜幕下的徽州『宿宏村客栈』",
+            "漫步古村、宏村老宅下聆听徽州故事-品【风味徽州餐】-专车送站"
+        ]
+    },
+    {
+        "id": "27707758",
+        "title": "黄山风景区+婺源篁岭+宏村5日4晚私家团",
+        "subTitle": "徽州全景游·预购5天省150元/人『夜宿2晚美景中·宏村1晚+黄山顶1晚』环游黄山、云海观日出日落、探秘古村落、鲜花小镇、画中人家、徽派建筑【无忧出行·一对一专属管家服务】",
+        "tags": [
+            "无购物",
+            "无自费",
+            "成团保障",
+            "3期免息",
+            "6期免息",
+            "登山体验",
+            "梯田",
+            "赠取消险",
+            "赏油菜花",
+            "古镇古村",
+            "车型可选",
+            "住黄山山顶"
+        ],
+        "sellNum": "已售6人",
+        "pmRec": "★ 【尊享服务】单人预订即享优惠，两人成行立减200元/单；提前5日预订再减150元/人！1-36人小车费自动减免，专车私享，私密又舒心！一对一管家式全程服务，出行无后顾之忧！自有品牌，承诺纯玩无购物！【超值赠送】篁岭千米往返缆车+徽州特色美食一餐！\n★ 【精品住宿】宏村景区内一晚住宿，夜赏徽州灯火；黄山山顶直营酒店双人间一晚，晨观日出，夜望星辰；两晚黄山市中心住宿，自由探索美食！\n★ 【精彩景点】游览黄山，领略云海、日出、奇松、怪石；探访崖上古村，体验梯云人家、鲜花小镇、晒秋文化；走进画中乡村，欣赏徽派建筑与江南水乡风光！",
+        "detailDescriptionContentView": {
+            "text": "【退费说明】\n\n【黄山官方票务优惠退款详情】请点击\n\n同类当地跟团产品，请点击此查看"
+        },
+        "dailyItinerary": [
+            {
+                "title": "抵达黄山，尊享VIP专车接站，夜宿屯溪，自由漫步老街，领略夜色中小城的独特韵味。【下榻黄山市区】",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "以下时间为参考，实际以您的游玩安排为准。\n专属管家将提前通知您的接驳时间及地点。\n\n【出行车辆安排】2人以下安排5座轿车／3-5人安排商务车／6人以上安排15+1座正规旅游巴士。"
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约2小时"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "自由行程：今日安排自由活动，以下为建议行程，餐饮自理，无导游陪同。\n【游玩建议】：\n文艺人士可选【黎阳老街】，书画爱好者宜访【屯溪老街】，欲购衣饰可去【商贸城】，想漫步山水画中请至【新安江滨水旅游区】。\n【美食品鉴】\n小吃推荐：蟹壳黄烧饼、五城茶干等特色小食；\n徽菜精选：徽州臭鳜鱼、徽府一品锅等经典菜肴；\n黄山知名餐厅：\n【老街第一楼】、【美食人家】等，本地人也常光顾。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79450,
+                                "PreName": "",
+                                "Name": "屯溪老街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 20228486,
+                                "PreName": "",
+                                "Name": "黎阳老街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 101480,
+                                "PreName": "",
+                                "Name": "新安江滨水旅游景区",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    }
+                ]
+            },
+            {
+                "title": "探访黄山新名片—【黄山城市展览馆】，邂逅抖音爆款IP—婺源篁岭【揭秘水口雨林、悬壁古村晒秋人家、留影星空艺术馆】，轻松点赞你的社交圈『下榻黄山市区』",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:50",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "出发时间仅供参考，选用车辆服务的客人，司机将依照您的要求，在约定时间内接送您前往黄山城市发展新坐标——【黄山市城市展览馆】。\n\n在这里，您将深入了解黄山市的历史与现状，以及徽州文化的起源和基本体系。探索徽州、徽商、徽派建筑、教育及科技艺术等丰富的文化内涵。",
+                        "meal_hours_box": "行驶：约3千米/约10分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "温馨提醒：\n1. 本馆开放时间为上午9点至下午5点；\n2. 每逢周一休馆，若遇周一，导游将协调安排其他时间带您参观，敬请理解，谢谢！",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 69484633,
+                                "PreName": "",
+                                "Name": "黄山市城市展示馆",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "时间仅为参考，按照约定，导游与司机将准时接送您前往【篁岭景区】领略秋意。晒秋是当地独特的农事习俗，山区居民因地形限制，少有平地，便在屋前屋后、窗台屋顶晾晒农作物，这一习惯逐渐转化为传统的农俗文化景观。这一独特的晾晒方式与场景，也成为了艺术家和摄影师寻找灵感的源泉，绘就了一幅幅如诗如画的“晒秋”景象。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【篁岭览胜】\n1.中国醉美符号——晒秋（最佳观赏点：1.晒工坊 2.晒秋民居 3.观景台 4.摄影区）\n2.婺源民俗展馆——宗祠\n3.明清古街——天街\n4.徽派古建筑——竹虚厅（木雕杰作）、五桂堂（徽派豪邸、小姐楼）、怡心楼（聊斋取景处、婚房）、树和堂（官厅）\n5.刺激玻璃栈道——垒心桥",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：100CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15600896,
+                                "Name": "天街食府"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "返程时间供参考，导游和司机将按约定时间接送您返回黄山城区。",
+                        "meal_hours_box": "行驶时间：约1小时30分钟"
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：89CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 489617,
+                                "Name": "老街第一楼"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "世界自然与文化双重遗产——梦幻黄山，登临黄山，世间无山可比，奇松异石，云海松声，日出美景『宿于黄山之巅-景区直属酒店』",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "出发时间仅供参考，导游和司机将依照您的要求准时在酒店接驾，随后在导游的陪同下乘车前往黄山汤口旅游集散中心换乘。",
+                        "meal_hours_box": "行驶：约65千米/约60分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达汤口后，请换乘新国线景区巴士至新云谷索道。导游将引领您乘坐索道上至白鹅岭站（索道费80元/单程，自理）。您可按体力自选付费索道或徒步登山。\n\n索道行程约12分钟，一般排队等候约20分钟；\n徒步上山需时约2.5小时。\n行程中，如无减少景点且经您同意，导游可能会根据天气、客流量等因素，适当调整行程（如变更索道使用或景点参观顺序），确保行程顺畅进行！",
+                        "meal_hours_box": "行驶：约8千米/约20分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "☆山巅风光虽美，游览时请留意脚下，勿边走边拍照，确保行走安全，欣赏美景。",
+                        "meal_hours_box": "活动时间：约5小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 87869,
+                                "PreName": "",
+                                "Name": "黄山风景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76583,
+                                "PreName": "",
+                                "Name": "白鹅岭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81877,
+                                "PreName": "",
+                                "Name": "黑虎松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75820,
+                                "PreName": "",
+                                "Name": "始信峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18521797,
+                                "PreName": "",
+                                "Name": "北海景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81883,
+                                "PreName": "",
+                                "Name": "曙光亭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81886,
+                                "PreName": "",
+                                "Name": "清凉台",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18521786,
+                                "PreName": "",
+                                "Name": "猴子观海",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 432641,
+                            "HotelName": "黄山狮林大酒店"
+                        }
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    }
+                ]
+            },
+            {
+                "title": "续行黄山之旅——夜眠宏村，领略徽州夜色『宿宏村古客栈』",
+                "subItems": [
+                    {
+                        "time": "05:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "今日再探前山胜景。行程安排：酒店→【排云亭】→【西海大峡谷】→【光明顶】→【天海】→【鳌鱼峰】→鳌鱼洞→【玉屏楼】→【迎客松】→【慈光阁】\n\n自后山启程，深入黄山精髓所在的西海大峡谷（全长10公里），继而抵达光明顶（1.5公里处）。光明顶，黄山次高峰，海拔1860米，顶面开阔平坦，是观云海佳地，可俯瞰东海、南海、西海、北海与天海，五海云雾尽在眼前。过光明顶至天海景区（1公里处），在此攀登鳌鱼峰，因其形似鳌鱼而得名。随后穿越鳌鱼洞，下行至玉屏楼。玉屏楼紧邻1668米的玉屏峰，位于莲花、天都两峰之间，文殊台上，石景如“松鼠跳天都”、“孔雀戏莲花”一览无余。迎客松、送客松分别植于狮石和象石之前，迎送往来游客。\n\n☆西海大峡谷将视天气状况适时关闭，每年开放时间：4月1日至11月30日（具体以景区公告为准）。",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76580,
+                                "PreName": "",
+                                "Name": "排云亭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 80577,
+                                "PreName": "",
+                                "Name": "西海大峡谷",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81887,
+                                "PreName": "",
+                                "Name": "丹霞峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76582,
+                                "PreName": "",
+                                "Name": "光明顶",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76579,
+                                "PreName": "",
+                                "Name": "鳌鱼峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76417,
+                                "PreName": "",
+                                "Name": "迎客松",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "其它",
+                        "rich_content_view": "抵达慈光阁，可乘玉屏索道下行（90元/单程，费用自理，依据体力可选，亦可徒步下山），后转乘景区内交通车至山脚（交通车19元/单程，已含费用）。",
+                        "meal_hours_box": "行驶距离：约8千米"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "驱车前往桃花源中的人家——黟县。",
+                        "meal_hours_box": "行驶：约60千米/约60分钟"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    }
+                ]
+            },
+            {
+                "title": "漫游古徽州，宏村古宅中聆听徽州旧事——尝【地道徽菜】—尊享专车送站服务。",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据您的时间安排，导游将适时接送您前往宏村参观。",
+                        "meal_hours_box": "行驶：约8千米/约12分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【宏村摄影攻略】：\n\n宏村两大拍照圣地推荐：一是南湖上的画桥，此桥为游客必经，画家摄影师钟爱之处。桥上拍摄，以桥拱为焦点，3/4角度最佳。二是月沼，低角度捕捉水面倒影，效果如画，美不胜收。附近晒笋干可作前景，广角镜头更佳，好天气必出大片。这里也是《卧虎藏龙》取景地，南湖桥与月沼，尽享电影中的诗意境界。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518795,
+                                "PreName": "",
+                                "Name": "宏村-画桥",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95657,
+                                "PreName": "",
+                                "Name": "南湖书院",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：100CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 11725695,
+                                "Name": "雷岗山庄(十三楼)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "行程时间仅供参考，以您实际出行计划为准。我们将根据您返程的具体时间，安排专车司机送达市区、机场或黄山北站。愉快旅程，顺利结束。\n\n温馨提醒：建议您安排13:30以后的车次返程；如乘飞机，建议选择14:30以后的航班。",
+                        "meal_hours_box": "行驶：约50千米/约1小时10分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "抵达黄山『vip专车接站』夜泊屯溪▪自由逛老街▪感受灯火阑珊下的小城风光『宿黄山市区』",
+            "打卡黄山新地标-【黄山城市展览馆】-初遇抖音热门IP-婺源篁岭【探秘水口雨林、悬崖古村晒秋人家、打卡星空艺术馆】分分钟刷爆你的朋友圈『宿黄山市区』",
+            "世界自然与文化双遗产-梦幻黄山，登黄山，天下无山，奇松怪石，云海松涛，日出胜景『宿黄山山顶-景区直属酒店』",
+            "续游黄山-夜宿宏村、感受夜幕下的徽州『宿宏村客栈』",
+            "漫步古村、宏村老宅下聆听徽州故事-品【风味徽州餐】-专车送站"
+        ]
+    },
+    {
+        "id": "29256517",
+        "title": "黄山+婺源+宏村+西递+千岛湖6日5晚私家团",
+        "subTitle": "【挚友同行 皖赣尊享】徽州古韵 VIP私车串联游·商圈五星级酒店连住免劳顿/含黄山缆车 免费云端下午茶「黄山奇松云海美景 千岛湖船游 西递/宏村古韵体验」地道的徽菜美食|贴心取消险|一对一专属管家服务",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "无自费",
+            "成团保障",
+            "登山体验",
+            "梯田",
+            "湖泊",
+            "赠取消险",
+            "赏油菜花",
+            "古镇古村",
+            "宗祠",
+            "车型可选",
+            "自选酒店",
+            "海鲜餐",
+            "徽菜"
+        ],
+        "sellNum": "已售2人",
+        "pmRec": "★ 【尊享都市】精选好评如潮的市中心五星级酒店，连住免搬迁，爸妈亲子家庭游首选！多种车型任选，透明报价，家庭出游超值之选！\n★ 【尽揽胜景】登顶世界自然与文化双重遗产黄山，领略日出晚霞、云海奇观；探访晒秋文化代表篁岭，欣赏梯田花海；漫步皖南古镇宏村与西递；乘船游览千岛湖，如画风光尽收眼底；徽州古街闲逛，热门景点一览无余！\n★ 【品质出行】纯玩私家小团，独立用车，资深导游陪同，一对一专属管家服务，微信群实时直播，安心又贴心。专享《徽州盛宴》美食，丰富自助早餐，网红景观阳台下午茶，视觉味蕾双重享受！",
+        "detailDescriptionContentView": {
+            "text": "黄山当地参团，立即点击：“我要本地参团”；或搜索编号：29256366。\n\n私人订制，尊享高端，一人一团，无需与陌生人同行，自由安排时间，无需妥协，尽情宠爱自己和家人！\n\n【品质保证】纯正游玩，无购物无自费，全程门票+区间车费全包，享受舒适旅程！\n\n【精选住宿】黄山市区5晚顶级5星级酒店，无需频繁换宿，省去行李劳顿！\n\n【美食品鉴】尊享【徽州宴遇特色餐】，每人餐标100元，品尝地道徽菜，感受美食与文化的交融！\n\n【用车升级】专享VIP独立用车，多款车型可选，保证隐私自由，随心所欲停留！\n\n【独家礼遇】\n\n礼遇1、赠送篁岭往返缆车（价值120元/人），领略梯田花海美景！\n\n礼遇2、赠送黄山登山索道（价值90元/人），轻松登顶，尽享黄山风光！\n\n礼遇3、下单即送徽州特色手信，将黄山名小吃带回家。\n\n【贴心设计】专为父母考量！\n\n细节1、酒店自助早餐+正餐徽菜风味，享网红阳台下午茶，美食与美景兼得！\n\n细节2、赠送登山杖+雨衣，无忧游玩！\n\n细节3、当地导游陪同，热情服务，专业解说，一对一专属管家服务，微信群实时更新行程！\n\n细节4、24小时免费接机/接站，VIP待遇，零等待！"
+        },
+        "dailyItinerary": [
+            {
+                "title": "起点→黄山接待『VIP专车0等待』→ 徜徉徽州古街巷 体验市井风情 遍是故事点滴",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "请根据您的航班/车次，按时抵达黄山，展开美好旅程！到达后，将有专车等候，直接送您至市区酒店。\n携程贵宾独享24小时接站服务，无需等待，高效利用每分每秒！\n【出行提示】工作人员将在您出发前一日17:00前，通过短信或电话告知旅游相关事宜，请保持预留手机畅通。\n\n何为“私家团”？\n仅由您和您的亲友组成的小团队，私密性佳，无需与陌生人同行。一单一团，绝无拼团。\n\n为何选择“私家团”？\n告别早出晚归的疲惫，尽享“自然醒”的悠闲。\n不再因等团员而延误，也不会因夜归而感到尴尬。\n专享司导全面服务，一切随您心意，行程自由，停留随心，游玩自在，舒适无比！"
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约15千米/约20分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "抵达日无具体行程，若您到得较早，完成酒店入住后，即可自由安排时间。\n【游览提示】：当天建议的游览项目，您可依据个人需求自主决定，此期间无专车和导游陪同，敬请理解！",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79450,
+                                "PreName": "",
+                                "Name": "屯溪老街",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 20228486,
+                                "PreName": "",
+                                "Name": "黎阳老街",
+                                "SuffixName": null
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    }
+                ]
+            },
+            {
+                "title": "婺源崖山古村·畅游花海 如画入境| 篁岭梯田村色 晒秋人家 鲜花小镇巡礼 → 月亮湾摄影之旅→ 品鉴徽州美食安排体验",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "探访【婺源篁岭】—梯云之上的村落、晒秋文化代表（携程会员专属福利：含门票及千米缆车观光）。\n篁岭汇聚了婺源旅游的精华，融合古村、古树群、梯田花海、晒秋民俗等乡村美景。四季皆宜的旅游胜地，春赏油菜花田、夏享峡谷溪流、秋观村落晒秋、冬体验民俗度假。",
+                        "meal_hours_box": "行驶：约65千米/约60分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "“中华符号”篁岭，浓缩了婺源之美，融合古村落、梯田花海、晒秋民俗与高空胜景。这里的明清古建艺术殿堂，五百米“天街”商贾云集，古韵浓厚，艺术创作比比皆是。篁岭村依山而建，民居如扇形梯级排布。四周古树环绕，梯田层层，九巷“天街”将古建巧妙串联，徽派商铺前后错落，宛如活动的“清明上河图”。\n\n步至一号观景台，360度全景视野，周边梯田波光粼粼，四季花海变幻着迷人景致。\n\n登上晒秋观景台，领略篁岭“晒秋”农俗，徽派古民居沿岭谷百米高低错落，窗凿采光，支架晒秋。村民以窗为画板，支架为笔，晒匾作调色，春晒嫩笋蕨菜，秋晒辣椒稻谷，绘制出四季不断的民俗风情画。",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "乘坐缆车或观光车下行。",
+                        "meal_hours_box": "行驶：约1千米/约8分钟"
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "踏上去月亮湾的旅程。",
+                        "meal_hours_box": "行驶：约37千米/约48分钟"
+                    },
+                    {
+                        "time": "14:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "月亮湾名副其实，\n\n似悬挂于婺源的弯弯残月，无疑，\n\n水面之地总散发着难以言喻的柔情。\n\n乘坐一叶朴拙小舟，\n\n在溪水之上荡漾，\n\n晨雾缭绕中，领略江南水乡的独特风情。\n\n温馨提示：若月亮湾因景区升级暂停开放，将为您调整为西溪南村或湖畔古村落游览。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 81783,
+                                "PreName": "",
+                                "Name": "月亮湾",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 60697040,
+                                "PreName": "",
+                                "Name": "西溪南古村落",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 59738156,
+                                "PreName": "",
+                                "Name": "湖边古村落",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "结束游览后，我们将乘车返回黄山，前往被誉为“活着的清明上河图”的全国历史文化保护区、中国十大历史文化名街——屯溪老街。【屯溪老街】：这里完好保存着宋、明、清三代的建筑风格商业街。街道两旁，店铺林立，多为砖木结构的两层小楼，清一色的徽派风格，散发着古色古香的韵味。在这里，您可以体验江南古镇的风情，感受徽派建筑的精致，或是在酒馆茶楼稍作休息，或在古街中悠然漫步。",
+                        "meal_hours_box": "行驶：约80千米/约1小时10分钟"
+                    },
+                    {
+                        "time": "17:10",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79450,
+                                "PreName": "",
+                                "Name": "屯溪老街",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：100CNY/人"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约3千米/约8分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "山水相逢间 | 千岛湖游船 梅峰岛揽胜（含船票+中心湖区门票）『静享宁静·呼吸清新』",
+                "subItems": [
+                    {
+                        "time": "07:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "驱车约1.5小时至深渡码头，沿途欣赏新安江美景。随后乘坐游船游览被誉为\"天下秀水\"的千岛湖（包含游船及大门票），湖内1078个翠绿岛屿错落分布，景色迷人，宛如\"水似丝带绕，山若翠玉簪\"。根据游船行程，我们将游览中心湖区的3至4个岛屿。",
+                        "meal_hours_box": "行驶：约56千米/约60分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【行程提示】每日岛屿游览由游船公司依据实际情况进行安排。",
+                        "meal_hours_box": "活动时间：约4小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 97470,
+                                "PreName": "",
+                                "Name": "千岛湖景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10519520,
+                                "PreName": "",
+                                "Name": "千岛湖中心湖区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 10558749,
+                                "PreName": "",
+                                "Name": "梅峰岛",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75800,
+                                "PreName": "",
+                                "Name": "龙山岛",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10519521,
+                                "PreName": "",
+                                "Name": "月光岛系园",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10558906,
+                                "PreName": "",
+                                "Name": "神龙岛",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：含餐 儿童：含餐",
+                        "meal_hours_box": "餐标：30CNY/人"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达深渡码头后，返程前往黄山市，下榻酒店休息。",
+                        "meal_hours_box": "行驶：约56千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "19:10",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    }
+                ]
+            },
+            {
+                "title": "走进历史 邂逅皖南古韵 | 西递遗珍 水墨宏村风华",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "早餐后，前往被誉为“世外桃源”的黟县，游览【西递古村景区】，沿途欣赏徽州山野田园风光，仿佛踏入唐诗宋词之境。\n西递村完好保存着徽派建筑群，享有“全球最秀美村庄”之称。村内保留着近两百幢明清时期的民居建筑。徽派建筑布局精巧，砖、木、石雕装饰其间，在国内古民居中颇为罕见，堪称徽派古建筑艺术的典范。西递的豪华宅院、精致花园、雄伟牌坊，无不向世人诠释着何为真正的“桃花源”。这个古村落较大程度保持了上个世纪已逝或变迁的乡村风貌。其街道风格、古建筑及装饰、完备的民居供水系统，均为独特的文化瑰宝。与其它村落相比，西递的徽派建筑更显独具匠心。",
+                        "meal_hours_box": "行驶：约50千米/约60分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约2小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 80116,
+                                "PreName": "",
+                                "Name": "西递",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96640,
+                                "PreName": "",
+                                "Name": "胡文光牌坊",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96645,
+                                "PreName": "",
+                                "Name": "旷古斋",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96646,
+                                "PreName": "",
+                                "Name": "瑞玉庭",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 96643,
+                                "PreName": "",
+                                "Name": "敬爱堂",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "午后前往“画卷中的中国乡村”—【宏村（门票已含）】，这里是电影《卧虎藏龙》的取景地之一。宏村总体风貌为古黟桃花源中独特的牛形古村落，背靠黄山支脉羊栈岭、雷岗山，地势偏高。时而云雾缭绕，宛如浓墨涂抹；时而如水墨挥洒，四周青山与粉壁黛瓦映照湖面，恰似缓缓展开的山水画，吸引了无数写生、摄影爱好者及影视作品前来取景。",
+                        "meal_hours_box": "行驶：约20千米/约30分钟"
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "宏村，徽派建筑风格独特，村内完好保存明清古民居超140幢。著名景点包括南湖春晓、月沼风荷等。承志堂被誉为民间故宫，尽显皖南古民居的华美。湖光山色与楼院相融，自然与人文景观共辉，彰显宏村建筑布局的独特魅力。",
+                        "meal_hours_box": "活动时间：约2小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 101490,
+                                "PreName": "",
+                                "Name": "宏村景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95656,
+                                "PreName": "",
+                                "Name": "宏村-南湖",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95654,
+                                "PreName": "",
+                                "Name": "月沼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95657,
+                                "PreName": "",
+                                "Name": "南湖书院",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95655,
+                                "PreName": "",
+                                "Name": "承志堂",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 95658,
+                                "PreName": "",
+                                "Name": "汪氏宗祠",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18518795,
+                                "PreName": "",
+                                "Name": "宏村-画桥",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约60千米/约1小时20分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 450942,
+                            "HotelName": "黄山国际大酒店"
+                        }
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐"
+                    }
+                ]
+            },
+            {
+                "title": "漫游黄山（赠玉屏索道上山，尽享黄山之趣）领略绝美风光 | 峰峦争艳，石巧似林→特设玉屏楼网红观景台打卡，攀峰赏景，品尝云端下午茶，俯瞰壮丽云海。",
+                "subItems": [
+                    {
+                        "time": "07:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约20分钟"
+                    },
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "乘坐屯黄公路巴士前往黄山风景区山下换乘点（景交费已含），转乘景区交通车抵达慈光阁票务处，再乘玉屏缆车上山（费用已包含）。游览黄山风景区（大门票及景区内必乘交通38元/人已含）。黄山以其奇松、怪石、云海、温泉闻名遐迩，被誉为“四绝”。雾凇、雪景、日出等亦为黄山独有美景，令人宛如置身仙境。明代旅行家徐霞客两度登临黄山，赞叹其景致为“生平奇观”。",
+                        "meal_hours_box": "行驶：约60千米/约60分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 87869,
+                                "PreName": "",
+                                "Name": "黄山风景区",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 18535293,
+                                "PreName": "",
+                                "Name": "玉屏索道",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 18529257,
+                                "PreName": "",
+                                "Name": "玉屏景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76585,
+                                "PreName": "",
+                                "Name": "玉屏楼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76581,
+                                "PreName": "",
+                                "Name": "莲花峰",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 75821,
+                                "PreName": "",
+                                "Name": "天都峰",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 76417,
+                                "PreName": "",
+                                "Name": "迎客松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 84647,
+                                "PreName": "",
+                                "Name": "百步云梯",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 84651,
+                                "PreName": "",
+                                "Name": "一线天",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76579,
+                                "PreName": "",
+                                "Name": "鳌鱼峰",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约40分钟"
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76771,
+                                "PreName": "",
+                                "Name": "天海",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76582,
+                                "PreName": "",
+                                "Name": "光明顶",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76415,
+                                "PreName": "",
+                                "Name": "飞来石",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 80577,
+                                "PreName": "",
+                                "Name": "西海大峡谷",
+                                "SuffixName": "(外观)"
+                            },
+                            {
+                                "GSScenicSpotID": 18521797,
+                                "PreName": "",
+                                "Name": "北海景区",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76416,
+                                "PreName": "",
+                                "Name": "梦笔生花",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 99905,
+                                "PreName": "",
+                                "Name": "散花坞",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75820,
+                                "PreName": "",
+                                "Name": "始信峰",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81877,
+                                "PreName": "",
+                                "Name": "黑虎松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81878,
+                                "PreName": "",
+                                "Name": "连理松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81879,
+                                "PreName": "",
+                                "Name": "龙爪松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 18528987,
+                                "PreName": "",
+                                "Name": "探海松",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 81880,
+                                "PreName": "",
+                                "Name": "石笋矼",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 76583,
+                                "PreName": "",
+                                "Name": "白鹅岭",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "下午茶",
+                        "rich_content_view": "成人：含餐饮 儿童：含餐饮\n\n（假设原句中的“餐”意指包含餐饮服务，故在调整时保持原意并补充完整。）",
+                        "meal_hours_box": "参考标准：98CNY/人"
+                    },
+                    {
+                        "time": "16:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "徒步至云谷寺，再乘坐景区巴士抵达山脚换乘点集中，随后车程约1小时返回黄山屯溪，抵达酒店后休憩。",
+                        "meal_hours_box": "行驶：约60千米/约60分钟"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约60千米/约60分钟",
+                        "daily_itinerary_hotel": {
+                            "HotelID": 654945,
+                            "HotelName": "黄山栢景假日酒店"
+                        }
+                    },
+                    {
+                        "time": "19:10",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    }
+                ]
+            },
+            {
+                "title": "悠然醒来，踏上归途，欢乐旅程完美落幕！ \n\n（注：原句14字，修改后也是14字）",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "早餐后，您可自由安排时间。根据您回程的航班或车次，我们会适时送您至黄山屯溪机场或黄山北站，告别愉快的旅行！",
+                        "meal_hours_box": "行驶：约15千米/约23分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "出发地→抵达黄山『Vip专车接站』0等候→ 漫步徽州古巷 市井之间 净是故事",
+            "婺源崖山古村·含景交费-置身花海 似入画中| 篁岭赏梯田村落 晒秋人家 鲜花小镇 → 行摄月亮湾→ 礼遇安排品徽州风味餐",
+            "山水有相逢| 船游千岛湖 梅峰岛揽胜（含船票+中心湖区门票）『远离喧嚣·吸氧润肺』",
+            "穿越时光 遇见皖南古村落 | 西递古镇 水墨宏村",
+            "漫步黄山（赠玉屏索道上山 悠游黄山） 赏独特奇绝风光 | 群峰竞秀 巧石如林→安排打卡玉屏楼网红观景阳台，登峰揽景，品云巅下午茶观烂漫云海",
+            "睡到自然醒→返程，结束愉快行程！"
+        ]
+    },
+    {
+        "id": "32356968",
+        "title": "江西婺源+三清山+景德镇4日3晚私家团",
+        "subTitle": "春意盎然 赏油菜花海 | 景德镇瓷都酒店任选 古窑见证活瓷器史 『徽州』篁岭梯田秋晒 李坑古韵民居 『三清山』奇石揽胜 不走回头路",
+        "tags": [
+            "无购物",
+            "无自费",
+            "成团保障",
+            "亲子甄选",
+            "3期免息",
+            "登山体验",
+            "梯田",
+            "赏油菜花",
+            "车型可选",
+            "自选酒店"
+        ],
+        "sellNum": "已售4人",
+        "pmRec": "★ 【传承】五朝古窑遗址探索，篁岭秋晒美景+徽派古居，登顶世界遗产三清山赏风光！\n★ 【尊享】下榻一晚三清山+两晚婺源；多样酒店/房型任选，家庭亲子房型自在搭配！\n★ 【品质承诺】专车专用，一团一策，24小时贴心管家服务，携程自营伴您私享旅程！",
+        "detailDescriptionContentView": {
+            "text": "【携程自营】三清山+婺源+景德镇四日三晚私家游\n\n『秋晒风情』篁岭·悬崖古镇\n\n『非遗传承』古窑·传统瓷艺\n\n『水乡古韵』李坑村\n\n『世界遗产仙境』三清山风光游"
+        },
+        "dailyItinerary": [
+            {
+                "title": "上饶专车接送—住宿可选三清山酒店接机/接站服务",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达上饶三清山机场或上饶站，将有专车恭候接送，期待您的光临。\n提醒：出行前我们会与您确认，请确保手机通讯畅通！"
+                    },
+                    {
+                        "time": "15:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约2千米/约10分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约2千米/约5分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 127650486,
+                                "Name": "三清山山人菜馆"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "【三清山】世界遗产仙境——环线漫游·绝无返程——可选购往返缆车——宿于|婺源任选酒店",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约5分钟"
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "您可在预订时选择加购索道服务，轻松往返三清山。",
+                        "meal_hours_box": "行驶：约3千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 93499,
+                                "PreName": "",
+                                "Name": "三清山风景区",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "09:40",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约15分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79941,
+                                "PreName": "",
+                                "Name": "南清园景区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79188,
+                                "PreName": "",
+                                "Name": "巨蟒出山",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 77262,
+                                "PreName": "",
+                                "Name": "东方女神",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18221728,
+                                "PreName": "",
+                                "Name": "玉皇顶",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：40CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 129935531,
+                                "Name": "女神宾馆-餐厅"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 82176,
+                                "PreName": "",
+                                "Name": "三清山-西海岸",
+                                "SuffixName": "(已含门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 82178,
+                                "PreName": "",
+                                "Name": "阳光海岸景区",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18221737,
+                                "PreName": "",
+                                "Name": "一线天",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79938,
+                                "PreName": "",
+                                "Name": "观音赏曲",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约2千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 82169,
+                                "PreName": "",
+                                "Name": "猴王献宝",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "下山后，前往婺源酒店办理入住。",
+                        "meal_hours_box": "行驶：约78千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约5千米/约8分钟"
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约5分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 42630542,
+                                "Name": "村里村外徽州民肴"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "【李坑】古韵小桥，流水潺潺 —【篁岭】晒秋风情，古韵小镇 — 住宿 | 婺源精选酒店自由选",
+                "subItems": [
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "09:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约20千米/约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 79454,
+                                "PreName": "",
+                                "Name": "李坑景区",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约40千米/约50分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10547759,
+                                "PreName": "",
+                                "Name": "婺源篁岭",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 98279650,
+                                "PreName": "",
+                                "Name": "梯田花海",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约5分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 15600896,
+                                "Name": "天街食府"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "meal_hours_box": "行驶：约39千米/约55分钟"
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 31390521,
+                                "Name": "自家人(婺源县店)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "景德镇【古窑】千年陶瓷制作传承 — 专车接送至景德镇机场或火车站",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约1千米/约3分钟"
+                    },
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "专属车辆直驶景德镇",
+                        "meal_hours_box": "行驶：约70千米/约1小时30分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶：约5千米/约10分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 86620,
+                                "PreName": "",
+                                "Name": "古窑民俗博览区",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶：约2千米/约5分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 129907194,
+                                "Name": "窑窑领鲜"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据您的时间安排，提供专车送达景德镇。\n若您晚些时候返程，可安排前往景德镇陶艺街或三宝村自由活动，随后专车送至机场或高铁站。",
+                        "meal_hours_box": "行驶：约15千米/约30分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "上饶专车接机/接站 — 宿 | 三清山自选酒店",
+            "【三清山】世遗仙山 — 环线游览 · 不走回头路 — 可加购往返索道 — 宿 | 婺源自选酒店",
+            "【李坑】小桥流水人家 —【篁岭】晒秋古村/鲜花小镇 — 宿 | 婺源自选酒店",
+            "景德镇【古窑】千年制瓷历史 — 专车送返景德镇机场或景德镇站"
+        ]
+    }
+]

@@ -1,0 +1,779 @@
+[
+    {
+        "id": "28615199",
+        "title": "江苏无锡2日1晚私家团",
+        "subTitle": "【太湖双景】高端酒店任选『市区或拈花湾景区』+鼋头渚游船体验+拈花湾夜赏『3D水幕光影』&『梵天花海』，超值299元起！同行越多，优惠越多！【含全程交通】",
+        "tags": [
+            "无购物",
+            "成团保障",
+            "动车高铁游",
+            "赠取消险",
+            "车型可选",
+            "自选酒店"
+        ],
+        "sellNum": "已售9人",
+        "pmRec": "★ 【精致行程】尊享高端酒店，鼋头渚美景尽收眼底，拈花湾禅意之旅！\n★ 【舒适住宿】严选高端酒店，让您旅途舒心，休息无忧！\n★ 【品质服务】专属私家团，全程管家照料，行程灵活，纯玩之旅，让您安心畅游！",
+        "detailDescriptionContentView": {
+            "text": "本地参团，请点击此处\n\n含往返交通，请点击此处"
+        },
+        "dailyItinerary": [
+            {
+                "title": "无锡拈花湾、惠山古镇纯玩两日游/品质小团任意选住\n\n第一天：指定地点集合出发至无锡，抵达后享用中餐，稍作休整。继而前往拈花湾，此地名源自佛祖拈花一笑的传说，且地形似五叶莲花。小镇风格融合了日本奈良与中国江南水乡特色，风景如画，背山面湖，为禅意盎然的自由花园，也是世界佛教论坛的永久会址。这里有五个山谷和一条花街，提供茶道、花道等多处休憩场所。晚餐自理，随后入住酒店。\n\n住宿：拈花湾景区内或无锡市区\n\n第二天：自然醒后，游览地理位置独特的惠山古镇，这里自然环境优美，古祠堂群密集，是无锡老街坊风貌的完好代表。古镇内文化底蕴深厚，惠山浜穿流而过，两岸历史文物林立。游览结束后，于景区内自理午餐，随即返回。\n\n行程特色：纯玩无购物，精致小团，独立成团，深度游，提供安全保障及保健医生全程陪同。",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达无锡，将有“携程旅游”标识的导游热情接待，伴您开启愉悦的旅程。\n\n友情提示：建议您安排在中午13:00前抵达无锡，以确保充足的时间享受后续的旅游活动。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "您早至无锡，可随车导游览古镇，小景点门票需当日自行承担。\n\n如行程紧密，可选在D2游览。",
+                        "meal_hours_box": "行驶时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 86784,
+                                "PreName": "",
+                                "Name": "惠山古镇",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "上午",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 29973059,
+                                "Name": "步沿私房菜馆"
+                            },
+                            {
+                                "GSScenicSpotID": 29957477,
+                                "Name": "老牛窝里老店"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "🌼 您可在日间游览禅乐馆、百花堂、妙音台等景点，穿梭工艺品小店，疲乏时休憩品味美食。\n\n🌼 拈花湾八大景观：胥山大禅堂、鹿鸣谷、禅心谷等，各具特色，静待您的探索。\n\n🌼 温馨提示：\n🌼 拈花湾提供华服体验，关注官方公众号小程序即可预约添购；\n🌼 景区内设有游船及小火车等多种游玩项目，欢迎现场选购体验。",
+                        "meal_hours_box": "行驶时间：约60分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 23822661,
+                                "PreName": "",
+                                "Name": "拈花湾",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 56810207,
+                                "PreName": "",
+                                "Name": "梵天花海",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56810310,
+                                "PreName": "",
+                                "Name": "香月花街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56810206,
+                                "PreName": "",
+                                "Name": "妙音台",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56810049,
+                                "PreName": "",
+                                "Name": "鹿鸣谷",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 11266003,
+                                "Name": "丽湖船菜馆·特色鱼头汤(古竹路店)"
+                            },
+                            {
+                                "GSScenicSpotID": 26126394,
+                                "Name": "缘一閣·湖景本帮菜(灵山景区拈花湾店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "晚间，您可在景区内悠闲漫步，并观赏精彩的3D水幕光影表演。\n\n📢温馨提示：\n\n请留意景区当天公布的3D水幕光影秀具体演出时间，以下为参考安排：\n\n- 水幕光影秀：18:00-20:50，地点：半山衔日广场；\n- 拈花湾亮塔：18:30、19:00、19:30、20:00、20:30，地点：拈花湾广场；\n- 花开五叶水上演出：18:45、19:15、19:45，地点：五灯湖广场。",
+                        "meal_hours_box": "活动时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 23822661,
+                                "PreName": "",
+                                "Name": "拈花湾",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 56809418,
+                                "PreName": "",
+                                "Name": "拈花塔",
+                                "SuffixName": null
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "选择适合您的住宿：拈花湾景区或无锡市区内酒店。\n\n★ 市区精选：苏宁凯悦、君来洲际、铂尔曼、皇冠假日等品牌酒店。\n\n★ 景区内住宿：拈花客栈、波罗蜜多酒店。\n\n提示：景区内住宿游客，入住与退房时可免费电瓶车接送一次。\n\n☻ 拈花客栈位于小镇核心，波罗蜜多酒店毗邻鹿鸣谷。\n\n★ 拈花湾官方主题客栈包括：云水间、平常居、一花一世界...醉春芳等多家选择。",
+                        "meal_hours_box": "行驶时间：约40分钟"
+                    }
+                ]
+            },
+            {
+                "title": "抱歉，您提供的信息似乎不完整，而且最后一句话也不是一个需要调整的文案。如果您需要我帮您调整某个文案，请提供一个完整的句子或段落，我会根据您的要求进行相应的修改。",
+                "subItems": [
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "鼋头渚赏樱佳期：三月十五日至四月十五日，盛花时节，美不胜收。\n\n（温馨提示：具体花期受气候影响或有变动，建议出行前关注最新花讯，以便规划最佳赏花行程。）",
+                        "meal_hours_box": "行驶时间：约50分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75725,
+                                "PreName": "",
+                                "Name": "鼋头渚",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 10520223,
+                                "PreName": "",
+                                "Name": "樱花谷",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 73383051,
+                                "Name": "樱花山庄特色餐厅"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "继续游览鼋头渚，乘船前往太湖仙岛。",
+                        "meal_hours_box": "行驶时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76306,
+                                "PreName": "",
+                                "Name": "太湖仙岛",
+                                "SuffixName": "(船观)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:30",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "调整后的文案：\n\n为您提供苏南硕放国际机场及附近火车站的接送服务，确保您的旅程愉快结束。\n\n温馨提醒：鼋头渚景区距苏南硕放国际机场、无锡火车站、无锡新区站、无锡东站约45分钟车程，节假日可能遇堵车，请预留充足时间。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "各地-无锡（接机or接站+惠山古镇+拈花湾）/宿拈花湾景区内or市区（任您选）",
+            "无锡（鼋头渚+送站or送机）-各地"
+        ]
+    },
+    {
+        "id": "28614506",
+        "title": "江苏无锡3日2晚私家团",
+        "subTitle": "【太湖胜境】入住高标五钻酒店，尽享『鼋头渚』美景，泛舟湖上；夜赏『拈花湾』禅意风光，毗邻灵山胜境『净化心灵』。特惠套餐：299元起/人！含全程2早5正，鼋头渚门票游船全免，更有机会升级湖景客房，饱览太湖美景。【限定优惠】儿童、老人、团体均有额外折扣，快来规划您的禅意之旅！注意事项：出行请备好有效证件，疫情期间做好防护。此优惠不退不改，费用包含景区首道大门票。",
+        "tags": [
+            "无购物",
+            "成团保障",
+            "双酒店",
+            "动车高铁游",
+            "赠取消险",
+            "宫殿",
+            "寺院祈福",
+            "车型可选",
+            "夜宿拈花湾"
+        ],
+        "sellNum": "已售21人",
+        "pmRec": "★ 【精粹旅程】太湖南岸鼋头渚、拈花湾全景游，礼佛灵山大佛，拒绝匆匆一瞥！\n★ 【严选住宿】尊享安逸，5星酒店随心挑，夜宿拈花湾，体验湖畔或都市风情，享受多样化住宿！\n★ 【品质服务】行程轻松，私家小团专享，全程管家式服务，纯净游玩，拒绝购物，行程灵活调整！",
+        "detailDescriptionContentView": {
+            "text": "本地参团，请点击此处\n\n含往返交通，请点击此处\n\n\n\n*外籍游客预订前，请务必根据当地疫情防控政策合理安排行程。如有需要，请联系客服咨询，谢谢！"
+        },
+        "dailyItinerary": [
+            {
+                "title": "各地直通无锡（含接送服务+惠山古镇游览+夜赏拈花湾），夜憩精选酒店或民宿拈花湾周边",
+                "subItems": [
+                    {
+                        "time": "不限",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达无锡，将有“携程旅游”标识的导游热情迎接，引领您步入愉悦的旅行。\n\n友情提示：建议您安排在下午14:00前抵达无锡，以便充分享受美好的游览时光。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    },
+                    {
+                        "time": "11:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "若您提前抵达无锡，可随车导游览该地。古镇内小景点门票需自理，可自行选择购买。若日程紧张，可依需求调整游玩日期。\n\n古镇美食琳琅满目，可品美味边逛。\n\n·惠山豆腐花（横街13号）：口感咸香，含紫菜、虾皮，豆腐花嫩滑，入口即化；\n·忆秦园小笼包：《舌尖上的中国》推荐，以蟹粉小笼为特色，汤汁丰富，皮薄馅多；\n·二泉园老菜馆（绣嶂街3号）：百年老店，主打精致无锡菜；\n·一亩三分田（绣嶂街24号）：提供苏式面点特色；\n·朱顺兴油酥：百年老店，有咸甜两种口味，饼皮酥脆，食用时需小心掉渣。",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 86784,
+                                "PreName": "",
+                                "Name": "惠山古镇",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 29973059,
+                                "Name": "步沿私房菜馆"
+                            },
+                            {
+                                "GSScenicSpotID": 11265127,
+                                "Name": "二泉园老菜馆"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "【拈花湾】住宿选择多样，￥699起住客栈，￥1099升级酒店！位于香月街附近的客栈与鹿鸣谷边的波罗蜜多酒店，任君挑选。各具特色的客栈主题，如云水间、平常居等，让您在禅意小镇中找到心灵栖息之地。未约可退，安心预订！在这里，享受片刻宁静，放松身心。",
+                        "meal_hours_box": "行驶时间：约40分钟"
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 26126394,
+                                "Name": "缘一閣·湖景本帮菜(灵山景区拈花湾店)"
+                            },
+                            {
+                                "GSScenicSpotID": 41936606,
+                                "Name": "波罗蜜多酒店中餐厅"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "自由活动",
+                        "rich_content_view": "夜幕降临，您可闲步园中，一睹G20团队精心筹备的光影盛宴\n\n温馨提醒：\n\n水幕光影秀每晚18:00-20:50，地点：半山衔日广场；\n拈花湾亮塔表演时段为18:30、19:00、19:30、20:00、20:30，地点：拈花湾广场；\n花开五叶水上演出时间为18:45、19:15、19:45，地点：五灯湖广场；\n请以景区当日公告为准，享受视觉盛宴。",
+                        "meal_hours_box": "活动时间：约1小时30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 23822661,
+                                "PreName": "",
+                                "Name": "拈花湾",
+                                "SuffixName": null
+                            },
+                            {
+                                "GSScenicSpotID": 56809418,
+                                "PreName": "",
+                                "Name": "拈花塔",
+                                "SuffixName": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "无锡灵山大佛·拈花湾·南长街纯玩一日游\n\n【精粹住宿】：夜宿无锡快捷连锁酒店\n【禅意漫游】：探秘灵山脚下的拈花湾，禅意小镇风光独好\n【历史漫步】：徜徉清明桥畔的南长街，感受江南水乡古韵\n【佛光之旅】：朝拜88米高的灵山大佛，领略东方佛教文化\n\n行程安排：\n- 早上：指定时间地点集合，前往灵山小镇拈花湾，莲花山水间，感受禅意\n- 下午：移步至东方第一大佛——灵山大佛，观九龙灌浴表演，参观佛教艺术建筑梵宫\n- 晚上：漫步无锡老街——清明南长街，体验古运河畔的江南风情\n\n【纯玩承诺】：全程0购物，0自费，让您玩得舒心、放心！",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "☺ 白天您可游览禅乐馆、百花堂、妙音台等景点，逛逛特色工艺品店，累了便坐下小憩，享受美食。\n\n☺ 拈花湾八景：胥山大禅堂、鹿鸣谷、禅心谷等，各具特色，静待探索。\n\n★ 温馨提示：\n\n☺ 景区内提供华服体验，关注官方公众号小程序即可预约及加购；\n\n☺ 景区内设有丰富体验项目，如游船、小火车，欢迎现场选购，增添游玩乐趣。",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 23822661,
+                                "PreName": "",
+                                "Name": "拈花湾",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 56810207,
+                                "PreName": "",
+                                "Name": "梵天花海",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56810310,
+                                "PreName": "",
+                                "Name": "香月花街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56810206,
+                                "PreName": "",
+                                "Name": "妙音台",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56810049,
+                                "PreName": "",
+                                "Name": "鹿鸣谷",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "11:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10560214,
+                                "Name": "渔阿婆船菜·秘制熟醉蟹"
+                            },
+                            {
+                                "GSScenicSpotID": 16966444,
+                                "Name": "灵福缘私房菜·熟醉蟹(灵山大佛店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "敬告游客：\n\n1、景区内电瓶车费用已包含在门票内；\n   \n2、如遇国家法定假日或特殊情况，灵山梵宫吉祥颂演出暂停，由于实行一票制，演出费用不可退，还请留意！",
+                        "meal_hours_box": "行驶时间：约40分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75721,
+                                "PreName": "",
+                                "Name": "灵山大佛",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 92252,
+                                "PreName": "",
+                                "Name": "五印坛城",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 92253,
+                                "PreName": "",
+                                "Name": "九龙灌浴",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10559148,
+                                "PreName": "",
+                                "Name": "灵山梵宫",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 56778253,
+                                "PreName": "",
+                                "Name": "灵山胜境-灵山吉祥颂",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "启程驶向无锡市区。",
+                        "meal_hours_box": "行驶：约40千米/约60分钟"
+                    },
+                    {
+                        "time": "17:30",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 50447058,
+                                "Name": "新缘君园(梅园店)"
+                            },
+                            {
+                                "GSScenicSpotID": 11264115,
+                                "Name": "老李家饭庄(独月路店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "19:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10559377,
+                                "PreName": "",
+                                "Name": "南长街",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "20:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "精选酒店任您挑选，按需入住，尽享舒适休憩。\n\n例如：市中心：苏宁凯悦、君来洲际、皇冠假日等；湖畔风光：瑞廷西郊、君来湖滨、太湖饭店。",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    }
+                ]
+            },
+            {
+                "title": "对不起，您提供的信息似乎不完整，而且没有给出具体的文本内容需要调整。如果您能提供一个具体的标题或摘要文本，我会很乐意帮助您调整文案。请提供需要修改的文案，我会根据您的要求进行字数的控制和意义的保持。",
+                "subItems": [
+                    {
+                        "time": "08:30",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "【春日胜景】鼋头渚樱花季，三月花开赏心悦目。国家5A景区，春色满园，万株樱花与百花共舞。\n\n🌸【鼋头渚樱花盛宴】赏花佳期：通常每年3月中旬至4月中旬。\n\n（温馨提醒：花开花落受气候影响，或有变动。如因天气因素影响赏花，敬请理解可能的观赏差异。）",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75725,
+                                "PreName": "",
+                                "Name": "鼋头渚",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 73383051,
+                                "Name": "樱花山庄特色餐厅"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "13:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "继续乘船畅游，深入鼋头渚景区探索美景。",
+                        "meal_hours_box": "行驶时间：约20分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 76306,
+                                "PreName": "",
+                                "Name": "太湖仙岛",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "15:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "温馨提示：鼋头渚景区及市区距离无锡站、无锡东站、无锡新区站、苏南硕放国际机场车程约30-45分钟。节假日出行，请预留充足时间，并考虑选择稍晚的航班或车次。",
+                        "meal_hours_box": "行驶时间：约60分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "各地-无锡（接机/接站+惠山古镇+夜游拈花湾），夜宿拈花湾",
+            "无锡（上午：日游拈花湾；下午：灵山大佛；晚上：南长街）",
+            "无锡（鼋头渚+送站or送机）-各地"
+        ]
+    },
+    {
+        "id": "35298299",
+        "title": "江苏扬州3日2晚私家团",
+        "subTitle": "【扬州精选】热评5星酒店体验+本地专车接送服务：【玩】走进世界文化遗产瘦西湖，乘坐游船欣赏美景，漫步古典园林何园或个园，自由选择参观大运河博物馆【尊享】提供私人司机与贴心管家服务【包含往返交通】",
+        "tags": [
+            "可加购导游服务",
+            "无购物",
+            "成团保障",
+            "动车高铁游",
+            "游船体验",
+            "赏杜鹃",
+            "博物馆",
+            "车型可选",
+            "自选酒店"
+        ],
+        "sellNum": "已售51人",
+        "pmRec": "★ 【精选游线】览西湖世界遗产，品杭州秋韵，探秘良渚古城，感受史前文化魅力！\n★ 【尊享服务】专属向导&精英团队，行程灵活，深度体验，拒绝走马观花，只为品质出行！\n★ 【舒适住宿】严选高品质酒店，多选择项匹配您的需求，享受宾至如归的温馨体验！",
+        "detailDescriptionContentView": {
+            "text": "🛫点击这里含大交通产品\n\n🚗点击这里参加当地出发团队\n\n\n\n\n🌸行程概览🌸\n\n\n\n\n第一天：专车接站，参观中国大运河博物馆，漫步东关街历史街区，送达酒店（含8小时用车）\n\n第二天：瘦西湖+游船，乘坐游船体验乾隆皇帝游湖之情，园林选择：何园或个园（二选一）（含8小时用车）\n\n第三天：扬州自由行，专车送站（仅限送站）\n\n*若第一日抵达较晚，可调换至第三天行程\n\n*提示：如需【扬州泰州机场专车接送服务】，可选购升级附加项\n\n\n\n\n更多产品信息\n\n同款4钻产品—精选4&5钻好评酒店\n\n\n🛫点击这里含大交通产品  🚗点击这里当地出发参团\n\n扬州慢生活2日游，4钻ID：38836924 ；5钻ID：35228925\n\n扬州慢生活PLUS 3日游，5钻ID：28735891\n\n扬州4日游（含1日自由活动），4钻ID：28783656，5钻ID：28766382"
+        },
+        "dailyItinerary": [
+            {
+                "title": "扬州专属出行，直达中国大运河博物馆与东关街历史街区，无缝衔接文化与古韵。",
+                "subItems": [
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "抵达扬州，持“携程旅游”标志的专属司机将迎接您，引领您探索扬州之美。（市区酒店提供接送服务）\n\n贴心提示：建议旅客选择在13:00前抵达扬州，确保游玩体验不受影响。\n（若您抵达时间较晚，可调整第一天与第三天行程顺序）",
+                        "meal_hours_box": "行驶：约15千米/约30分钟"
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：70CNY/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 402312,
+                                "Name": "吃品芝麻锅(泰州路店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "标题：扬州中国大运河博物馆免费参观攻略（发布时间：2022-02-28 16:53:00）\n\n摘要：\n如何预约扬州运河博物馆门票？中国大运河博物馆可乘56路或82路至三湾大桥东站，下车即达，免费入场，但需通过微信公众号或官网提前预约。\n\n博物馆详情：\n位于扬州市广陵区汤汪街道运博路1号的大运河博物馆，全年免费开放，开放时间为周二至周日9:00-17:00。\n\n入馆时间：\n通过微信公众号和官网实名预约，上午场9:00-13:00，下午场12:00-16:00分时段参观。\n\n团队预约：\n团队参观也需通过微信和官网预约，馆内每日上午10点和下午2点提供专业讲解服务。\n\n停车信息：\n博物馆设有大型停车场，费用为2元/半小时，提供多种充电设施。\n\n大运河历史：\n扬州，与古运河同龄的运河之城，中国大运河曾贯穿春秋、隋唐、宋元、明清，全长超2700公里，历经2500余年。博物馆内陈列着守护大运河的石刻神兽、古代船模等珍贵展品。\n\n额外提示：\n若大运河博物馆预约已满，可选择游览附近的扬州运河三湾风景区。",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 129778806,
+                                "PreName": "",
+                                "Name": "中国大运河博物馆",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "16:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "漫步东关石板道，盐商古宅的青砖黑瓦历历在目。",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 92038,
+                                "PreName": "",
+                                "Name": "东关街历史街区",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 11286984,
+                                "Name": "扬州香格里拉大酒店·香宫"
+                            },
+                            {
+                                "GSScenicSpotID": 41953810,
+                                "Name": "扬州瘦西湖温泉度假村·扬州宴(瘦西湖店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:30",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "挑选您心仪的酒店品牌，如青普、香格里拉、希尔顿、喜来登、华美达等，享受个性化房型选择，轻松完成入住。",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    }
+                ]
+            },
+            {
+                "title": "扬州漫游：探寻瘦西湖世界文化遗产，尽享游船之旅。园林之选：何园或个园，任您赏游。",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "09:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "★探访世界文化遗产，漫步国家5A级名胜，四季花开似锦，园林风光尽收眼底。\n\n赏花指南\n\n琼花🌺盛放期：4月中旬至5月中旬，聚焦琼花广场。\n\n梅花🌺绽放时：3月中旬，漫游湖上梅林。\n\n樱花🌺绚烂季：3月上旬至4月上旬，徜徉樱花谷。",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75733,
+                                "PreName": "",
+                                "Name": "瘦西湖",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 10520581,
+                                "PreName": "",
+                                "Name": "五亭桥",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 10519594,
+                                "PreName": "",
+                                "Name": "瘦西湖二十四桥",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "10:30",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "★本次行程已为您贴心安排瘦西湖游船体验（成人票），让您在古韵画舫中，领略皇帝御游之雅致。",
+                        "meal_hours_box": "活动时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 28627556,
+                                "PreName": "",
+                                "Name": "瘦西湖游船",
+                                "SuffixName": "(已含门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:30",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "参考标准：130/人",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 25661647,
+                                "Name": "趣园茶社(长春路店)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "扬州园林精选：何园与个园，哪个更值得一游？\n\n☺何园：作为晚清园林的代表，扬州何园以其独特地位著称。\n\n☺个园：国家4A级景区，以四季假山和石叠艺术闻名，清代扬州盐商的宅邸园林。当地人多推荐此园，因其地理位置优越，文化底蕴深厚。",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 75736,
+                                "PreName": "",
+                                "Name": "何园",
+                                "SuffixName": "(含首道门票)"
+                            },
+                            {
+                                "GSScenicSpotID": 75735,
+                                "PreName": "",
+                                "Name": "个园",
+                                "SuffixName": "(含首道门票)"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "17:00",
+                        "daily_itinerary_sub_tit": "晚餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "行驶时间：约30分钟",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 11285442,
+                                "Name": "富临壶园"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "18:00",
+                        "daily_itinerary_sub_tit": "酒店",
+                        "rich_content_view": "休憩于酒店之中。 \n\n（注：原文已经非常简洁，修改后的文案保持了原意且字数未增加。）",
+                        "meal_hours_box": "行驶时间：约30分钟"
+                    }
+                ]
+            },
+            {
+                "title": "扬州·城市漫步，随心而行，专车相伴，归途悠然",
+                "subItems": [
+                    {
+                        "time": "08:00",
+                        "daily_itinerary_sub_tit": "早餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约30分钟"
+                    },
+                    {
+                        "time": "10:00",
+                        "daily_itinerary_sub_tit": "景点/场馆",
+                        "rich_content_view": "以下为自由行实用攻略详解： \n\n1. 交通\n冰岛的交通网络相对发达，租车自驾是探索冰岛美景的便捷方式。您可以选择在雷克雅未克租一辆适合的路况车辆，按规划的路线自由行。\n\n2. 住宿\n冰岛有各种住宿选择，从青年旅社到豪华酒店。建议提前预订，特别是在旅游旺季。\n\n3. 美食\n冰岛的美食文化同样独特，尝试当地的海鲜、羊肉和特色小吃，如哈卡尔（发酵鲨鱼）等。\n\n4. 活动安排\n根据季节参加合适的活动，如夏季的冰川徒步、冬季的观赏北极光等。\n\n5. 天气准备\n冰岛的天气变化无常，出行前请检查天气预报，并携带适合的衣物。\n\n通过以上攻略，希望您的冰岛之旅更加难忘。",
+                        "meal_hours_box": "活动时间：约3小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 18480956,
+                                "PreName": "",
+                                "Name": "皮市街",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 92250,
+                                "PreName": "",
+                                "Name": "朱自清故居",
+                                "SuffixName": ""
+                            },
+                            {
+                                "GSScenicSpotID": 75742,
+                                "PreName": "",
+                                "Name": "文昌阁",
+                                "SuffixName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "time": "12:00",
+                        "daily_itinerary_sub_tit": "午餐",
+                        "rich_content_view": "成人：不含餐 儿童：不含餐",
+                        "meal_hours_box": "用餐时间：约1小时",
+                        "daily_itinerary_sces": [
+                            {
+                                "GSScenicSpotID": 10560542,
+                                "Name": "扬州怡园饭店 ·餐厅"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "14:00",
+                        "daily_itinerary_sub_tit": "交通",
+                        "rich_content_view": "根据行程时间，安排送您至对应火车站或首日接站地点，为美好旅程画上圆满句点。\n\n友情提示：节假日等特殊时期，请适当选择晚些的航班或车次，预留充足时间完成安检，防止误车。",
+                        "meal_hours_box": "行驶时间：约40分钟"
+                    }
+                ]
+            }
+        ],
+        "days": [
+            "各地-扬州，专车接站，中国大运河博物馆+东关街历史街区",
+            "扬州：世界文化遗产-瘦西湖+游船体验，城中园林-何园 或 个园 2选1",
+            "漫步扬州城（自由活动），专车送站，返程"
+        ]
+    }
+]
