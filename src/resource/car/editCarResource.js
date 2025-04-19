@@ -24,6 +24,11 @@ const holidays = [
   // },
   // 劳动节
   {
+    start: "2025-04-28",
+    end: "2025-04-30",
+    rate: "1",
+  },
+  {
     start: "2025-05-01",
     end: "2025-05-05",
     rate: "1.5",
@@ -41,6 +46,11 @@ const holidays = [
   //   rate: "1.5",
   // },
   // 国庆节
+  {
+    start: "2025-09-26",
+    end: "2025-09-30",
+    rate: "1",
+  },
   {
     start: "2025-10-01",
     end: "2025-10-08",
@@ -71,7 +81,7 @@ const bookIds = [
   // dr
   506368,
   // tl
-  981597,
+  621237,
   // ask
   642097,
 ];
@@ -134,6 +144,7 @@ async function changeResource(resource) {
   } = resource;
   console.log("start change", resourceId, resourceDesc);
 
+  // 携程的价格
   const resourcePrices = [];
   for (let i = 0; i < holidays.length; i++) {
     const {
@@ -243,7 +254,6 @@ async function changePrice({
         "sec-fetch-site": "same-site",
         "x-ctx-locale": "zh-CN",
       },
-      referrer: "https://vbooking.ctrip.com/ivbk/vendor/additionalservicedetail?type=edit&tabkey=2&vendorid=1431565&resourceid=41832416&from=vbk",
       referrerPolicy: "no-referrer-when-downgrade",
       body: JSON.stringify(body),
       method: "POST",
