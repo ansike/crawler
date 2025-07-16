@@ -2,10 +2,10 @@
 
 // 携程价格的比率
 const priceRate = 1.087083333333;
-const vendorId = "1279416";
-const vendorBookingContactId = 1368298;
+const vendorId = "2806511";
+const vendorBookingContactId = 1351925;
 const cars = [];
-for (let i = 100; i <= 70000; i += 50) {
+for (let i = 500; i <= 70000; i += 100) {
   // for (let i = 400; i <= 400; i += 100) {
   cars.push(i);
 }
@@ -16,17 +16,17 @@ for (let i = 100; i <= 70000; i += 50) {
 
 const carType = {
   normal_5: {
-    carIds: [2060, 6947, 2754],
-    carName: "经济5座：丰田卡罗拉/长安汽车锐程PLUS 等同级车",
+    carIds: [2060, 2068, 2157],
+    carName: "经济5座：丰田卡罗拉/丰田花冠 等同级车",
     maxPersonQuantity: 3,
   },
   comfort_5: {
-    carIds: [2050, 2066, 2251],
-    carName: "舒适5座：丰田凯美瑞/丰田亚洲龙 等同级车",
-    maxPersonQuantity: 3,
+    carIds: [2050, 2059, 1924],
+    carName: "舒适5座：丰田凯美瑞/丰田皇冠 等同级车",
+    maxPersonQuantity: 4,
   },
   7: {
-    carIds: [2077, 2076, 4718],
+    carIds: [2077, 2076, 4884],
     carName: "商务7座：丰田塞纳/丰田普瑞维亚 等同级车",
     maxPersonQuantity: 5,
   },
@@ -41,13 +41,13 @@ const carType = {
     maxPersonQuantity: 10,
   },
   14: {
-    carIds: [8352, 7127, 8891],
-    carName: "14座中巴：亚星14座/亚星欧睿 等同级车",
+    carIds: [4200, 4209, 8198],
+    carName: "14座中巴：丰田海狮14座/丰田考斯特14座 等同级车",
     maxPersonQuantity: 12,
   },
   19: {
-    carIds: [8359, 4255, 4293],
-    carName: "19座中巴：亚星19座/宇通19座 等同级车",
+    carIds: [4246, 5296],
+    carName: "19座中巴：奔驰凌特19座/宇通客车宇通T7新能源",
     maxPersonQuantity: 15,
   },
 };
@@ -57,7 +57,7 @@ const carType = {
     carIds,
     carName,
     maxPersonQuantity
-  } = carType["19"];
+  } = carType["normal_5"];
   for (let i = 0; i < cars.length; i++) {
     const price = cars[i];
 
@@ -84,7 +84,12 @@ function getDatesBetween(start, end) {
   return arr;
 }
 
-async function saveResource({ price, carName, maxPersonQuantity, carIds }) {
+async function saveResource({
+  price,
+  carName,
+  maxPersonQuantity,
+  carIds
+}) {
   const body = {
     "contentType": "json",
     "head": {
@@ -127,25 +132,19 @@ async function saveResource({ price, carName, maxPersonQuantity, carIds }) {
         "isAutoVisa": "F",
         "isAutoGetVisa": "F",
         "destinationCity": {
-          "cityId": 41,
-          "name": "拉萨",
-          "eName": "Lhasa",
-          "countryId": 1,
-          "countryName": "中国",
-          "provinceId": 30,
-          "provinceName": "西藏",
-          "cityCode": "LXA",
-          "key": 41,
-          "value": "拉萨/西藏/中国"
+          "cityId": 73,
+          "cityName": "新加坡",
+          "countryId": 3,
+          "countryName": "新加坡",
+          "eName": "Singapore",
+          "key": 73,
+          "value": "新加坡"
         },
         "resourceId": null,
         "categoryId": 2,
         "businessType": "OPT",
         "name": carName,
-        "forProductCategory": [
-          9,
-          10
-        ],
+        "forProductCategory": [26, 11],
         "forProductPattern": [
           2,
           4
@@ -182,7 +181,7 @@ async function saveResource({ price, carName, maxPersonQuantity, carIds }) {
         "forChildQuantity": 1,
         "forChildProductQuantity": 1,
         "advanceBookingDays": 1,
-        "advanceBookingTime": "20:00",
+        "advanceBookingTime": "12:00",
         "bookingTimeZoneId": 21,
         "minPersonQuantity": 1,
         "maxPersonQuantity": maxPersonQuantity,
@@ -323,4 +322,3 @@ async function savePrice(resourceId, cost) {
   );
   //   console.log("save price", res);
 }
-
